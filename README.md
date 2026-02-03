@@ -55,7 +55,7 @@ A Python program that extracts text from PDF slides using Mistral OCR API and sa
 2. **Configure API key:**
    - Ensure your `.env` file contains:
      ```
-     MISTAL_API_KEY=your_api_key_here
+     MISTRAL_API_KEY=your_api_key_here
      ```
    - Get your API key from [Mistral AI](https://console.mistral.ai/)
 

@@ -468,9 +468,9 @@ def main():
     load_dotenv()
     
     # Get API key
-    api_key = os.getenv("MISTAL_API_KEY")
+    api_key = os.getenv("MISTRAL_API_KEY")
     if not api_key:
-        raise ValueError("MISTAL_API_KEY not found in .env file")
+        raise ValueError("MISTRAL_API_KEY not found in .env file")
     
     # Initialize extractor and processor
     extractor = MistralOCRExtractor(api_key)
