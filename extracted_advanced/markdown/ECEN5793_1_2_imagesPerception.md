@@ -1,34 +1,27 @@
 # ECEN5793_1_2_imagesPerception.pdf
 
 ## Metadata
-- **Total Pages**: 34
+- **Document Type**: pdf
+- **Processing Time**: 249.50 seconds
+- **Status**: Success
+- **Error**: None
+- **Pages**: 34
+- **Tokens Used**: 0
 - **OCR Model**: mistral-ocr-latest
-- **Processing Time**: 2.99 seconds
-- **Source File**: ECEN5793_1_2_imagesPerception.pdf
-- **Tokens Used**: N/A
 
-## Document Structure
+### Additional Metadata
+
+## Document Content
 
 ### Page 1
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 
 # ECEN 5793
 ## Digital Image Processing
 Nate Lannan
-
-#### Footer
-None
-
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
 
 ---
 
@@ -36,10 +29,7 @@ No hyperlinks detected
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Agenda
 
 - Introduce sources of images
@@ -52,21 +42,13 @@ None
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 2: IMAGING AND PERCEPTION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 3
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # How are images captured from different sources?
 
 
@@ -81,11 +63,6 @@ LECTURE 2: IMAGING AND PERCEPTION
 
 3
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 4
@@ -95,7 +72,7 @@ No hyperlinks detected
 #### Header
 ECEN5793 DIGITAL IMAGE PROCESSING
 
-#### Main Content
+#### Content
 # Imaging Sources: Electromagnetic Radiation
 
 
@@ -105,11 +82,6 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 2: IMAGING AND PERCEPTION
 
 4
-
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
 
 ---
 
@@ -121,7 +93,7 @@ No hyperlinks detected
 ELEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 2: IMAGING AND PERCEPTION
 
-#### Main Content
+#### Content
 # Gamma-Ray Imaging
 
 Energy of one photon (electron volts)
@@ -134,14 +106,6 @@ Major uses of imaging based on Gamma ray include nuclear medicine and astronomic
 - Gamma-ray imaging is widely used to diagnose various conditions and examine the structure and function of many different parts of the body, including the heart, brain, lungs, and kidneys
 
 
-
-#### Footer
-None
-
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
 
 ---
 
@@ -158,7 +122,7 @@ Energy of one photon (electron volts)
 
 FIGURE 1.5 The electromagnetic spectrum arranged according to energy per photon.
 
-#### Main Content
+#### Content
 X-ray are among the oldest source of EM radiation used for imaging.
 
 - Medical diagnosis
@@ -173,21 +137,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 2: IMAGING AND PERCEPTION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 7
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 
 
 
@@ -203,11 +159,6 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 2: IMAGING AND PERCEPTION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 8
@@ -219,7 +170,7 @@ EICEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 2: IMAGING AND PERCEPTION
 8
 
-#### Main Content
+#### Content
 # Ultraviolet Imaging
 
 Energy of one photon (electron volts)
@@ -235,14 +186,6 @@ http://www.microscopyu.com/articles/fluorescence/filtercubes/ultraviolet/uv2a/uv
 
 Fern sporangium
 
-
-#### Footer
-None
-
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
 
 ---
 
@@ -270,7 +213,7 @@ Energy of one photon (electron volts)
 10^{-8}
 10^{-9}
 
-#### Main Content
+#### Content
 # Visible Band Imaging
 
 FIGURE 1.5 The electromagnetic spectrum arranged according to energy per photon.
@@ -288,11 +231,6 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 2: IMAGING AND PERCEPTION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 10
@@ -304,7 +242,7 @@ Energy of one photon (electron volts)
 
 Energy of one photon (electron volts)
 
-#### Main Content
+#### Content
 # Infrared Imaging Remote Sensing
 
 FIGURE 1.5 The electromagnetic spectrum arranged according to energy per photon.
@@ -327,19 +265,13 @@ LECTURE 2: IMAGING AND PERCEPTION
 
 {'id': 'tbl-0.md', 'content': '|  Band No. | Name | Wavelength (μm) | Characteristics and Uses  |\n| --- | --- | --- | --- |\n|  1 | Visible blue | 0.45–0.52 | Maximum water penetration  |\n|  2 | Visible green | 0.53–0.61 | Measures plant vigor  |\n|  3 | Visible red | 0.63–0.69 | Vegetation discrimination  |\n|  4 | Near infrared | 0.78–0.90 | Biomass and shoreline mapping  |\n|  5 | Middle infrared | 1.55–1.75 | Moisture content: soil/vegetation  |\n|  6 | Thermal infrared | 10.4–12.5 | Soil moisture; thermal mapping  |\n|  7 | Short-wave infrared | 2.09–2.35 | Mineral mapping  |', 'format': 'markdown'}
 
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 11
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 1
 
 2
@@ -362,21 +294,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 2: IMAGING AND PERCEPTION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 12
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Infrared for Night Vision
 
 
@@ -392,11 +316,6 @@ LECTURE 2: IMAGING AND PERCEPTION
 
 12
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 13
@@ -406,7 +325,7 @@ No hyperlinks detected
 #### Header
 ECEN5793 DIGITAL IMAGE PROCESSING
 
-#### Main Content
+#### Content
 # Infrared for Thermal Imaging
 
 
@@ -418,21 +337,13 @@ LECTURE 2: IMAGING AND PERCEPTION
 
 13
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 14
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Microwave Imaging
 
 Energy of one photon (electron volts)
@@ -455,11 +366,6 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 2: IMAGING AND PERCEPTION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 15
@@ -469,7 +375,7 @@ No hyperlinks detected
 #### Header
 ECEN5793 DIGITAL IMAGE PROCESSING
 
-#### Main Content
+#### Content
 # Airport Full-Body Scan
 
 
@@ -480,21 +386,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 2: IMAGING AND PERCEPTION
 15
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 16
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Radio Band Imaging
 
 Energy of one photon (electron volts)
@@ -515,21 +413,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 2: IMAGING AND PERCEPTION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 17
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 a b
 
 FIGURE 1.17 MRI images of a human (a) knee, and (b) spine. (Image (a) courtesy of Dr. Thomas R. Gest, Division of Anatomical Sciences, University of Michigan Medical School, and (b) Dr. David R. Pickens, Department of Radiology and Radiological Sciences, Vanderbilt University Medical Center.)
@@ -541,21 +431,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 2: IMAGING AND PERCEPTION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 18
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Other Modalities: Ultrasound
 
 
@@ -576,21 +458,13 @@ LECTURE 2. IMAGING AND PERCEPTION
 
 18
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 19
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Other Modalities:
 Acoustic Imaging and Computer Graphics (CG)
 
@@ -612,21 +486,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 2: IMAGING AND PERCEPTION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 20
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Other Modalities:
 ## Generative AI
 
@@ -639,21 +505,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 2: IMAGING AND PERCEPTION
 20
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 21
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Questions
 
 How does the human eyes perceive from real-world?
@@ -671,21 +529,13 @@ LECTURE 2: IMAGING AND PERCEPTION
 
 21
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 22
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # What is this image?
 
 
@@ -698,21 +548,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 2: IMAGING AND PERCEPTION
 22
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 23
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Eye Structure
 
 
@@ -729,21 +571,13 @@ LECTURE 2: IMAGING AND PERCEPTION
 
 23
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 24
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Blind Spot
 
 
@@ -762,21 +596,13 @@ LECTURE 2: IMAGING AND PERCEPTION
 
 24
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 25
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Human Eyes: Retina
 
 The retina is analogous to the digital camera containing discrete sensing elements known as rods and cones.
@@ -795,21 +621,13 @@ LECTURE 2: IMAGING AND PERCEPTION
 
 25
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 26
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Human Eyes: Rods and Cones
 
 (A)
@@ -827,21 +645,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 2: IMAGING AND PERCEPTION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 27
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Human Eyes: Lens
 
 The principal difference between the lens of the eye and ordinary optical lens is that the former is flexible.
@@ -862,21 +672,13 @@ LECTURE 2: IMAGING AND PERCEPTION
 
 27
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 28
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Elements of Visual Perception
 
 ## Light
@@ -897,21 +699,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 2: IMAGING AND PERCEPTION
 28
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 29
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Brightness and Contrast
 
 Brightness (subjective brightness): Perceived luminance depending on the luminance of surround.
@@ -929,21 +723,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 2: IMAGING AND PERCEPTION
 29
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 30
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Weber's Law
 
 Weber's law: a just noticeable difference in light intensity is a constant proportion of the background intensity.
@@ -975,23 +761,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 2: IMAGING AND PERCEPTION
 
-30
-
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 31
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Number of Gray Levels
 
 Contrast ratio (CR) refers to the ratio of intensities between the most intense (brightest, $f_{N} = 1$) and least intense (darkest, $f_{0} = \frac{1}{CR}$) elements of a scene, an image, or a display.
@@ -1028,19 +804,13 @@ LECTURE 2: IMAGING AND PERCEPTION
 
 {'id': 'tbl-1.md', 'content': '|   | Contrast sensitivity  |   |   |\n| --- | --- | --- | --- |\n|   |  2% | 1% | 0.5%  |\n|  Contrast ratio |   |   |   |\n|  10\n(office environment) | 116\n(~7 bits) | 231\n(~8 bits) | 462\n(~9 bits)  |\n|  30\n(living room, television) | 172 | 342 | 682  |\n|  100\n(cinema theater) | 232\n(~8 bits) | 463\n(~9 bits) | 923\n(~10 bits)  |', 'format': 'markdown'}
 
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 32
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 
 a b c d
 
@@ -1056,21 +826,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 2: IMAGING AND PERCEPTION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 33
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Mach Bands
 
 The HVS tends to undershoot or overshoot around the boundary of regions of different intensities.
@@ -1088,11 +850,6 @@ Illustration of the Mach band effect. Perceived intensity is not a simple functi
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 2: IMAGING AND PERCEPTION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 34
@@ -1102,7 +859,7 @@ No hyperlinks detected
 #### Header
 E C E N 5 7 9 3 D I G I T A L I M A G E P R O C E S S I N G
 
-#### Main Content
+#### Content
 # Visual Illusion
 
 a b c d
@@ -1119,11 +876,6 @@ FIGURE 2.9 Some well-known optical illusions.
 E C E N 5 7 9 3 D I G I T A L I M A G E P R O C E S S I N G
 
 LECTURE 2, IMAGING AND PERCEPTION
-
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
 
 ---
 

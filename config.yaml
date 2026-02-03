@@ -1,0 +1,128 @@
+# Mistral OCR Pipeline Configuration
+# This YAML file configures the OCR processing pipeline
+
+processor:
+  # Processor type: "simple" or "advanced"
+  type: "advanced"
+  
+  # Input directory containing documents
+  input_dir: "./slides"
+  
+  # Output directory for processed results
+  output_dir: "./extracted_advanced"
+  
+  # Retry settings for API calls
+  max_retries: 3
+  retry_delay: 5  # seconds
+
+ocr:
+  # OCR model to use
+  model: "mistral-ocr-latest"
+  
+  # Table format: "null", "markdown", or "html"
+  table_format: "markdown"
+  
+  # Extract headers and footers
+  extract_header: true
+  extract_footer: true
+  
+  # Include image base64 in response
+  include_image_base64: false
+  
+  # API timeout in seconds
+  timeout: 120
+
+qna:
+  # Enable Document Q&A feature
+  enabled: true
+  
+  # Model for Q&A
+  model: "mistral-small-latest"
+  
+  # Temperature for Q&A responses (0.0-1.0)
+  temperature: 0.1
+  
+  # Maximum tokens for Q&A responses
+  max_tokens: 1000
+  
+  # Default questions to ask about each document
+  questions:
+    - "What is the main topic of this document?"
+    - "What are the key points or findings?"
+    - "Who is the intended audience for this document?"
+    - "What are the main sections or chapters?"
+    - "What technical concepts or terms are discussed?"
+
+annotations:
+  # Enable annotation features
+  enabled: false  # Set to false by default since we need specific annotation formats
+  
+  # Bounding box annotation format (example - uncomment and configure if needed)
+  # bbox_annotation_format:
+  #   type: "json"
+  #   format: "coco"
+  
+  # Document annotation format (example - uncomment and configure if needed)
+  # document_annotation_format:
+  #   type: "json"
+  #   format: "custom"
+  
+  # Document annotation prompt (example - uncomment and configure if needed)
+  # document_annotation_prompt: "Extract key information and structure from this document"
+  
+  # Note: include_image_base64 should be in the main OCR config, not here
+
+# Logging configuration
+logging:
+  # Log level: "DEBUG", "INFO", "WARNING", "ERROR"
+  level: "INFO"
+  
+  # Log file path (optional)
+  # log_file: "./ocr_pipeline.log"
+  
+  # Enable verbose logging
+  verbose: false
+  
+  # Enable quiet mode (reduced output)
+  quiet: false
+
+# File processing settings
+files:
+  # Supported file extensions
+  extensions:
+    - ".pdf"
+    - ".pptx"
+    - ".docx"
+    - ".png"
+    - ".jpg"
+    - ".jpeg"
+    - ".gif"
+    - ".bmp"
+    - ".tiff"
+    - ".webp"
+  
+  # Maximum file size in MB (optional)
+  max_size_mb: 50
+  
+  # Skip files larger than max_size_mb
+  skip_large_files: false
+
+# Output settings
+output:
+  # Create markdown files
+  create_markdown: true
+  
+  # Create JSON files
+  create_json: true
+  
+  # Create RAG-ready output
+  create_rag_output: true
+  
+  # Chunk size for RAG output (characters)
+  rag_chunk_size: 500
+  
+  # Save raw API responses
+  save_raw_responses: true
+  
+  # Create consolidated summary
+  create_summary: true

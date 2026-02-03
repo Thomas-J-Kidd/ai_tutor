@@ -1,34 +1,27 @@
 # ECEN5793_3_1_Registration.pdf
 
 ## Metadata
-- **Total Pages**: 38
+- **Document Type**: pdf
+- **Processing Time**: 40.86 seconds
+- **Status**: Success
+- **Error**: None
+- **Pages**: 38
+- **Tokens Used**: 0
 - **OCR Model**: mistral-ocr-latest
-- **Processing Time**: 8.91 seconds
-- **Source File**: ECEN5793_3_1_Registration.pdf
-- **Tokens Used**: N/A
 
-## Document Structure
+### Additional Metadata
+
+## Document Content
 
 ### Page 1
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 
 # ECEN 5793
 ## Digital Image Processing
 Nate Lannan
-
-#### Footer
-None
-
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
 
 ---
 
@@ -39,7 +32,7 @@ No hyperlinks detected
 #### Header
 ECEN5793 DIGITAL IMAGE PROCESSING
 
-#### Main Content
+#### Content
 # Agenda
 
 - Coding Examples
@@ -51,21 +44,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 2
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 3
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Questions
 
 How to take advantage of array operations for efficient image processing operations?
@@ -76,21 +61,13 @@ How to take advantage of array operations for efficient image processing operati
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 4
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Zooming and Shrinking
 
 Both zooming and shrinking are applied to digital images with two steps
@@ -111,21 +88,13 @@ Zooming and shrinking can be done in a similar manner.
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 5
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # How to create new pixel locations?
 
 In the zooming case, when the image size ratio $p$ is not integer, usually new pixels (red points) are created not on the grid.
@@ -140,21 +109,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 6
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Linear vs. Bicubic Interpolation
 
 
@@ -170,21 +131,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 7
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Bicubic Interpolation (Cont'd)
 
 The interpolation kernel using the Ricker wavelet is given by
@@ -208,11 +161,6 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 8
@@ -222,7 +170,7 @@ No hyperlinks detected
 #### Header
 ECEN5793 DIGITAL IMAGE PROCESSING
 
-#### Main Content
+#### Content
 
 
 
@@ -233,21 +181,13 @@ LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
 8
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 9
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # MATLAB Programming Generating New Domain
 
 First, given the original image size $N$ and a zoom ratio $p$, we need find the new image size $M = \text{round}(N * p)$.
@@ -273,32 +213,32 @@ Columns 31 through 45
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 10
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Generating New Domain In Python
 
-In python this is made much simpler through the fact that we start counting at 0 and we have a function to yield all integers from a start point to an end point. x=np.arange(M)/p
+In python this is made much simpler through the fact that we start counting at 0 and we have a function to yield all integers from a start point to an end point. $x = \frac{\text{np.arange}(M)}{\text{p}}$
 
-(Example:  $N = 10$ ,  $p = 4.5$ , then  $M = 45$ )
+(Example: $N = 10$, $p = 4.5$, then $M = 45$)
 
-```txt
+```python
 &gt;&gt;&gt; import numpy as np
 &gt;&gt;&gt; x = np.arange(45) / 4.5
 &gt;&gt;&gt; x
-array([0, 0.22222222, 0.44444444, 0.66666667, 0.88888889, 1.11111111, 1.33333333, 1.55555556, 1.77777778, 2. 2.2222222, 2.44444444, 2.66666667, 2.88888889, 3.11111111, 3.33333333, 3.55555556, 3.77777778, 4. 4.2222222, 4.44444444, 4.66666667, 4.88888889, 5.11111111, 5.33333333, 5.55555556, 5.77777778, 6. 6.2222222, 6.44444444, 6.66666667, 6.88888889, 7.11111111, 7.33333333, 7.55555556, 7.77777778, 8. 8.2222222, 8.44444444, 8.66666667, 8.88888889, 9.11111111, 9.33333333, 9.55555556, 9.77777778])
+array([0. , 0.22222222, 0.44444444, 0.66666667, 0.88888889,
+1.11111111, 1.33333333, 1.55555556, 1.77777778, 2.,
+2.22222222, 2.44444444, 2.66666667, 2.88888889, 3.11111111,
+3.33333333, 3.55555556, 3.77777778, 4.,
+4.44444444, 4.66666667, 4.88888889, 5.11111111, 5.33333333,
+5.55555556, 5.77777778, 6.,
+6.66666667, 6.88888889, 7.11111111, 7.33333333, 7.55555556,
+7.77777778, 8.,
+8.88888889, 9.11111111, 9.33333333, 9.55555556, 9.77777778])
 ```
 
 
@@ -308,21 +248,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4.CODE EXAMPLES AND REGISTRATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 11
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Matlab Programming Nearest Neighbor Interpolation
 
 
@@ -347,21 +279,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 12
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Python Programming Nearest Neighbor Interpolation
 
 
@@ -403,21 +327,13 @@ plt.show()
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 13
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Python Programming Notes
 
 - plt.show() is necessary to render your image to the screen. matplotlib builds an in-memory scene graph that it does not hand off to the rendering back end (Tk, Qt, GTK, etc.) until the show function is called.
@@ -459,21 +375,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 14
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Python Programming Notes
 
 Once you have installed python you can use it in two ways (much like MATLAB), in an interactive cmd prompt environment, or as an interpreted programming language. Install it and call it from your favorite cmd line environment either without an argument (cmd line) or with a .py file argument to run a script.
@@ -499,8 +407,6 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
-#### Tables
-No tables extracted
 #### Hyperlinks
 - https://learn.microsoft.com/en-us/windows/terminal/install
 - https://learn.microsoft.com/en-us/windows/terminal/install
@@ -517,10 +423,7 @@ No tables extracted
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Python Programming Notes
 
 ```python
@@ -575,8 +478,6 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4.CODE EXAMPLES AND REGISTRATION</module></module></module>
 
-#### Tables
-No tables extracted
 #### Hyperlinks
 - https://docs.python.org/3/library/pdb.html
 
@@ -586,10 +487,7 @@ No tables extracted
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Matlab Programming
 From 1D Domain to 2D Grid
 
@@ -597,9 +495,7 @@ Function [X1,X2,X3,...] = NDGRID(x1,x2,x3,...) transforms the domain specified b
 
 $$
 x1 = \begin{bmatrix} 1 &amp; 3 &amp; 5 &amp; 7 \end{bmatrix}
-$$
-
-$$
+\quad
 x2 = \begin{bmatrix} 2 &amp; 4 &amp; 6 \end{bmatrix}
 $$
 
@@ -607,9 +503,7 @@ $$
 
 $$
 X1 = \begin{bmatrix} 1 &amp; 1 &amp; 1 \\ 3 &amp; 3 &amp; 3 \\ 5 &amp; 5 &amp; 5 \\ 7 &amp; 7 &amp; 7 \end{bmatrix}_{4 \times 3}
-$$
-
-$$
+\quad
 X2 = \begin{bmatrix} 2 &amp; 4 &amp; 6 \\ 2 &amp; 4 &amp; 6 \\ 2 &amp; 4 &amp; 6 \\ 2 &amp; 4 &amp; 6 \end{bmatrix}_{4 \times 3}
 $$
 
@@ -618,11 +512,7 @@ $$
 #### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
-
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
+16
 
 ---
 
@@ -630,10 +520,7 @@ No hyperlinks detected
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 &gt;&gt; [X1,X2]=ndgrid(x1,x2);
 &gt;&gt; X1
 
@@ -687,19 +574,13 @@ LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
 {'id': 'tbl-5.md', 'content': '|  3.1000 | 3.8000 | 4.5000  |\n| --- | --- | --- |\n|  3.1000 | 3.8000 | 4.5000  |\n|  3.1000 | 3.8000 | 4.5000  |\n|  3.1000 | 3.8000 | 4.5000  |\n|  3.1000 | 3.8000 | 4.5000  |', 'format': 'markdown'}
 
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 18
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Python Programming
 From 1D Domain to 2D Grid
 
@@ -727,21 +608,13 @@ array([[2, 4, 6],
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 19
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Matlab Programming
 
 ## Array operation between two arrays of the same size
@@ -757,6 +630,7 @@ X3 =
 [tbl-6.md](tbl-6.md)
 
 &gt;&gt; [X1,X2]=ndgrid(x1,x2);
+
 &gt;&gt; X1
 
 X1 =
@@ -773,6 +647,7 @@ X2 =
 
 #### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
+
 LECTURE 4.CODE EXAMPLES AND REGISTRATION
 
 #### Tables
@@ -788,19 +663,13 @@ LECTURE 4.CODE EXAMPLES AND REGISTRATION
 
 {'id': 'tbl-8.md', 'content': '|  1.0000 | 1.7000 | 2.4000 | 3.1000 | 3.8000 | 4.5000  |\n| --- | --- | --- | --- | --- | --- |\n|  1.0000 | 1.7000 | 2.4000 | 3.1000 | 3.8000 | 4.5000  |\n|  1.0000 | 1.7000 | 2.4000 | 3.1000 | 3.8000 | 4.5000  |\n|  1.0000 | 1.7000 | 2.4000 | 3.1000 | 3.8000 | 4.5000  |\n|  1.0000 | 1.7000 | 2.4000 | 3.1000 | 3.8000 | 4.5000  |', 'format': 'markdown'}
 
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 20
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Python Programming
 
 Array operation between two arrays of the same size
@@ -838,21 +707,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 21
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Matlab Programming
 ## Image Bilinear Interpolation
 
@@ -876,21 +737,13 @@ imshow(B);
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 22
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Python Programming
 ## Image Bilinear Interpolation
 
@@ -937,16 +790,16 @@ I1 = I[np.ix_(X1, Y1)]
 I2 = I[np.ix_(X1, Y2)]
 I3 = I[np.ix_(X2, Y1)]
 I4 = I[np.ix_(X2, Y2)]
-41
+40
 # --- bilinear weights
 c1 = (1 - UI) * (1 - VI)
 c2 = (1 - UI) * VI
 c3 = UI * (1 - VI)
 c4 = UI * VI
-47
+46
 # --- interpolation
 B = c1 * I1 + c2 * I2 + c3 * I3 + c4 * I4
-48
+49
 plt.imshow(B, cmap='gray')
 plt.title('Bilinear upsample')
 plt.axis('off')
@@ -960,11 +813,6 @@ plt.show()
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 4.CODE EXAMPLES AND REGISTRATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 23
@@ -974,7 +822,7 @@ No hyperlinks detected
 #### Header
 ECEN5793 DIGITAL IMAGE PROCESSING
 
-#### Main Content
+#### Content
 
 
 
@@ -985,21 +833,13 @@ LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
 23
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 24
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Questions
 
 How can we estimate the geometric transformation function and use it to register the two images?
@@ -1016,11 +856,6 @@ http://www.mathworks.com/discovery/image-registration.html
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 25
@@ -1031,7 +866,7 @@ No hyperlinks detected
 ECEEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
-#### Main Content
+#### Content
 # Retinal Image Registration
 
 
@@ -1042,24 +877,13 @@ http://www.rsipvision.com/portfolio/image-stitching-of-the-retina/
 
 25
 
-#### Footer
-None
-
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 26
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Geometric Spatial Transformation from an Input Image to the Reference Image
 
 There are two steps involved a geometric transformation
@@ -1085,21 +909,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 27
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Affine Transform
 
 Affine transform can scale, rotate, translate or sheer a set of coordinate points, depending on the value of T.
@@ -1120,21 +936,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 28
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 TABLE 2.2
 Affine transformations based on Eq. (2.6.-23).
 
@@ -1156,19 +964,13 @@ LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
 {'id': 'tbl-9.md', 'content': '|  Transformation Name | Affine Matrix, T |   | Coordinate Equations | Example  |\n| --- | --- | --- | --- | --- |\n|  Identity | [1 0 0]0 1 00 0 1] |   | x = vy = w | y  |\n|  Scaling | [cx 0 0]0 cy 00 0 1] |   | x = cxvy = cyw |   |\n|  Rotation | [cos θ sin θ 0-sin θ cos θ 00 0 1] |   | x = v cos θ - w sin θy = v cos θ + w sin θ |   |\n|  Translation | [1 0 00 1 0t5 ty 1] |   | x = v + t5y = w + ty |   |\n|  Shear (vertical) | [1 0 0s v 1 00 0 1] |   | x = v + svw y = w |   |\n|  Shear (horizontal) | [1 sh 00 1 00 0 1] |   | x = vy = shv + w |   |', 'format': 'markdown'}
 
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 29
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Two Possible Implementations
 
 ## Forward Mapping
@@ -1196,21 +998,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 30
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 a b c d
 
 FIGURE 2.36 (a) A 300 dpi image of the letter T. (b) Image rotated  $21^{\circ}$  clockwise using nearest neighbor interpolation to assign intensity values to the spatially transformed pixels. (c) Image rotated  $21^{\circ}$  using bilinear interpolation. (d) Image rotated  $21^{\circ}$  using bicubic interpolation. The enlarged sections show edge detail for the three interpolation approaches.
@@ -1224,21 +1018,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4.CODE EXAMPLES AND REGISTRATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 31
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Finding Geometric Transformation by System of Linear Equations (1)
 
 $$
@@ -1258,21 +1044,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 32
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Finding Geometric Transformation by System of Linear Equations (2)
 
 $$
@@ -1348,7 +1126,7 @@ y_4
 $$
 
 $$
-\mathbf{A t} = \mathbf{B} \rightarrow \quad t = \text{linsolve}(A, B)
+\mathbf{A t} = \mathbf{B} \rightarrow \quad t = \text{linsolve}(A,B)
 $$
 
 $$
@@ -1362,21 +1140,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 33
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Image Registration Steps
 
 Step 1: Select (Data Cursor) at least 3 pairs of **control points** from the image pair $I(x, y) \leftrightarrow J(v, w)$.
@@ -1408,21 +1178,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 34
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 
 
 
@@ -1446,21 +1208,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 35
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Matlab Programming Tip
 
 The Matlab function of the interpolation kernel (Ricker.m) is provided that can be further extended to array computation.
@@ -1477,21 +1231,13 @@ The Matlab function of the interpolation kernel (Ricker.m) is provided that can 
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 36
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Programming Tip
 
 The function of the interpolation kernel (ricker.m, ricker.py) is provided that can be further extended to array computation.
@@ -1522,21 +1268,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4.CODE EXAMPLES AND REGISTRATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 37
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Matlab Programming Tip
 
 The Matlab function of the interpolation kernel (ricker.m) is provided that can be further extended to array computation.
@@ -1561,21 +1299,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 38
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Python Programming Tip
 
 ```python
@@ -1615,11 +1345,6 @@ None
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
-
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
 
 ---
 

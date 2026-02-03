@@ -1,34 +1,27 @@
 # ECEN5793_1_1_intro.pdf
 
 ## Metadata
-- **Total Pages**: 18
+- **Document Type**: pdf
+- **Processing Time**: 3.79 seconds
+- **Status**: Success
+- **Error**: None
+- **Pages**: 18
+- **Tokens Used**: 0
 - **OCR Model**: mistral-ocr-latest
-- **Processing Time**: 8.31 seconds
-- **Source File**: ECEN5793_1_1_intro.pdf
-- **Tokens Used**: N/A
 
-## Document Structure
+### Additional Metadata
+
+## Document Content
 
 ### Page 1
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 
 # ECEN 5793
 ## Digital Image Processing
 Nate Lannan
-
-#### Footer
-None
-
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
 
 ---
 
@@ -36,10 +29,7 @@ No hyperlinks detected
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Agenda
 
 - Introduce general information about this course
@@ -52,21 +42,13 @@ None
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 1. COURSE INTRODUCTION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 3
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Course Expectations
 
 ## Helpful practices
@@ -82,21 +64,13 @@ None
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 1. COURSE INTRODUCTION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 4
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Zoom Access
 
 In-person class attendance is **strongly encouraged**.
@@ -114,21 +88,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 1. COURSE INTRODUCTION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 5
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Grading Policy
 
 The final grade is based on
@@ -148,21 +114,13 @@ The letter grade is based on
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 1. COURSE INTRODUCTION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 6
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Suggested Reading and Prerequisites
 
 ## Main Reference
@@ -190,21 +148,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 1. COURSE INTRODUCTION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 7
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Suggested Reading and Prerequisites
 
 Supplementary References
@@ -232,21 +182,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 1. COURSE INTRODUCTION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 8
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Suggested Reading and Prerequisites
 
 Supplementary References
@@ -259,8 +201,6 @@ https://github.com/kjw0612/awesome-deep-vision#books
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 1. COURSE INTRODUCTION
 
-#### Tables
-No tables extracted
 #### Hyperlinks
 - https://github.com/kjw0612/awesome-deep-vision#books
 - https://github.com/kjw0612/awesome-deep-vision#books
@@ -274,10 +214,7 @@ No tables extracted
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Why do we need images?
 
 One picture is worth more than ten thousand words.
@@ -298,21 +235,13 @@ Often imaging is the interface to computer systems for data that is beyond our s
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 1. COURSE INTRODUCTION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 10
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Digital Image Processing (DIP)
 
 An **image** is defined a two-dimensional function $f(x, y)$
@@ -328,7 +257,7 @@ A **digital image** is an image when $x, y$, and the amplitude values of $f(x, y
 How about a color image?  How about a color video?
 
 $$
-f(x, y, c) \text{ where } c = 1, 2, 3
+f(x, y, c) \text{ where } c = 1,2,3
 $$
 
 $$
@@ -347,21 +276,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 1. COURSE INTRODUCTION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 11
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 Outputs of these processes generally are images
 Class Outline
 
@@ -372,21 +293,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 1. COURSE INTRODUCTION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 12
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Image Acquisition
 
 
@@ -399,21 +312,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 1. COURSE INTRODUCTION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 13
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Image Enhancement
 
 
@@ -435,22 +340,16 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 1. COURSE INTRODUCTION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 14
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Image Restoration
+
+
 
 
 a b c
@@ -466,21 +365,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 1. COURSE INTRODUCTION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 15
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Color Image Processing
 
 
@@ -496,21 +387,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 1. COURSE INTRODUCTION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 16
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Morphological Processing
 
 
@@ -536,21 +419,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 1. COURSE INTRODUCTION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 17
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Shape Analysis of Objects
 
 
@@ -568,21 +443,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 1. COURSE INTRODUCTION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 18
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Shape Representation of Objects
 
 
@@ -594,11 +461,6 @@ None
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 1. COURSE INTRODUCTION
 18
-
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
 
 ---
 

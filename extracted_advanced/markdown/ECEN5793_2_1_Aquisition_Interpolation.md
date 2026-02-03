@@ -1,34 +1,27 @@
 # ECEN5793_2_1_Aquisition_Interpolation.pdf
 
 ## Metadata
-- **Total Pages**: 39
+- **Document Type**: pdf
+- **Processing Time**: 9.17 seconds
+- **Status**: Success
+- **Error**: None
+- **Pages**: 39
+- **Tokens Used**: 0
 - **OCR Model**: mistral-ocr-latest
-- **Processing Time**: 8.70 seconds
-- **Source File**: ECEN5793_2_1_Aquisition_Interpolation.pdf
-- **Tokens Used**: N/A
 
-## Document Structure
+### Additional Metadata
+
+## Document Content
 
 ### Page 1
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 
 # ECEN 5793
 ## Digital Image Processing
 Nate Lannan
-
-#### Footer
-None
-
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
 
 ---
 
@@ -36,10 +29,7 @@ No hyperlinks detected
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Agenda
 
 - Image acquisition
@@ -55,21 +45,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 3: ACQUISITION AND INTERPOLATION
 2
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 3
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Questions
 
 Is the human visual system (HVS) telling the truth all the time?
@@ -82,11 +64,6 @@ What are the two main issues about digital image acquisition?
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 3: ACQUISITION AND INTERPOLATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 4
@@ -96,7 +73,7 @@ No hyperlinks detected
 #### Header
 ECEN5793 DIGITAL IMAGE PROCESSING
 
-#### Main Content
+#### Content
 # Review of Eye Structure
 
 
@@ -108,21 +85,13 @@ LECTURE 3: ACQUISITION AND INTERPOLATION
 
 4
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 5
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Mach Bands
 
 The HVS tends to undershoot or overshoot around the boundary of regions of different intensities.
@@ -140,11 +109,6 @@ Illustration of the Mach band effect. Perceived intensity is not a simple functi
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 3: ACQUISITION AND INTERPOLATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 6
@@ -156,7 +120,7 @@ E C E N 5 7 9 3 D I G I T A L I M A G E P R O C E S S I N G
 
 L E C T U R E 3 : A C Q U I S I T I O N AND I N T E R P O L A T I O N
 
-#### Main Content
+#### Content
 # Visual Illusion
 
 a b c d
@@ -167,24 +131,13 @@ FIGURE 2.9 Some well-known optical illusions.
 
 
 
-#### Footer
-None
-
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 7
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Image Acquisition: Sampling and Quantization
 
 
@@ -197,21 +150,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 3: ACQUISITION AND INTERPOLATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 8
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Spatial Resolution
 
 Just because an image has high resolution (i.e. pixel count) does not mean it is a quality image.
@@ -236,21 +181,13 @@ LECTURE 3: ACQUISITION AND INTERPOLATION
 
 8
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 9
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Example of Sampling
 
 A CCD (Charge-coupled device) camera chip of dimensions 7x7 mm, and having 1024x1024 elements, is focused on a square, flat area, located 0.5m away. How many line pairs per mm will this camera be able to resolve? The camera is equipped with a 35-mm lens.
@@ -263,31 +200,29 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 3: ACQUISITION AND INTERPOLATION
 9
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 10
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Review of Nyquist Theorem
 
 
 
 
-$x_{p}(t) = x(t)p(t)$
+
+$$
+x _ {p} (t) = x (t) p (t)
+$$
 
 
 
-$X_{p}(j\omega) = \frac{1}{2\pi} X(j\omega)*P(j\omega)$
+
+$$
+X _ {p} (j \omega) = \frac {1}{2 \pi} X (j \omega) * P (j \omega)
+$$
 
 $x(t)$ is a bandlimited signal
 
@@ -314,21 +249,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 3: ACQUISITION AND INTERPOLATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 11
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Two Sampling Conditions
 
 
@@ -344,21 +271,13 @@ LECTURE 3: ACQUISITION AND INTERPOLATION
 
 11
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 12
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Frequency in Images
 
 Spatial frequency has content like time-based signals
@@ -379,11 +298,6 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 3: ACQUISITION AND INTERPOLATION
 12
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 13
@@ -393,7 +307,7 @@ No hyperlinks detected
 #### Header
 ECEN5793 DIGITAL IMAGE PROCESSING
 
-#### Main Content
+#### Content
 # Aliasing Problems
 
 
@@ -404,21 +318,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 2: IMAGING AND PERCEPTION
 13
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 14
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Anti-aliasing pre-filtering before sampling
 
 
@@ -437,21 +343,13 @@ LECTURE 3: ACQUISITION AND INTERPOLATION
 
 14
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 15
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 
 
 
@@ -473,21 +371,13 @@ ECENG793 DIGITAL IMAGE PROCESSING
 
 LECTURE 3: ACQUISITION AND INTERPOLATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 16
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Quantization
 
 The sampling process requires decision about size $M \times N$, and the quantization process decides the number of gray scales $L$.
@@ -511,21 +401,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 3: ACQUISITION AND INTERPOLATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 17
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Number of Gray Levels
 
 The number of gray levels mainly depends on both the contrast ratio (CR) of the environment and the contrast sensitivity about HVS.
@@ -563,19 +445,13 @@ LECTURE 3: ACQUISITION AND INTERPOLATION
 
 {'id': 'tbl-0.md', 'content': '|   | Contrast sensitivity  |   |   |\n| --- | --- | --- | --- |\n|   |  2% | 1% | 0.5%  |\n|  Contrast ratio |   |   |   |\n|  10\n(office environment) | 116\n(~7 bits) | 231\n(~8 bits) | 462\n(~9 bits)  |\n|  30\n(living room, television) | 172 | 342 | 682  |\n|  100\n(cinema theater) | 232\n(~8 bits) | 463\n(~9 bits) | 923\n(~10 bits)  |', 'format': 'markdown'}
 
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 18
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 
 
 
@@ -591,21 +467,13 @@ LECTURE 3: ACQUISITION AND INTERPOLATION
 
 18
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 19
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Interpolation
 
 
@@ -616,21 +484,13 @@ EGEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 3: ACQUISITION AND INTERPOLATION
 19
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 20
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Questions
 
 How to resize an image with best quality?
@@ -652,21 +512,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 3: ACQUISITION AND INTERPOLATION
 20
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 21
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # What is the ideal interpolation?
 
 
@@ -686,21 +538,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 3: ACQUISITION AND INTERPOLATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 22
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Ideal Interpolation
 
 $$
@@ -721,11 +565,6 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 3: ACQUISITION AND INTERPOLATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 23
@@ -735,7 +574,7 @@ No hyperlinks detected
 #### Header
 ECEN5793 DIGITAL IMAGE PROCESSING
 
-#### Main Content
+#### Content
 # Zero-order Hold (ZOH) &amp; Linear Interpolation
 
 
@@ -745,21 +584,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 3: ACQUISITION AND INTERPOLATION
 23
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 24
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Zooming and Shrinking
 
 Both zooming and shrinking are applied to digital images with two steps
@@ -780,21 +611,13 @@ Zooming and shrinking can be done in a similar manner.
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 3: ACQUISITION AND INTERPOLATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 25
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # How to create new pixel locations?
 
 In the zooming case, when ratio $p$ is not integer, usually new pixels (red points) are created not on the grid.
@@ -809,21 +632,13 @@ LECTURE 3: ACQUISITION AND INTERPOLATION
 
 25
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 26
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Linear Interpolation (1-D)
 
 The 1-D linear interpolator involves a linear model to compute the values of new samples as
@@ -856,11 +671,6 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 3: ACQUISITION AND INTERPOLATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 27
@@ -870,20 +680,15 @@ No hyperlinks detected
 #### Header
 ECEN5793 DIGITAL IMAGE PROCESSING
 
-#### Main Content
+#### Content
 # Coordinate System in Matlab
 
 
 
 
 #### Footer
-LECTURE 3. ACQUISITION AND INTERPOLATION
+LECTURE 3: ACQUISITION AND INTERPOLATION
 27
-
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
 
 ---
 
@@ -894,19 +699,14 @@ No hyperlinks detected
 #### Header
 ECEN5793 DIGITAL IMAGE PROCESSING
 
-#### Main Content
+#### Content
 # Coordinate System in numpy
 
 
 
 
 #### Footer
-LECTURE 3. ACQUISITION AND INTERPOLATION
-
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
+LECTURE 3: ACQUISITION AND INTERPOLATION
 
 ---
 
@@ -917,7 +717,7 @@ No hyperlinks detected
 #### Header
 ECEN5793 DIGITAL IMAGE PROCESSING
 
-#### Main Content
+#### Content
 # Coordinate swap
 
 
@@ -927,21 +727,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 3. ACQUISITION AND INTERPOLATION
 29
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 30
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # A crash course in MATLAB
 
 ## Image I/O
@@ -973,8 +765,6 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 3: ACQUISITION AND INTERPOLATION
 30
 
-#### Tables
-No tables extracted
 #### Hyperlinks
 - https://www.mathworks.com/help/images/
 
@@ -984,10 +774,7 @@ No tables extracted
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # A crash course in a python stack
 
 - Python3 – the more recent the better
@@ -1023,8 +810,6 @@ https://scikit-image.org/docs/stable/
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 3: ACQUISITION AND INTERPOLATION
 
-#### Tables
-No tables extracted
 #### Hyperlinks
 - https://www.python.org/downloads/
 - https://pip.pypa.io/en/stable/installation/
@@ -1041,10 +826,7 @@ No tables extracted
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # A crash course in a python stack
 
 ## Image I/O
@@ -1079,21 +861,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 3: ACQUISITION AND INTERPOLATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 33
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Linear Interpolation (2-D)
 
 Bilinear interpolation takes a weighted average of four pixels in the original image to the new pixel.
@@ -1112,21 +886,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 3: ACQUISITION AND INTERPOLATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 34
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Bicubic Interpolation
 
 Bicubic interpolation takes a weighted average of 16 pixels in the original image to the new pixel.
@@ -1138,13 +904,8 @@ The contribution of each of the 16 neighboring pixels to the new interpolated po
 
 #### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
-LECTURE 3: ACQUISITION AND INTERPOLATION
-34
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
+LECTURE 3: ACQUISITION AND INTERPOLATION
 
 ---
 
@@ -1152,10 +913,7 @@ No hyperlinks detected
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Bicubic Interpolation (Cont'd)
 
 The interpolation kernel using the Ricker wavelet is given by
@@ -1179,11 +937,6 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 3: ACQUISITION AND INTERPOLATION
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 36
@@ -1193,7 +946,7 @@ No hyperlinks detected
 #### Header
 ECEN5793 DIGITAL IMAGE PROCESSING
 
-#### Main Content
+#### Content
 
 
 
@@ -1201,21 +954,13 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 3: ACQUISITION AND INTERPOLATION
 36
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 37
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Super-resolution vs. Interpolation (1)
 
 Interpolation involves up-sampling the low-resolution image which may not recover sufficient high-frequency components, leading to blurred images.
@@ -1232,21 +977,13 @@ LECTURE 3: ACQUISITION AND INTERPOLATION
 
 37
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 38
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Super-resolution vs. Interpolation (2)
 
 Interpolation involves upsampling the low-resolution image which may not recover sufficient high-frequency components, leading to blurred images.
@@ -1263,21 +1000,13 @@ LECTURE 3: ACQUISITION AND INTERPOLATION
 
 38
 
-#### Tables
-No tables extracted
-#### Hyperlinks
-No hyperlinks detected
-
 ---
 
 ### Page 39
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-None
-
-#### Main Content
+#### Content
 # Deep Learning for SR
 
 Input
@@ -1303,8 +1032,6 @@ ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 3: ACQUISITION AND INTERPOLATION
 
-#### Tables
-No tables extracted
 #### Hyperlinks
 - https://github.com/MaokeAI/SRCNN-keras
 - https://github.com/MaokeAI/SRCNN-keras
