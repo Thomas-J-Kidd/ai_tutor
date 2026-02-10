@@ -2,7 +2,7 @@
 
 ## Metadata
 - **Document Type**: pdf
-- **Processing Time**: 249.50 seconds
+- **Processing Time**: 3.81 seconds
 - **Status**: Success
 - **Error**: None
 - **Pages**: 34
@@ -36,9 +36,6 @@ Nate Lannan
 - Introduce the human visual system
 - Discuss human perception
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 2: IMAGING AND PERCEPTION
 
@@ -54,9 +51,6 @@ LECTURE 2: IMAGING AND PERCEPTION
 
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 2: IMAGING AND PERCEPTION
@@ -69,16 +63,12 @@ LECTURE 2: IMAGING AND PERCEPTION
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-ECEN5793 DIGITAL IMAGE PROCESSING
-
 #### Content
 # Imaging Sources: Electromagnetic Radiation
 
 
+ECEN5793 DIGITAL IMAGE PROCESSING
 
-
-#### Footer
 LECTURE 2: IMAGING AND PERCEPTION
 
 4
@@ -89,11 +79,10 @@ LECTURE 2: IMAGING AND PERCEPTION
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
+#### Content
 ELEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 2: IMAGING AND PERCEPTION
 
-#### Content
 # Gamma-Ray Imaging
 
 Energy of one photon (electron volts)
@@ -113,7 +102,7 @@ Major uses of imaging based on Gamma ray include nuclear medicine and astronomic
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
+#### Content
 X-Ray Imaging
 
 Energy of one photon (electron volts)
@@ -122,7 +111,6 @@ Energy of one photon (electron volts)
 
 FIGURE 1.5 The electromagnetic spectrum arranged according to energy per photon.
 
-#### Content
 X-ray are among the oldest source of EM radiation used for imaging.
 
 - Medical diagnosis
@@ -130,9 +118,6 @@ X-ray are among the oldest source of EM radiation used for imaging.
 - Airport baggage inspection
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 2: IMAGING AND PERCEPTION
@@ -152,9 +137,6 @@ LECTURE 2: IMAGING AND PERCEPTION
 FIGURE 1.7 Examples of X-ray imaging. (a) Chest X-ray. (b) Aortic angiogram. (c) Head CT. (d) Circuit boards. (e) Cygnus Loop. (Images courtesy of (a) and (c) Dr. David R. Pickens, Dept. of Radiology &amp; Radiological Sciences, Vanderbilt University Medical Center; (b) Dr. Thomas R. Gest, Division of Anatomical Sciences, University of Michigan Medical School; (d) Mr. Joseph E. Pascente, Lixi, Inc.; and (e) NASA.)
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 2: IMAGING AND PERCEPTION
@@ -165,12 +147,11 @@ LECTURE 2: IMAGING AND PERCEPTION
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
+#### Content
 EICEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 2: IMAGING AND PERCEPTION
 8
 
-#### Content
 # Ultraviolet Imaging
 
 Energy of one photon (electron volts)
@@ -193,7 +174,7 @@ Fern sporangium
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
+#### Content
 Energy of one photon (electron volts)
 
 10^{6}
@@ -213,7 +194,6 @@ Energy of one photon (electron volts)
 10^{-8}
 10^{-9}
 
-#### Content
 # Visible Band Imaging
 
 FIGURE 1.5 The electromagnetic spectrum arranged according to energy per photon.
@@ -224,9 +204,6 @@ Considering that the visual band of the EM spectrum is the most familiar in all 
 
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 2: IMAGING AND PERCEPTION
@@ -237,12 +214,11 @@ LECTURE 2: IMAGING AND PERCEPTION
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-Energy of one photon (electron volts)
-
-Energy of one photon (electron volts)
-
 #### Content
+Energy of one photon (electron volts)
+
+Energy of one photon (electron volts)
+
 # Infrared Imaging Remote Sensing
 
 FIGURE 1.5 The electromagnetic spectrum arranged according to energy per photon.
@@ -253,9 +229,6 @@ NASA LANDSAT satellite
 
 [tbl-0.md](tbl-0.md)
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 2: IMAGING AND PERCEPTION
@@ -263,7 +236,7 @@ LECTURE 2: IMAGING AND PERCEPTION
 #### Tables
 **Table 1**:
 
-{'id': 'tbl-0.md', 'content': '|  Band No. | Name | Wavelength (μm) | Characteristics and Uses  |\n| --- | --- | --- | --- |\n|  1 | Visible blue | 0.45–0.52 | Maximum water penetration  |\n|  2 | Visible green | 0.53–0.61 | Measures plant vigor  |\n|  3 | Visible red | 0.63–0.69 | Vegetation discrimination  |\n|  4 | Near infrared | 0.78–0.90 | Biomass and shoreline mapping  |\n|  5 | Middle infrared | 1.55–1.75 | Moisture content: soil/vegetation  |\n|  6 | Thermal infrared | 10.4–12.5 | Soil moisture; thermal mapping  |\n|  7 | Short-wave infrared | 2.09–2.35 | Mineral mapping  |', 'format': 'markdown'}
+{'id': 'tbl-0.md', 'content': '|  Band No. | Name | Wavelength (μm) | Characteristics and Uses  |\n| --- | --- | --- | --- |\n|  1 | Visible blue | 0.45–0.52 | Maximum water penetration  |\n|  2 | Visible green | 0.53–0.61 | Measures plant vigor  |\n|  3 | Visible red | 0.63–0.69 | Vegetation discrimination  |\n|  4 | Near infrared | 0.78–0.90 | Biomass and shoreline mapping  |\n|  5 | Middle infrared | 1.55–1.75 | Moisture content: soil/vegetation  |\n|  6 | Thermal infrared | 10.4–12.5 | Soil moisture; thermal mapping  |\n|  7 | Short-wave infrared | 2.09–2.35 | Mineral mapping  |', 'format_': 'markdown'}
 
 ---
 
@@ -287,9 +260,6 @@ FIGURE 1.10 LANDSAT satellite images of the Washington, D.C. area. The numbers r
 
 7
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 2: IMAGING AND PERCEPTION
@@ -307,9 +277,6 @@ LECTURE 2: IMAGING AND PERCEPTION
 
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 2: IMAGING AND PERCEPTION
@@ -322,17 +289,13 @@ LECTURE 2: IMAGING AND PERCEPTION
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-ECEN5793 DIGITAL IMAGE PROCESSING
-
 #### Content
 # Infrared for Thermal Imaging
 
 
 
+ECEN5793 DIGITAL IMAGE PROCESSING
 
-
-#### Footer
 LECTURE 2: IMAGING AND PERCEPTION
 
 13
@@ -359,9 +322,6 @@ ERS-2 Greenland
 
 https://www.cgg.com/geoscience/satellite-mapping/radar-satellite-imagery
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 2: IMAGING AND PERCEPTION
@@ -372,17 +332,12 @@ LECTURE 2: IMAGING AND PERCEPTION
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-ECEN5793 DIGITAL IMAGE PROCESSING
-
 #### Content
 # Airport Full-Body Scan
 
 
 
-
-
-#### Footer
+ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 2: IMAGING AND PERCEPTION
 15
 
@@ -406,9 +361,6 @@ Each pulse causes a responding pulse of radio waves to be emitted by the patient
 - The location from which these signals originate and their strength and determined by a computer.
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 2: IMAGING AND PERCEPTION
@@ -424,9 +376,6 @@ a b
 
 FIGURE 1.17 MRI images of a human (a) knee, and (b) spine. (Image (a) courtesy of Dr. Thomas R. Gest, Division of Anatomical Sciences, University of Michigan Medical School, and (b) Dr. David R. Pickens, Department of Radiology and Radiological Sciences, Vanderbilt University Medical Center.)
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 2: IMAGING AND PERCEPTION
@@ -449,9 +398,6 @@ a b c d
 FIGURE 1.20 Examples of ultrasound imaging. (a) Baby. (2) Another view of baby. (c) Thyroids. (d) Muscle layers showing lesion. (Courtesy of Siemens Medical Systems, Inc., Ultrasound Group.)
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 2. IMAGING AND PERCEPTION
@@ -479,9 +425,6 @@ a b c d
 FIGURE 1.22
 (a) and (b) Fractal images. (c) and (d) Images generated from 3-D computer models of the objects shown. (Figures (a) and (b) courtesy of Ms. Melissa D. Binde, Swarthmore College, (c) and (d) courtesy of NASA.)
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 2: IMAGING AND PERCEPTION
@@ -498,9 +441,6 @@ LECTURE 2: IMAGING AND PERCEPTION
 
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 2: IMAGING AND PERCEPTION
 20
@@ -520,9 +460,6 @@ What kind of properties of human visual perception can help us optimize the imag
 
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 2: IMAGING AND PERCEPTION
@@ -541,9 +478,6 @@ LECTURE 2: IMAGING AND PERCEPTION
 
 The human vision system (HVS) is a very complex and intelligent system composed of both the eye and brain.
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 2: IMAGING AND PERCEPTION
 22
@@ -562,9 +496,6 @@ LECTURE 2: IMAGING AND PERCEPTION
 
 http://www.pambaumann.com/blog/2014/8/26/aperture-and-its-role-in-the-exposure-triangle
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 2: IMAGING AND PERCEPTION
@@ -587,9 +518,6 @@ Blind Spot (Optic Disk)
 
 Close your right eye and look directly at the number 3. Can you see the yellow spot in your peripheral vision? Now slowly move towards or away from the screen. At some point, the yellow spot will disappear.
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 2: IMAGING AND PERCEPTION
@@ -612,9 +540,6 @@ The retina is analogous to the digital camera containing discrete sensing elemen
 
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 2: IMAGING AND PERCEPTION
@@ -638,9 +563,6 @@ LECTURE 2: IMAGING AND PERCEPTION
 
 3.4 THE SPATIAL MOSAIC OF THE HUMAN CONES. Cross sections of the human retina at the level of the inner segments showing (A) cones in the fovea, and (B) cones in the periphery. Note the size difference (scale bar = 10 μm), and that, as the separation between cones grows, the rod receptors fill in the spaces. (C) Cone density plotted as a function of distance from the center of the fovea for seven human retinas; cone density decreases with distance from the fovea. Source: Curcio et al., 1990.
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 2: IMAGING AND PERCEPTION
@@ -663,9 +585,6 @@ The shape of the lens is controlled by tension in the fibers of the ciliary body
 
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 2: IMAGING AND PERCEPTION
@@ -685,16 +604,13 @@ LECTURE 2: IMAGING AND PERCEPTION
 - Received from an object in the real-word
 
 ## Luminance and Intensity
-- Collected by the human eye, luminance is weighted by eye’s sensitivity to wavelength
+- Collected by the human eye, luminance is weighted by eye's sensitivity to wavelength
 
 ## Brightness and Contrast (subjective)
 - Perceived by the human vision system
 
 Practical implication: It helps us know how many gray levels are needed for image representation under different environments
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 2: IMAGING AND PERCEPTION
 28
@@ -716,9 +632,6 @@ Brightness (subjective brightness): Perceived luminance depending on the luminan
 
 - The HVS is sensitive to luminance contrast rather than the absolute luminance values themselves.
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 2: IMAGING AND PERCEPTION
 29
@@ -754,9 +667,6 @@ $$
 
 - The number of gray levels $N$ is determined by the Contrast Ratio (CR) $\frac{f_N}{f_0}$ (where $f_N$ and $f_0$ are the brightest/darkest gray levels) and the sensitivity ratio $\Delta C$.
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 2: IMAGING AND PERCEPTION
@@ -777,24 +687,19 @@ Contrast ratio (CR) refers to the ratio of intensities between the most intense 
 $$
 \begin{array}{l}
 \begin{array}{l}
-\boxed{f_{N} = 1} = \frac{(1 + \Delta c)^{N}}{CR} \rightarrow CR = (1 + \Delta c)^{N} \\
+\square f_{N} = 1 = \frac{(1 + \Delta c)^{N}}{CR} \rightarrow CR = (1 + \Delta c)^{N} \\
 \vdots \\
-\boxed{f_{k+1} = f_{k}(1 + \Delta c)} \\
+f_{k+1} = f_{k}(1 + \Delta c) \\
 \vdots \\
 f_{2} = \frac{(1 + \Delta c)^{2}}{CR} \\
 f_{1} = \frac{1 + \Delta c}{CR} \\
-f_{0} = \frac{1}{CR}
+f_{0} = \frac{1}{CR} \\
 \end{array}
 \quad
-\begin{array}{l}
 \text{Number of gray levels:} \\
 N = \frac{\log(CR)}{\log(1 + \Delta c)}
-\end{array}
 $$
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 2: IMAGING AND PERCEPTION
@@ -802,7 +707,7 @@ LECTURE 2: IMAGING AND PERCEPTION
 #### Tables
 **Table 1**:
 
-{'id': 'tbl-1.md', 'content': '|   | Contrast sensitivity  |   |   |\n| --- | --- | --- | --- |\n|   |  2% | 1% | 0.5%  |\n|  Contrast ratio |   |   |   |\n|  10\n(office environment) | 116\n(~7 bits) | 231\n(~8 bits) | 462\n(~9 bits)  |\n|  30\n(living room, television) | 172 | 342 | 682  |\n|  100\n(cinema theater) | 232\n(~8 bits) | 463\n(~9 bits) | 923\n(~10 bits)  |', 'format': 'markdown'}
+{'id': 'tbl-1.md', 'content': '|   | Contrast sensitivity  |   |   |\n| --- | --- | --- | --- |\n|   |  2% | 1% | 0.5%  |\n|  Contrast ratio |   |   |   |\n|  10\n(office environment) | 116\n(~7 bits) | 231\n(~8 bits) | 462\n(~9 bits)  |\n|  30\n(living room, television) | 172 | 342 | 682  |\n|  100\n(cinema theater) | 232\n(~8 bits) | 463\n(~9 bits) | 923\n(~10 bits)  |', 'format_': 'markdown'}
 
 ---
 
@@ -819,9 +724,6 @@ FIGURE 2.21
 (a)  $452 \times 374$ , 256-level image.
 (b)-(d) Image displayed in 128, 64, and 32 gray levels, while keeping the spatial resolution constant.
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 2: IMAGING AND PERCEPTION
@@ -844,9 +746,6 @@ c
 FIGURE 2.7
 Illustration of the Mach band effect. Perceived intensity is not a simple function of actual intensity.
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 2: IMAGING AND PERCEPTION
 
@@ -856,10 +755,9 @@ LECTURE 2: IMAGING AND PERCEPTION
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
+#### Content
 E C E N 5 7 9 3 D I G I T A L I M A G E P R O C E S S I N G
 
-#### Content
 # Visual Illusion
 
 a b c d
@@ -870,9 +768,6 @@ FIGURE 2.9 Some well-known optical illusions.
 
 
 
-
-
-#### Footer
 E C E N 5 7 9 3 D I G I T A L I M A G E P R O C E S S I N G
 
 LECTURE 2, IMAGING AND PERCEPTION

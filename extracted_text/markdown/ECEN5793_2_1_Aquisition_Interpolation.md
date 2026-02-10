@@ -2,7 +2,7 @@
 
 ## Metadata
 - **Document Type**: pdf
-- **Processing Time**: 9.17 seconds
+- **Processing Time**: 4.54 seconds
 - **Status**: Success
 - **Error**: None
 - **Pages**: 39
@@ -38,12 +38,8 @@ Nate Lannan
 - Bicubic interpolation
 - Super-resolution
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 3: ACQUISITION AND INTERPOLATION
-2
 
 ---
 
@@ -58,9 +54,6 @@ Is the human visual system (HVS) telling the truth all the time?
 What are the two main issues about digital image acquisition?
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 3: ACQUISITION AND INTERPOLATION
 
@@ -70,19 +63,13 @@ LECTURE 3: ACQUISITION AND INTERPOLATION
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-ECEN5793 DIGITAL IMAGE PROCESSING
-
 #### Content
 # Review of Eye Structure
 
 
 
-
-
-#### Footer
+ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 3: ACQUISITION AND INTERPOLATION
-
 4
 
 ---
@@ -103,9 +90,6 @@ c
 FIGURE 2.7
 Illustration of the Mach band effect. Perceived intensity is not a simple function of actual intensity.
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 3: ACQUISITION AND INTERPOLATION
 
@@ -115,12 +99,11 @@ LECTURE 3: ACQUISITION AND INTERPOLATION
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
+#### Content
 E C E N 5 7 9 3 D I G I T A L I M A G E P R O C E S S I N G
 
 L E C T U R E 3 : A C Q U I S I T I O N AND I N T E R P O L A T I O N
 
-#### Content
 # Visual Illusion
 
 a b c d
@@ -143,9 +126,6 @@ FIGURE 2.9 Some well-known optical illusions.
 
 FIGURE 2.15 An example of the digital image acquisition process. (a) Energy (“illumination”) source. (b) An element of a scene. (c) Imaging system. (d) Projection of the scene onto the image plane. (e) Digitized image.
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 3: ACQUISITION AND INTERPOLATION
@@ -172,9 +152,6 @@ Imaging – LP/mm
 These images have the same pixel count but different spatial resolution
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 3: ACQUISITION AND INTERPOLATION
@@ -193,9 +170,6 @@ LECTURE 3: ACQUISITION AND INTERPOLATION
 A CCD (Charge-coupled device) camera chip of dimensions 7x7 mm, and having 1024x1024 elements, is focused on a square, flat area, located 0.5m away. How many line pairs per mm will this camera be able to resolve? The camera is equipped with a 35-mm lens.
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 3: ACQUISITION AND INTERPOLATION
 9
@@ -242,9 +216,6 @@ $$
 \omega_ {s} &gt; 2 \omega_ {M} \rightarrow \text {aliasing free}
 $$
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 3: ACQUISITION AND INTERPOLATION
@@ -262,9 +233,6 @@ LECTURE 3: ACQUISITION AND INTERPOLATION
 
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 3: ACQUISITION AND INTERPOLATION
@@ -291,9 +259,6 @@ Low Frequency
 What is the high frequency content and low frequency content in this image?
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 3: ACQUISITION AND INTERPOLATION
 12
@@ -304,17 +269,12 @@ LECTURE 3: ACQUISITION AND INTERPOLATION
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-ECEN5793 DIGITAL IMAGE PROCESSING
-
 #### Content
 # Aliasing Problems
 
 
 
-
-
-#### Footer
+ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 2: IMAGING AND PERCEPTION
 13
 
@@ -334,9 +294,6 @@ Sampling with aliasing
 
 Sampling with anti-aliasing
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 3: ACQUISITION AND INTERPOLATION
@@ -364,9 +321,6 @@ FIGURE 2.20 (a)  $1024 \times 1024$ , 8-bit image. (b)  $512 \times 512$  image 
 
 FIGURE 2.20 Typical effects of reducing spatial resolution. Images shown at: (a) 1250 dpi, (b) 300 dpi, (c) 150 dpi, and (d) 72 dpi. The thin black borders were added for clarity. They are not part of the data.
 
-
-
-#### Footer
 ECENG793 DIGITAL IMAGE PROCESSING
 
 LECTURE 3: ACQUISITION AND INTERPOLATION
@@ -394,9 +348,6 @@ $$
 b = M \times N \times k. \qquad b = N^2 k \quad (\text{when } M = N)
 $$
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 3: ACQUISITION AND INTERPOLATION
@@ -433,9 +384,6 @@ N = \frac{\log(CR)}{\log(1 + \Delta c)} \\
 \end{array}
 $$
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 3: ACQUISITION AND INTERPOLATION
@@ -443,7 +391,7 @@ LECTURE 3: ACQUISITION AND INTERPOLATION
 #### Tables
 **Table 1**:
 
-{'id': 'tbl-0.md', 'content': '|   | Contrast sensitivity  |   |   |\n| --- | --- | --- | --- |\n|   |  2% | 1% | 0.5%  |\n|  Contrast ratio |   |   |   |\n|  10\n(office environment) | 116\n(~7 bits) | 231\n(~8 bits) | 462\n(~9 bits)  |\n|  30\n(living room, television) | 172 | 342 | 682  |\n|  100\n(cinema theater) | 232\n(~8 bits) | 463\n(~9 bits) | 923\n(~10 bits)  |', 'format': 'markdown'}
+{'id': 'tbl-0.md', 'content': '|   | Contrast sensitivity  |   |   |\n| --- | --- | --- | --- |\n|   |  2% | 1% | 0.5%  |\n|  Contrast ratio |   |   |   |\n|  10\n(office environment) | 116\n(~7 bits) | 231\n(~8 bits) | 462\n(~9 bits)  |\n|  30\n(living room, television) | 172 | 342 | 682  |\n|  100\n(cinema theater) | 232\n(~8 bits) | 463\n(~9 bits) | 923\n(~10 bits)  |', 'format_': 'markdown'}
 
 ---
 
@@ -458,9 +406,6 @@ LECTURE 3: ACQUISITION AND INTERPOLATION
 
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 3: ACQUISITION AND INTERPOLATION
@@ -477,9 +422,6 @@ LECTURE 3: ACQUISITION AND INTERPOLATION
 # Interpolation
 
 
-
-
-#### Footer
 EGEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 3: ACQUISITION AND INTERPOLATION
 19
@@ -505,9 +447,6 @@ Bi-cubic interpolation
 
 Model-based interpolation
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 3: ACQUISITION AND INTERPOLATION
 20
@@ -531,9 +470,6 @@ $$
 X _ {r} (j \omega) = X _ {p} (j \omega) H (j \omega)
 $$
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 3: ACQUISITION AND INTERPOLATION
@@ -558,9 +494,6 @@ What is the implication here?
 
 Dependency on infinity and non-causality make this not physically realizable
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 3: ACQUISITION AND INTERPOLATION
@@ -571,16 +504,11 @@ LECTURE 3: ACQUISITION AND INTERPOLATION
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-ECEN5793 DIGITAL IMAGE PROCESSING
-
 #### Content
 # Zero-order Hold (ZOH) &amp; Linear Interpolation
 
 
-
-
-#### Footer
+ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 3: ACQUISITION AND INTERPOLATION
 23
 
@@ -605,9 +533,6 @@ Pixel Interpolation is the process of using known data to estimate values at unk
 
 Zooming and shrinking can be done in a similar manner.
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 3: ACQUISITION AND INTERPOLATION
 
@@ -623,9 +548,6 @@ LECTURE 3: ACQUISITION AND INTERPOLATION
 In the zooming case, when ratio $p$ is not integer, usually new pixels (red points) are created not on the grid.
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 3: ACQUISITION AND INTERPOLATION
@@ -664,9 +586,6 @@ $$
 v \left(x ^ {\prime}\right) = (1 - d) f \left(\operatorname {f l o o r} \left(x ^ {\prime}\right)\right) + d \cdot f \left(\operatorname {c e i l} \left(x ^ {\prime}\right)\right)
 $$
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 3: ACQUISITION AND INTERPOLATION
@@ -677,17 +596,12 @@ LECTURE 3: ACQUISITION AND INTERPOLATION
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-ECEN5793 DIGITAL IMAGE PROCESSING
-
 #### Content
 # Coordinate System in Matlab
 
 
-
-
-#### Footer
-LECTURE 3: ACQUISITION AND INTERPOLATION
+ECEN5793 DIGITAL IMAGE PROCESSING
+LECTURE 3. ACQUISITION AND INTERPOLATION
 27
 
 ---
@@ -696,17 +610,13 @@ LECTURE 3: ACQUISITION AND INTERPOLATION
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-ECEN5793 DIGITAL IMAGE PROCESSING
-
 #### Content
 # Coordinate System in numpy
 
 
+ECEN5793 DIGITAL IMAGE PROCESSING
 
-
-#### Footer
-LECTURE 3: ACQUISITION AND INTERPOLATION
+LECTURE 3. ACQUISITION AND INTERPOLATION
 
 ---
 
@@ -714,16 +624,11 @@ LECTURE 3: ACQUISITION AND INTERPOLATION
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-ECEN5793 DIGITAL IMAGE PROCESSING
-
 #### Content
 # Coordinate swap
 
 
-
-
-#### Footer
+ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 3. ACQUISITION AND INTERPOLATION
 29
 
@@ -758,9 +663,6 @@ https://www.mathworks.com/help/images/
 
 # MATLAB®
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 3: ACQUISITION AND INTERPOLATION
 30
@@ -804,9 +706,6 @@ https://matplotlib.org/stable/api/index
 https://scikit-image.org/docs/stable/
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 3: ACQUISITION AND INTERPOLATION
 
@@ -854,9 +753,6 @@ LECTURE 3: ACQUISITION AND INTERPOLATION
 - np.ravel_multi_index((r,c), sz) – convert subscript notation to index
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 3: ACQUISITION AND INTERPOLATION
@@ -879,9 +775,6 @@ $$
 In programming, you have to use either floor(. or ceil(). But don't use them together. Why?
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 3: ACQUISITION AND INTERPOLATION
@@ -900,9 +793,6 @@ Bicubic interpolation takes a weighted average of 16 pixels in the original imag
 The contribution of each of the 16 neighboring pixels to the new interpolated point is defined by a bicubic function which is related the distance between the new point and each of 16 pixels (the closer distance, the stronger contribution)
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 3: ACQUISITION AND INTERPOLATION
@@ -930,9 +820,6 @@ $$
 I(x', y') = \sum_{m=1}^{4} \sum_{n=1}^{4} h(x_m - x') h(y_n - y') f(x_m, y_n)
 $$
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 3: ACQUISITION AND INTERPOLATION
@@ -943,14 +830,9 @@ LECTURE 3: ACQUISITION AND INTERPOLATION
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-ECEN5793 DIGITAL IMAGE PROCESSING
-
 #### Content
 
-
-
-#### Footer
+ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 3: ACQUISITION AND INTERPOLATION
 36
 
@@ -963,14 +845,11 @@ LECTURE 3: ACQUISITION AND INTERPOLATION
 #### Content
 # Super-resolution vs. Interpolation (1)
 
-Interpolation involves up-sampling the low-resolution image which may not recover sufficient high-frequency components, leading to blurred images.
+Interpolation involves upsampling the low-resolution image which may not recover sufficient high-frequency components, leading to blurred images.
 
 Super-resolution (SR) involves three major processes: interpolation, deblurring and denoising, leading to more detailed and sharper images.
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 3: ACQUISITION AND INTERPOLATION
@@ -991,9 +870,6 @@ Interpolation involves upsampling the low-resolution image which may not recover
 Super-resolution (SR) involves three major processes: interpolation, deblurring and denoising, leading to more detailed and sharper images.
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 3: ACQUISITION AND INTERPOLATION
@@ -1025,9 +901,6 @@ Model predication
 
 Ground truth
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 3: ACQUISITION AND INTERPOLATION

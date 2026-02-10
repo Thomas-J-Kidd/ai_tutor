@@ -4,7 +4,7 @@
     "file_path": "slides/ECEN5793/ECEN5793_2_1_Aquisition_Interpolation.pdf",
     "document_type": "pdf",
     "page_count": 39,
-    "processing_time": 9.170572519302368,
+    "processing_time": 4.53717303276062,
     "tokens_used": 0,
     "model": "mistral-ocr-latest",
     "attempts": 3,
@@ -13,8 +13,8 @@
       "api_response_keys": [
         "pages",
         "model",
-        "document_annotation",
-        "usage_info"
+        "usage_info",
+        "document_annotation"
       ]
     }
   },
@@ -36,8 +36,8 @@
           "id": "img-0.jpeg",
           "top_left_x": 125,
           "top_left_y": 571,
-          "bottom_right_x": 624,
-          "bottom_right_y": 845,
+          "bottom_right_x": 621,
+          "bottom_right_y": 841,
           "image_base64": null,
           "image_annotation": null
         }
@@ -51,8 +51,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 3: ACQUISITION AND INTERPOLATION\n2",
-      "markdown": "# Agenda\n\n- Image acquisition\n- Ideal interpolation\n- Linear interpolation\n- Bicubic interpolation\n- Super-resolution\n\n",
+      "footer": null,
+      "markdown": "# Agenda\n\n- Image acquisition\n- Ideal interpolation\n- Linear interpolation\n- Bicubic interpolation\n- Super-resolution\n\nECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 3: ACQUISITION AND INTERPOLATION",
       "tables": [],
       "hyperlinks": [],
       "images": []
@@ -65,8 +65,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 3: ACQUISITION AND INTERPOLATION",
-      "markdown": "# Questions\n\nIs the human visual system (HVS) telling the truth all the time?\nWhat are the two main issues about digital image acquisition?\n\n![img-1.jpeg](img-1.jpeg)\n\n",
+      "footer": null,
+      "markdown": "# Questions\n\nIs the human visual system (HVS) telling the truth all the time?\nWhat are the two main issues about digital image acquisition?\n\n![img-1.jpeg](img-1.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 3: ACQUISITION AND INTERPOLATION",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -88,9 +88,9 @@
         "height": 1500,
         "width": 2667
       },
-      "header": "ECEN5793 DIGITAL IMAGE PROCESSING",
-      "footer": "LECTURE 3: ACQUISITION AND INTERPOLATION\n\n4",
-      "markdown": "# Review of Eye Structure\n\n![img-2.jpeg](img-2.jpeg)\n\n![img-3.jpeg](img-3.jpeg)\n\n",
+      "header": null,
+      "footer": null,
+      "markdown": "# Review of Eye Structure\n\n![img-2.jpeg](img-2.jpeg)\n\n![img-3.jpeg](img-3.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 3: ACQUISITION AND INTERPOLATION\n4",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -122,15 +122,15 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 3: ACQUISITION AND INTERPOLATION",
-      "markdown": "# Mach Bands\n\nThe HVS tends to undershoot or overshoot around the boundary of regions of different intensities.\n\na\nb\nc\n\nFIGURE 2.7\n![img-4.jpeg](img-4.jpeg)\nIllustration of the Mach band effect. Perceived intensity is not a simple function of actual intensity.\n\n",
+      "footer": null,
+      "markdown": "# Mach Bands\n\nThe HVS tends to undershoot or overshoot around the boundary of regions of different intensities.\n\na\nb\nc\n\nFIGURE 2.7\n![img-4.jpeg](img-4.jpeg)\nIllustration of the Mach band effect. Perceived intensity is not a simple function of actual intensity.\n\nECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 3: ACQUISITION AND INTERPOLATION",
       "tables": [],
       "hyperlinks": [],
       "images": [
         {
           "id": "img-4.jpeg",
           "top_left_x": 1544,
-          "top_left_y": 433,
+          "top_left_y": 431,
           "bottom_right_x": 2400,
           "bottom_right_y": 1395,
           "image_base64": null,
@@ -145,16 +145,16 @@
         "height": 1500,
         "width": 2667
       },
-      "header": "E C E N 5 7 9 3 D I G I T A L I M A G E P R O C E S S I N G\n\nL E C T U R E 3 : A C Q U I S I T I O N AND I N T E R P O L A T I O N",
+      "header": null,
       "footer": null,
-      "markdown": "# Visual Illusion\n\na b c d\n\nFIGURE 2.9 Some well-known optical illusions.\n\n![img-5.jpeg](img-5.jpeg)\n\n![img-6.jpeg](img-6.jpeg)\n\n![img-7.jpeg](img-7.jpeg)\n\n![img-8.jpeg](img-8.jpeg)",
+      "markdown": "E C E N 5 7 9 3 D I G I T A L I M A G E P R O C E S S I N G\n\nL E C T U R E 3 : A C Q U I S I T I O N AND I N T E R P O L A T I O N\n\n# Visual Illusion\n\na b c d\n\nFIGURE 2.9 Some well-known optical illusions.\n\n![img-5.jpeg](img-5.jpeg)\n\n![img-6.jpeg](img-6.jpeg)\n\n![img-7.jpeg](img-7.jpeg)\n\n![img-8.jpeg](img-8.jpeg)",
       "tables": [],
       "hyperlinks": [],
       "images": [
         {
           "id": "img-5.jpeg",
           "top_left_x": 1264,
-          "top_left_y": 3,
+          "top_left_y": 4,
           "bottom_right_x": 1957,
           "bottom_right_y": 694,
           "image_base64": null,
@@ -163,7 +163,7 @@
         {
           "id": "img-6.jpeg",
           "top_left_x": 1962,
-          "top_left_y": 3,
+          "top_left_y": 4,
           "bottom_right_x": 2656,
           "bottom_right_y": 694,
           "image_base64": null,
@@ -174,7 +174,7 @@
           "top_left_x": 1264,
           "top_left_y": 702,
           "bottom_right_x": 1957,
-          "bottom_right_y": 1392,
+          "bottom_right_y": 1390,
           "image_base64": null,
           "image_annotation": null
         },
@@ -183,7 +183,7 @@
           "top_left_x": 1962,
           "top_left_y": 702,
           "bottom_right_x": 2656,
-          "bottom_right_y": 1392,
+          "bottom_right_y": 1390,
           "image_base64": null,
           "image_annotation": null
         }
@@ -197,8 +197,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION",
-      "markdown": "# Image Acquisition: Sampling and Quantization\n\n![img-9.jpeg](img-9.jpeg)\n\nFIGURE 2.15 An example of the digital image acquisition process. (a) Energy (\u201cillumination\u201d) source. (b) An element of a scene. (c) Imaging system. (d) Projection of the scene onto the image plane. (e) Digitized image.\n\n",
+      "footer": null,
+      "markdown": "# Image Acquisition: Sampling and Quantization\n\n![img-9.jpeg](img-9.jpeg)\n\nFIGURE 2.15 An example of the digital image acquisition process. (a) Energy (\u201cillumination\u201d) source. (b) An element of a scene. (c) Imaging system. (d) Projection of the scene onto the image plane. (e) Digitized image.\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -221,8 +221,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION\n\n8",
-      "markdown": "# Spatial Resolution\n\nJust because an image has high resolution (i.e. pixel count) does not mean it is a quality image.\n\nWe need to relate the pixels to spatial units. The image itself does not tell the whole story.\n\nTypical metrics\n\nPrinting \u2013 dpi, ppi\n\nImaging \u2013 LP/mm\n\n![img-10.jpeg](img-10.jpeg)\nThese images have the same pixel count but different spatial resolution\n\n![img-11.jpeg](img-11.jpeg)\n\n",
+      "footer": null,
+      "markdown": "# Spatial Resolution\n\nJust because an image has high resolution (i.e. pixel count) does not mean it is a quality image.\n\nWe need to relate the pixels to spatial units. The image itself does not tell the whole story.\n\nTypical metrics\n\nPrinting \u2013 dpi, ppi\n\nImaging \u2013 LP/mm\n\n![img-10.jpeg](img-10.jpeg)\nThese images have the same pixel count but different spatial resolution\n\n![img-11.jpeg](img-11.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION\n\n8",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -254,8 +254,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 3: ACQUISITION AND INTERPOLATION\n9",
-      "markdown": "# Example of Sampling\n\nA CCD (Charge-coupled device) camera chip of dimensions 7x7 mm, and having 1024x1024 elements, is focused on a square, flat area, located 0.5m away. How many line pairs per mm will this camera be able to resolve? The camera is equipped with a 35-mm lens.\n\n![img-12.jpeg](img-12.jpeg)\n\n",
+      "footer": null,
+      "markdown": "# Example of Sampling\n\nA CCD (Charge-coupled device) camera chip of dimensions 7x7 mm, and having 1024x1024 elements, is focused on a square, flat area, located 0.5m away. How many line pairs per mm will this camera be able to resolve? The camera is equipped with a 35-mm lens.\n\n![img-12.jpeg](img-12.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 3: ACQUISITION AND INTERPOLATION\n9",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -278,8 +278,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION",
-      "markdown": "# Review of Nyquist Theorem\n\n![img-13.jpeg](img-13.jpeg)\n\n![img-14.jpeg](img-14.jpeg)\n\n![img-15.jpeg](img-15.jpeg)\n\n![img-16.jpeg](img-16.jpeg)\n\n$$\nx _ {p} (t) = x (t) p (t)\n$$\n\n![img-17.jpeg](img-17.jpeg)\n\n![img-18.jpeg](img-18.jpeg)\n\n![img-19.jpeg](img-19.jpeg)\n\n$$\nX _ {p} (j \\omega) = \\frac {1}{2 \\pi} X (j \\omega) * P (j \\omega)\n$$\n\n$x(t)$ is a bandlimited signal\n\n$$\n| X (j \\omega) | = 0, | \\omega | &lt;   \\omega_ {M}\n$$\n\n$$\nP (j \\omega) = \\frac {2 \\pi}{T} \\sum_ {k = - \\infty} ^ {\\infty} \\delta (\\omega - k \\omega_ {s})\n$$\n\n$$\n\\left(\\omega_ {s} = \\frac {2 \\pi}{T}, \\text {sampling rate}\\right)\n$$\n\n$$\n\\omega_ {s} &gt; 2 \\omega_ {M} \\rightarrow \\text {aliasing free}\n$$\n\n",
+      "footer": null,
+      "markdown": "# Review of Nyquist Theorem\n\n![img-13.jpeg](img-13.jpeg)\n\n![img-14.jpeg](img-14.jpeg)\n\n![img-15.jpeg](img-15.jpeg)\n\n![img-16.jpeg](img-16.jpeg)\n\n$$\nx _ {p} (t) = x (t) p (t)\n$$\n\n![img-17.jpeg](img-17.jpeg)\n\n![img-18.jpeg](img-18.jpeg)\n\n![img-19.jpeg](img-19.jpeg)\n\n$$\nX _ {p} (j \\omega) = \\frac {1}{2 \\pi} X (j \\omega) * P (j \\omega)\n$$\n\n$x(t)$ is a bandlimited signal\n\n$$\n| X (j \\omega) | = 0, | \\omega | &lt;   \\omega_ {M}\n$$\n\n$$\nP (j \\omega) = \\frac {2 \\pi}{T} \\sum_ {k = - \\infty} ^ {\\infty} \\delta (\\omega - k \\omega_ {s})\n$$\n\n$$\n\\left(\\omega_ {s} = \\frac {2 \\pi}{T}, \\text {sampling rate}\\right)\n$$\n\n$$\n\\omega_ {s} &gt; 2 \\omega_ {M} \\rightarrow \\text {aliasing free}\n$$\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -356,8 +356,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION\n\n11",
-      "markdown": "# Two Sampling Conditions\n\n![img-20.jpeg](img-20.jpeg)\n\n![img-21.jpeg](img-21.jpeg)\n\n![img-22.jpeg](img-22.jpeg)\n\n![img-23.jpeg](img-23.jpeg)\n\n",
+      "footer": null,
+      "markdown": "# Two Sampling Conditions\n\n![img-20.jpeg](img-20.jpeg)\n\n![img-21.jpeg](img-21.jpeg)\n\n![img-22.jpeg](img-22.jpeg)\n\n![img-23.jpeg](img-23.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION\n\n11",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -407,8 +407,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 3: ACQUISITION AND INTERPOLATION\n12",
-      "markdown": "# Frequency in Images\n\nSpatial frequency has content like time-based signals\n\nHigh Frequency\n\n![img-24.jpeg](img-24.jpeg)\n\nLow Frequency\n\n![img-25.jpeg](img-25.jpeg)\n\nWhat is the high frequency content and low frequency content in this image?\n\n![img-26.jpeg](img-26.jpeg)\n\n",
+      "footer": null,
+      "markdown": "# Frequency in Images\n\nSpatial frequency has content like time-based signals\n\nHigh Frequency\n\n![img-24.jpeg](img-24.jpeg)\n\nLow Frequency\n\n![img-25.jpeg](img-25.jpeg)\n\nWhat is the high frequency content and low frequency content in this image?\n\n![img-26.jpeg](img-26.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 3: ACQUISITION AND INTERPOLATION\n12",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -448,9 +448,9 @@
         "height": 1500,
         "width": 2667
       },
-      "header": "ECEN5793 DIGITAL IMAGE PROCESSING",
-      "footer": "LECTURE 2: IMAGING AND PERCEPTION\n13",
-      "markdown": "# Aliasing Problems\n\n![img-27.jpeg](img-27.jpeg)\n\n![img-28.jpeg](img-28.jpeg)\n\n",
+      "header": null,
+      "footer": null,
+      "markdown": "# Aliasing Problems\n\n![img-27.jpeg](img-27.jpeg)\n\n![img-28.jpeg](img-28.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 2: IMAGING AND PERCEPTION\n13",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -482,8 +482,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION\n\n14",
-      "markdown": "# Anti-aliasing pre-filtering before sampling\n\n![img-29.jpeg](img-29.jpeg)\n\n![img-30.jpeg](img-30.jpeg)\nOriginal image\n\n![img-31.jpeg](img-31.jpeg)\nSampling with aliasing\n\n![img-32.jpeg](img-32.jpeg)\nSampling with anti-aliasing\n\n",
+      "footer": null,
+      "markdown": "# Anti-aliasing pre-filtering before sampling\n\n![img-29.jpeg](img-29.jpeg)\n\n![img-30.jpeg](img-30.jpeg)\nOriginal image\n\n![img-31.jpeg](img-31.jpeg)\nSampling with aliasing\n\n![img-32.jpeg](img-32.jpeg)\nSampling with anti-aliasing\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION\n\n14",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -533,8 +533,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECENG793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION",
-      "markdown": "![img-33.jpeg](img-33.jpeg)\n\n![img-34.jpeg](img-34.jpeg)\n\n![img-35.jpeg](img-35.jpeg)\n\n![img-36.jpeg](img-36.jpeg)\na b c d e f\n\n![img-37.jpeg](img-37.jpeg)\n\n![img-38.jpeg](img-38.jpeg)\n\n![img-39.jpeg](img-39.jpeg)\n\n![img-40.jpeg](img-40.jpeg)\n\n![img-41.jpeg](img-41.jpeg)\na b e d\nFIGURE 2.20 (a)  $1024 \\times 1024$ , 8-bit image. (b)  $512 \\times 512$  image resampled into  $1024 \\times 1024$  pixels by row and column duplication. (c) through (f)  $256 \\times 256$ ,  $128 \\times 128$ ,  $64 \\times 64$ , and  $32 \\times 32$  images resampled into  $1024 \\times 1024$  pixels.\n\n![img-42.jpeg](img-42.jpeg)\nFIGURE 2.20 Typical effects of reducing spatial resolution. Images shown at: (a) 1250 dpi, (b) 300 dpi, (c) 150 dpi, and (d) 72 dpi. The thin black borders were added for clarity. They are not part of the data.\n\n",
+      "footer": null,
+      "markdown": "![img-33.jpeg](img-33.jpeg)\n\n![img-34.jpeg](img-34.jpeg)\n\n![img-35.jpeg](img-35.jpeg)\n\n![img-36.jpeg](img-36.jpeg)\na b c d e f\n\n![img-37.jpeg](img-37.jpeg)\n\n![img-38.jpeg](img-38.jpeg)\n\n![img-39.jpeg](img-39.jpeg)\n\n![img-40.jpeg](img-40.jpeg)\n\n![img-41.jpeg](img-41.jpeg)\na b e d\nFIGURE 2.20 (a)  $1024 \\times 1024$ , 8-bit image. (b)  $512 \\times 512$  image resampled into  $1024 \\times 1024$  pixels by row and column duplication. (c) through (f)  $256 \\times 256$ ,  $128 \\times 128$ ,  $64 \\times 64$ , and  $32 \\times 32$  images resampled into  $1024 \\times 1024$  pixels.\n\n![img-42.jpeg](img-42.jpeg)\nFIGURE 2.20 Typical effects of reducing spatial resolution. Images shown at: (a) 1250 dpi, (b) 300 dpi, (c) 150 dpi, and (d) 72 dpi. The thin black borders were added for clarity. They are not part of the data.\n\nECENG793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -638,8 +638,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION",
-      "markdown": "# Quantization\n\nThe sampling process requires decision about size $M \\times N$, and the quantization process decides the number of gray scales $L$.\n\nDue to the consideration of processing, storage, and sampling hardware, $L$ is typically an integer power of 2:\n\n$$\nL = 2^k, \\text{ and } f(x, y) \\in [0, L - 1]\n$$\n\nThe number of bits, $b$, required to store a digitized image is\n\n$$\nb = M \\times N \\times k. \\qquad b = N^2 k \\quad (\\text{when } M = N)\n$$\n\n",
+      "footer": null,
+      "markdown": "# Quantization\n\nThe sampling process requires decision about size $M \\times N$, and the quantization process decides the number of gray scales $L$.\n\nDue to the consideration of processing, storage, and sampling hardware, $L$ is typically an integer power of 2:\n\n$$\nL = 2^k, \\text{ and } f(x, y) \\in [0, L - 1]\n$$\n\nThe number of bits, $b$, required to store a digitized image is\n\n$$\nb = M \\times N \\times k. \\qquad b = N^2 k \\quad (\\text{when } M = N)\n$$\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION",
       "tables": [],
       "hyperlinks": [],
       "images": []
@@ -652,13 +652,13 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION",
-      "markdown": "# Number of Gray Levels\n\nThe number of gray levels mainly depends on both the contrast ratio (CR) of the environment and the contrast sensitivity about HVS.\n\n[tbl-0.md](tbl-0.md)\n\n$$\n\\begin{array}{l}\n\\begin{array}{l}\n\\boxed{f_{N} = 1 = \\frac{(1 + \\Delta c)^{N}}{CR} \\rightarrow CR = (1 + \\Delta c)^{N}} \\\\\n\\vdots \\\\\nf_{k+1} = f_{k}(1 + \\Delta c) \\\\\n\\vdots \\\\\nf_{2} = \\frac{(1 + \\Delta c)^{2}}{CR} \\\\\nf_{1} = \\frac{1 + \\Delta c}{CR} \\\\\nf_{0} = \\frac{1}{CR} \\\\\n\\end{array}\n\\quad\n\\begin{array}{l}\n\\text{Number of gray levels:} \\\\\nN = \\frac{\\log(CR)}{\\log(1 + \\Delta c)} \\\\\n\\frac{\\log(10)}{\\log(1.02)} \\approx 116.3 \\\\\n\\end{array}\n$$\n\n",
+      "footer": null,
+      "markdown": "# Number of Gray Levels\n\nThe number of gray levels mainly depends on both the contrast ratio (CR) of the environment and the contrast sensitivity about HVS.\n\n[tbl-0.md](tbl-0.md)\n\n$$\n\\begin{array}{l}\n\\begin{array}{l}\n\\boxed{f_{N} = 1 = \\frac{(1 + \\Delta c)^{N}}{CR} \\rightarrow CR = (1 + \\Delta c)^{N}} \\\\\n\\vdots \\\\\nf_{k+1} = f_{k}(1 + \\Delta c) \\\\\n\\vdots \\\\\nf_{2} = \\frac{(1 + \\Delta c)^{2}}{CR} \\\\\nf_{1} = \\frac{1 + \\Delta c}{CR} \\\\\nf_{0} = \\frac{1}{CR} \\\\\n\\end{array}\n\\quad\n\\begin{array}{l}\n\\text{Number of gray levels:} \\\\\nN = \\frac{\\log(CR)}{\\log(1 + \\Delta c)} \\\\\n\\frac{\\log(10)}{\\log(1.02)} \\approx 116.3 \\\\\n\\end{array}\n$$\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION",
       "tables": [
         {
           "id": "tbl-0.md",
           "content": "|   | Contrast sensitivity  |   |   |\n| --- | --- | --- | --- |\n|   |  2% | 1% | 0.5%  |\n|  Contrast ratio |   |   |   |\n|  10\n(office environment) | 116\n(~7 bits) | 231\n(~8 bits) | 462\n(~9 bits)  |\n|  30\n(living room, television) | 172 | 342 | 682  |\n|  100\n(cinema theater) | 232\n(~8 bits) | 463\n(~9 bits) | 923\n(~10 bits)  |",
-          "format": "markdown"
+          "format_": "markdown"
         }
       ],
       "hyperlinks": [],
@@ -672,8 +672,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION\n\n18",
-      "markdown": "![img-43.jpeg](img-43.jpeg)\n\n![img-44.jpeg](img-44.jpeg)\n\n![img-45.jpeg](img-45.jpeg)\n\n![img-46.jpeg](img-46.jpeg)\n\n![img-47.jpeg](img-47.jpeg)\n\n![img-48.jpeg](img-48.jpeg)\n\n",
+      "footer": null,
+      "markdown": "![img-43.jpeg](img-43.jpeg)\n\n![img-44.jpeg](img-44.jpeg)\n\n![img-45.jpeg](img-45.jpeg)\n\n![img-46.jpeg](img-46.jpeg)\n\n![img-47.jpeg](img-47.jpeg)\n\n![img-48.jpeg](img-48.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION\n\n18",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -741,8 +741,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "EGEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 3: ACQUISITION AND INTERPOLATION\n19",
-      "markdown": "# Interpolation\n\n![img-49.jpeg](img-49.jpeg)\n![img-50.jpeg](img-50.jpeg)\n![img-51.jpeg](img-51.jpeg)\n\n",
+      "footer": null,
+      "markdown": "# Interpolation\n\n![img-49.jpeg](img-49.jpeg)\n![img-50.jpeg](img-50.jpeg)\n![img-51.jpeg](img-51.jpeg)\n\nEGEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 3: ACQUISITION AND INTERPOLATION\n19",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -783,8 +783,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 3: ACQUISITION AND INTERPOLATION\n20",
-      "markdown": "# Questions\n\nHow to resize an image with best quality?\n\n![img-52.jpeg](img-52.jpeg)\nOriginal low-res image\n\n![img-53.jpeg](img-53.jpeg)\nNearest neighbor\n\n![img-54.jpeg](img-54.jpeg)\nBilinear interpolation\n\n![img-55.jpeg](img-55.jpeg)\nBi-cubic interpolation\n\n![img-56.jpeg](img-56.jpeg)\nModel-based interpolation\n\n",
+      "footer": null,
+      "markdown": "# Questions\n\nHow to resize an image with best quality?\n\n![img-52.jpeg](img-52.jpeg)\nOriginal low-res image\n\n![img-53.jpeg](img-53.jpeg)\nNearest neighbor\n\n![img-54.jpeg](img-54.jpeg)\nBilinear interpolation\n\n![img-55.jpeg](img-55.jpeg)\nBi-cubic interpolation\n\n![img-56.jpeg](img-56.jpeg)\nModel-based interpolation\n\nECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 3: ACQUISITION AND INTERPOLATION\n20",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -843,8 +843,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION",
-      "markdown": "# What is the ideal interpolation?\n\n![img-57.jpeg](img-57.jpeg)\n\n![img-58.jpeg](img-58.jpeg)\n\n![img-59.jpeg](img-59.jpeg)\n\n![img-60.jpeg](img-60.jpeg)\n\n![img-61.jpeg](img-61.jpeg)\n\n![img-62.jpeg](img-62.jpeg)\n\n$$\nX _ {r} (j \\omega) = X _ {p} (j \\omega) H (j \\omega)\n$$\n\n",
+      "footer": null,
+      "markdown": "# What is the ideal interpolation?\n\n![img-57.jpeg](img-57.jpeg)\n\n![img-58.jpeg](img-58.jpeg)\n\n![img-59.jpeg](img-59.jpeg)\n\n![img-60.jpeg](img-60.jpeg)\n\n![img-61.jpeg](img-61.jpeg)\n\n![img-62.jpeg](img-62.jpeg)\n\n$$\nX _ {r} (j \\omega) = X _ {p} (j \\omega) H (j \\omega)\n$$\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -912,8 +912,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION",
-      "markdown": "# Ideal Interpolation\n\n$$\nX _ {r} (j \\omega) = X _ {p} (j \\omega) H (j \\omega) \\leftrightarrow x _ {r} (t) = x _ {p} (t) * h _ {i d e a l} (t)\n$$\n\n![img-63.jpeg](img-63.jpeg)\n\n![img-64.jpeg](img-64.jpeg)\n\n![img-65.jpeg](img-65.jpeg)\n\nWhat is the implication here?\n\nDependency on infinity and non-causality make this not physically realizable\n\n",
+      "footer": null,
+      "markdown": "# Ideal Interpolation\n\n$$\nX _ {r} (j \\omega) = X _ {p} (j \\omega) H (j \\omega) \\leftrightarrow x _ {r} (t) = x _ {p} (t) * h _ {i d e a l} (t)\n$$\n\n![img-63.jpeg](img-63.jpeg)\n\n![img-64.jpeg](img-64.jpeg)\n\n![img-65.jpeg](img-65.jpeg)\n\nWhat is the implication here?\n\nDependency on infinity and non-causality make this not physically realizable\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -930,8 +930,8 @@
           "id": "img-64.jpeg",
           "top_left_x": 861,
           "top_left_y": 799,
-          "bottom_right_x": 1642,
-          "bottom_right_y": 1090,
+          "bottom_right_x": 1640,
+          "bottom_right_y": 1087,
           "image_base64": null,
           "image_annotation": null
         },
@@ -953,9 +953,9 @@
         "height": 1500,
         "width": 2667
       },
-      "header": "ECEN5793 DIGITAL IMAGE PROCESSING",
-      "footer": "LECTURE 3: ACQUISITION AND INTERPOLATION\n23",
-      "markdown": "# Zero-order Hold (ZOH) &amp; Linear Interpolation\n\n![img-66.jpeg](img-66.jpeg)\n\n",
+      "header": null,
+      "footer": null,
+      "markdown": "# Zero-order Hold (ZOH) &amp; Linear Interpolation\n\n![img-66.jpeg](img-66.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 3: ACQUISITION AND INTERPOLATION\n23",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -978,8 +978,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 3: ACQUISITION AND INTERPOLATION",
-      "markdown": "# Zooming and Shrinking\n\nBoth zooming and shrinking are applied to digital images with two steps\n- The creation of new pixel locations\n- The assignment of gray levels to those new locations\n\nPixel Interpolation is the process of using known data to estimate values at unknown locations.\n- Nearest neighbor interpolation (ZOH)\n- Pixel replication (special case of nearest neighbor interpolation)\n- Bilinear interpolation\n- Bicubic interpolation\n\nZooming and shrinking can be done in a similar manner.\n\n",
+      "footer": null,
+      "markdown": "# Zooming and Shrinking\n\nBoth zooming and shrinking are applied to digital images with two steps\n- The creation of new pixel locations\n- The assignment of gray levels to those new locations\n\nPixel Interpolation is the process of using known data to estimate values at unknown locations.\n- Nearest neighbor interpolation (ZOH)\n- Pixel replication (special case of nearest neighbor interpolation)\n- Bilinear interpolation\n- Bicubic interpolation\n\nZooming and shrinking can be done in a similar manner.\n\nECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 3: ACQUISITION AND INTERPOLATION",
       "tables": [],
       "hyperlinks": [],
       "images": []
@@ -992,8 +992,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION\n\n25",
-      "markdown": "# How to create new pixel locations?\n\nIn the zooming case, when ratio $p$ is not integer, usually new pixels (red points) are created not on the grid.\n\n![img-67.jpeg](img-67.jpeg)\n\n",
+      "footer": null,
+      "markdown": "# How to create new pixel locations?\n\nIn the zooming case, when ratio $p$ is not integer, usually new pixels (red points) are created not on the grid.\n\n![img-67.jpeg](img-67.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION\n\n25",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -1016,8 +1016,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION",
-      "markdown": "# Linear Interpolation (1-D)\n\nThe 1-D linear interpolator involves a linear model to compute the values of new samples as\n\n![img-68.jpeg](img-68.jpeg)\n\n$$\nd = x ^ {\\prime} - x\n$$\n\n$$\nx = \\operatorname {f l o o r} \\left(x ^ {\\prime}\\right)\n$$\n\n$$\nx + 1 = \\operatorname {c e i l} \\left(x ^ {\\prime}\\right)\n$$\n\n$$\nv \\left(x ^ {\\prime}\\right) = (1 - d) \\cdot f (x) + d \\cdot f (\\hat {x} + 1)\n$$\n\n$$\nv \\left(x ^ {\\prime}\\right) = (1 - d) f \\left(\\operatorname {f l o o r} \\left(x ^ {\\prime}\\right)\\right) + d \\cdot f \\left(\\operatorname {c e i l} \\left(x ^ {\\prime}\\right)\\right)\n$$\n\n",
+      "footer": null,
+      "markdown": "# Linear Interpolation (1-D)\n\nThe 1-D linear interpolator involves a linear model to compute the values of new samples as\n\n![img-68.jpeg](img-68.jpeg)\n\n$$\nd = x ^ {\\prime} - x\n$$\n\n$$\nx = \\operatorname {f l o o r} \\left(x ^ {\\prime}\\right)\n$$\n\n$$\nx + 1 = \\operatorname {c e i l} \\left(x ^ {\\prime}\\right)\n$$\n\n$$\nv \\left(x ^ {\\prime}\\right) = (1 - d) \\cdot f (x) + d \\cdot f (\\hat {x} + 1)\n$$\n\n$$\nv \\left(x ^ {\\prime}\\right) = (1 - d) f \\left(\\operatorname {f l o o r} \\left(x ^ {\\prime}\\right)\\right) + d \\cdot f \\left(\\operatorname {c e i l} \\left(x ^ {\\prime}\\right)\\right)\n$$\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -1039,9 +1039,9 @@
         "height": 1500,
         "width": 2667
       },
-      "header": "ECEN5793 DIGITAL IMAGE PROCESSING",
-      "footer": "LECTURE 3: ACQUISITION AND INTERPOLATION\n27",
-      "markdown": "# Coordinate System in Matlab\n\n![img-69.jpeg](img-69.jpeg)\n\n",
+      "header": null,
+      "footer": null,
+      "markdown": "# Coordinate System in Matlab\n\n![img-69.jpeg](img-69.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 3. ACQUISITION AND INTERPOLATION\n27",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -1063,9 +1063,9 @@
         "height": 1500,
         "width": 2667
       },
-      "header": "ECEN5793 DIGITAL IMAGE PROCESSING",
-      "footer": "LECTURE 3: ACQUISITION AND INTERPOLATION",
-      "markdown": "# Coordinate System in numpy\n\n![img-70.jpeg](img-70.jpeg)\n\n",
+      "header": null,
+      "footer": null,
+      "markdown": "# Coordinate System in numpy\n\n![img-70.jpeg](img-70.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3. ACQUISITION AND INTERPOLATION",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -1074,7 +1074,7 @@
           "top_left_x": 701,
           "top_left_y": 443,
           "bottom_right_x": 2144,
-          "bottom_right_y": 1335,
+          "bottom_right_y": 1336,
           "image_base64": null,
           "image_annotation": null
         }
@@ -1087,9 +1087,9 @@
         "height": 1500,
         "width": 2667
       },
-      "header": "ECEN5793 DIGITAL IMAGE PROCESSING",
-      "footer": "LECTURE 3. ACQUISITION AND INTERPOLATION\n29",
-      "markdown": "# Coordinate swap\n\n![img-71.jpeg](img-71.jpeg)\n\n",
+      "header": null,
+      "footer": null,
+      "markdown": "# Coordinate swap\n\n![img-71.jpeg](img-71.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 3. ACQUISITION AND INTERPOLATION\n29",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -1112,8 +1112,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 3: ACQUISITION AND INTERPOLATION\n30",
-      "markdown": "# A crash course in MATLAB\n\n## Image I/O\n- imread() \u2013 input image\n- imwrite() \u2013 output image\n- imshow() \u2013 display image\n\n## Data types for intensity\n- im2double() \u2013 convert values to double\n- im2uint8(), im2uint16() \u2013 convert to an unsigned int\n- mat2gray() \u2013 converts matrix to a gray scale image [0,1]\n\n## Indexing and geometry\n- size() \u2013 return size of matrix\n- ndims() \u2013 return number of dimensions of matrix\n- meshgrid(), ndgrid() \u2013 replication of an array over matrix\n- find() \u2013 find subscript where condition is satisfied in array\n- sub2ind() \u2013 convert subscript notation to index\n\nhttps://www.mathworks.com/help/images/\n\n![img-72.jpeg](img-72.jpeg)\n\n# MATLAB\u00ae\n\n",
+      "footer": null,
+      "markdown": "# A crash course in MATLAB\n\n## Image I/O\n- imread() \u2013 input image\n- imwrite() \u2013 output image\n- imshow() \u2013 display image\n\n## Data types for intensity\n- im2double() \u2013 convert values to double\n- im2uint8(), im2uint16() \u2013 convert to an unsigned int\n- mat2gray() \u2013 converts matrix to a gray scale image [0,1]\n\n## Indexing and geometry\n- size() \u2013 return size of matrix\n- ndims() \u2013 return number of dimensions of matrix\n- meshgrid(), ndgrid() \u2013 replication of an array over matrix\n- find() \u2013 find subscript where condition is satisfied in array\n- sub2ind() \u2013 convert subscript notation to index\n\nhttps://www.mathworks.com/help/images/\n\n![img-72.jpeg](img-72.jpeg)\n\n# MATLAB\u00ae\n\nECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 3: ACQUISITION AND INTERPOLATION\n30",
       "tables": [],
       "hyperlinks": [
         "https://www.mathworks.com/help/images/"
@@ -1138,8 +1138,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 3: ACQUISITION AND INTERPOLATION",
-      "markdown": "# A crash course in a python stack\n\n- Python3 \u2013 the more recent the better\n- NumPy \u2013 library for matrix manipulation\n- OpenCV \u2013 image I/O and classical computer vision\n- Matplotlib \u2013 graphing and output image utilities\n- scikit-image \u2013 image utilities\n\nSimplest install:\n\n- Install python - https://www.python.org/downloads/\n- Install pip - https://pip.pypa.io/en/stable/installation/\n- Use pip to install libraries (terminal) \u2013\n- pip install numpy\n- pip install opencv-python\n- pip install matplotlib\n- pip install scikit-image\n\nimport numpy as np\nimport cv2\nimport matplotlib.pyplot as plt\nimport skimage\n\nhttps://docs.opencv.org/\nhttps://numpy.org/doc/stable/\nhttps://matplotlib.org/stable/api/index\nhttps://scikit-image.org/docs/stable/\n\n![img-73.jpeg](img-73.jpeg)\n\n",
+      "footer": null,
+      "markdown": "# A crash course in a python stack\n\n- Python3 \u2013 the more recent the better\n- NumPy \u2013 library for matrix manipulation\n- OpenCV \u2013 image I/O and classical computer vision\n- Matplotlib \u2013 graphing and output image utilities\n- scikit-image \u2013 image utilities\n\nSimplest install:\n\n- Install python - https://www.python.org/downloads/\n- Install pip - https://pip.pypa.io/en/stable/installation/\n- Use pip to install libraries (terminal) \u2013\n- pip install numpy\n- pip install opencv-python\n- pip install matplotlib\n- pip install scikit-image\n\nimport numpy as np\nimport cv2\nimport matplotlib.pyplot as plt\nimport skimage\n\nhttps://docs.opencv.org/\nhttps://numpy.org/doc/stable/\nhttps://matplotlib.org/stable/api/index\nhttps://scikit-image.org/docs/stable/\n\n![img-73.jpeg](img-73.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 3: ACQUISITION AND INTERPOLATION",
       "tables": [],
       "hyperlinks": [
         "https://www.python.org/downloads/",
@@ -1171,8 +1171,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION",
-      "markdown": "# A crash course in a python stack\n\n## Image I/O\n\n- cv2.imread() \u2013 loads BGR not RGB\n- plt.imread()\n- skimage.io.imread()\n- cv2.imwrite()\n- plt.imsave()\n- skimage.io.imsave()\n- plt.imshow()\n\n## Data types for intensity\n\n- img.astype(np.float64)/max_value \u2013 explicit normalization for a double\n- (img * 255).astype(np.iint8) \u2013 assumes [0,1] for converting to uint\n- (img \u2013 img.min())/(img.max() \u2013 img.min()) \u2013 convert any matrix to gray scale\n\n## Indexing and geometry\n\n- A.shape \u2013 return size of matrix\n- A.ndim \u2013 return number of dimensions of matrix\n- np.meshgrid(x,y) \u2013 replication of an array over matrix\n- np.where() \u2013 find subscript where condition is satisfied in array\n- np.ravel_multi_index((r,c), sz) \u2013 convert subscript notation to index\n\n![img-74.jpeg](img-74.jpeg)\n\n",
+      "footer": null,
+      "markdown": "# A crash course in a python stack\n\n## Image I/O\n\n- cv2.imread() \u2013 loads BGR not RGB\n- plt.imread()\n- skimage.io.imread()\n- cv2.imwrite()\n- plt.imsave()\n- skimage.io.imsave()\n- plt.imshow()\n\n## Data types for intensity\n\n- img.astype(np.float64)/max_value \u2013 explicit normalization for a double\n- (img * 255).astype(np.iint8) \u2013 assumes [0,1] for converting to uint\n- (img \u2013 img.min())/(img.max() \u2013 img.min()) \u2013 convert any matrix to gray scale\n\n## Indexing and geometry\n\n- A.shape \u2013 return size of matrix\n- A.ndim \u2013 return number of dimensions of matrix\n- np.meshgrid(x,y) \u2013 replication of an array over matrix\n- np.where() \u2013 find subscript where condition is satisfied in array\n- np.ravel_multi_index((r,c), sz) \u2013 convert subscript notation to index\n\n![img-74.jpeg](img-74.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -1195,8 +1195,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION",
-      "markdown": "# Linear Interpolation (2-D)\n\nBilinear interpolation takes a weighted average of four pixels in the original image to the new pixel.\n\n$$\n\\begin{array}{l} I (x ^ {\\prime}, y ^ {\\prime}) \\\\ = (1 - u) (1 - v) f (\\operatorname {f l o o r} \\left(x ^ {\\prime}\\right), \\operatorname {f l o o r} \\left(y ^ {\\prime}\\right)) \\\\ + (1 - u) \\cdot v \\cdot f (\\operatorname {f l o o r} \\left(x ^ {\\prime}\\right), \\operatorname {c e i l} \\left(y ^ {\\prime}\\right)) \\\\ + u \\cdot (1 - v) \\cdot f (\\operatorname {c e i l} \\left(x ^ {\\prime}\\right), \\operatorname {f l o o r} \\left(y ^ {\\prime}\\right)) \\\\ + u \\cdot v \\cdot f (\\operatorname {c e i l} \\left(x ^ {\\prime}\\right), \\operatorname {c e i l} \\left(y ^ {\\prime}\\right)) \\\\ \\end{array}\n$$\n\nIn programming, you have to use either floor(. or ceil(). But don't use them together. Why?\n\n![img-75.jpeg](img-75.jpeg)\n\n",
+      "footer": null,
+      "markdown": "# Linear Interpolation (2-D)\n\nBilinear interpolation takes a weighted average of four pixels in the original image to the new pixel.\n\n$$\n\\begin{array}{l} I (x ^ {\\prime}, y ^ {\\prime}) \\\\ = (1 - u) (1 - v) f (\\operatorname {f l o o r} \\left(x ^ {\\prime}\\right), \\operatorname {f l o o r} \\left(y ^ {\\prime}\\right)) \\\\ + (1 - u) \\cdot v \\cdot f (\\operatorname {f l o o r} \\left(x ^ {\\prime}\\right), \\operatorname {c e i l} \\left(y ^ {\\prime}\\right)) \\\\ + u \\cdot (1 - v) \\cdot f (\\operatorname {c e i l} \\left(x ^ {\\prime}\\right), \\operatorname {f l o o r} \\left(y ^ {\\prime}\\right)) \\\\ + u \\cdot v \\cdot f (\\operatorname {c e i l} \\left(x ^ {\\prime}\\right), \\operatorname {c e i l} \\left(y ^ {\\prime}\\right)) \\\\ \\end{array}\n$$\n\nIn programming, you have to use either floor(. or ceil(). But don't use them together. Why?\n\n![img-75.jpeg](img-75.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -1219,8 +1219,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION",
-      "markdown": "# Bicubic Interpolation\n\nBicubic interpolation takes a weighted average of 16 pixels in the original image to the new pixel.\n\nThe contribution of each of the 16 neighboring pixels to the new interpolated point is defined by a bicubic function which is related the distance between the new point and each of 16 pixels (the closer distance, the stronger contribution)\n\n![img-76.jpeg](img-76.jpeg)\n\n",
+      "footer": null,
+      "markdown": "# Bicubic Interpolation\n\nBicubic interpolation takes a weighted average of 16 pixels in the original image to the new pixel.\n\nThe contribution of each of the 16 neighboring pixels to the new interpolated point is defined by a bicubic function which is related the distance between the new point and each of 16 pixels (the closer distance, the stronger contribution)\n\n![img-76.jpeg](img-76.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -1243,8 +1243,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION",
-      "markdown": "# Bicubic Interpolation (Cont'd)\n\nThe interpolation kernel using the Ricker wavelet is given by\n\n$$\nh(x) = \\begin{cases} 1 - 2|x|^2 + |x|^3 &amp; \\text{for } 0 \\leq |x| \\leq 1 \\\\ 4 - 8|x| + 5|x|^2 - |x|^3 &amp; \\text{for } 1 &lt; |x| \\leq 2 \\\\ 0 &amp; \\text{otherwise} \\end{cases}\n$$\n\n![img-77.jpeg](img-77.jpeg)\n\n![img-78.jpeg](img-78.jpeg)\n\nThen the 2D bicubic interpolation is computed as\n\n$$\nI(x', y') = \\sum_{m=1}^{4} \\sum_{n=1}^{4} h(x_m - x') h(y_n - y') f(x_m, y_n)\n$$\n\n",
+      "footer": null,
+      "markdown": "# Bicubic Interpolation (Cont'd)\n\nThe interpolation kernel using the Ricker wavelet is given by\n\n$$\nh(x) = \\begin{cases} 1 - 2|x|^2 + |x|^3 &amp; \\text{for } 0 \\leq |x| \\leq 1 \\\\ 4 - 8|x| + 5|x|^2 - |x|^3 &amp; \\text{for } 1 &lt; |x| \\leq 2 \\\\ 0 &amp; \\text{otherwise} \\end{cases}\n$$\n\n![img-77.jpeg](img-77.jpeg)\n\n![img-78.jpeg](img-78.jpeg)\n\nThen the 2D bicubic interpolation is computed as\n\n$$\nI(x', y') = \\sum_{m=1}^{4} \\sum_{n=1}^{4} h(x_m - x') h(y_n - y') f(x_m, y_n)\n$$\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -1275,9 +1275,9 @@
         "height": 1500,
         "width": 2667
       },
-      "header": "ECEN5793 DIGITAL IMAGE PROCESSING",
-      "footer": "LECTURE 3: ACQUISITION AND INTERPOLATION\n36",
-      "markdown": "![img-79.jpeg](img-79.jpeg)\n![img-80.jpeg](img-80.jpeg)\n![img-81.jpeg](img-81.jpeg)\n\n",
+      "header": null,
+      "footer": null,
+      "markdown": "![img-79.jpeg](img-79.jpeg)\n![img-80.jpeg](img-80.jpeg)\n![img-81.jpeg](img-81.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 3: ACQUISITION AND INTERPOLATION\n36",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -1318,8 +1318,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION\n\n37",
-      "markdown": "# Super-resolution vs. Interpolation (1)\n\nInterpolation involves up-sampling the low-resolution image which may not recover sufficient high-frequency components, leading to blurred images.\n\nSuper-resolution (SR) involves three major processes: interpolation, deblurring and denoising, leading to more detailed and sharper images.\n\n![img-82.jpeg](img-82.jpeg)\n\n",
+      "footer": null,
+      "markdown": "# Super-resolution vs. Interpolation (1)\n\nInterpolation involves upsampling the low-resolution image which may not recover sufficient high-frequency components, leading to blurred images.\n\nSuper-resolution (SR) involves three major processes: interpolation, deblurring and denoising, leading to more detailed and sharper images.\n\n![img-82.jpeg](img-82.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION\n\n37",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -1327,7 +1327,7 @@
           "id": "img-82.jpeg",
           "top_left_x": 1168,
           "top_left_y": 418,
-          "bottom_right_x": 2448,
+          "bottom_right_x": 2450,
           "bottom_right_y": 1381,
           "image_base64": null,
           "image_annotation": null
@@ -1342,8 +1342,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION\n\n38",
-      "markdown": "# Super-resolution vs. Interpolation (2)\n\nInterpolation involves upsampling the low-resolution image which may not recover sufficient high-frequency components, leading to blurred images.\n\nSuper-resolution (SR) involves three major processes: interpolation, deblurring and denoising, leading to more detailed and sharper images.\n\n![img-83.jpeg](img-83.jpeg)\n\n",
+      "footer": null,
+      "markdown": "# Super-resolution vs. Interpolation (2)\n\nInterpolation involves upsampling the low-resolution image which may not recover sufficient high-frequency components, leading to blurred images.\n\nSuper-resolution (SR) involves three major processes: interpolation, deblurring and denoising, leading to more detailed and sharper images.\n\n![img-83.jpeg](img-83.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION\n\n38",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -1366,8 +1366,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION",
-      "markdown": "# Deep Learning for SR\n\n![img-84.jpeg](img-84.jpeg)\nInput\n\n![img-85.jpeg](img-85.jpeg)\n\nSuper Resolution using Keras:\nhttps://github.com/MaokeAl/SRCNN-keras\n\nhttps://medium.com/data-science/deep-learning-based-super-resolution-without-using-a-gan-1.1c9bb5b6cd5\n\n![img-86.jpeg](img-86.jpeg)\nUpcaled nearest neighbour\n\n![img-87.jpeg](img-87.jpeg)\nUpcaled bilinear\n\n![img-88.jpeg](img-88.jpeg)\nModel predication\n\n![img-89.jpeg](img-89.jpeg)\nGround truth\n\n",
+      "footer": null,
+      "markdown": "# Deep Learning for SR\n\n![img-84.jpeg](img-84.jpeg)\nInput\n\n![img-85.jpeg](img-85.jpeg)\n\nSuper Resolution using Keras:\nhttps://github.com/MaokeAl/SRCNN-keras\n\nhttps://medium.com/data-science/deep-learning-based-super-resolution-without-using-a-gan-1.1c9bb5b6cd5\n\n![img-86.jpeg](img-86.jpeg)\nUpcaled nearest neighbour\n\n![img-87.jpeg](img-87.jpeg)\nUpcaled bilinear\n\n![img-88.jpeg](img-88.jpeg)\nModel predication\n\n![img-89.jpeg](img-89.jpeg)\nGround truth\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 3: ACQUISITION AND INTERPOLATION",
       "tables": [],
       "hyperlinks": [
         "https://github.com/MaokeAI/SRCNN-keras",

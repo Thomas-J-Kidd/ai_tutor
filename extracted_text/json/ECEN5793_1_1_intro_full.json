@@ -4,7 +4,7 @@
     "file_path": "slides/ECEN5793/ECEN5793_1_1_intro.pdf",
     "document_type": "pdf",
     "page_count": 18,
-    "processing_time": 3.7882087230682373,
+    "processing_time": 3.241929531097412,
     "tokens_used": 0,
     "model": "mistral-ocr-latest",
     "attempts": 3,
@@ -13,8 +13,8 @@
       "api_response_keys": [
         "pages",
         "model",
-        "document_annotation",
-        "usage_info"
+        "usage_info",
+        "document_annotation"
       ]
     }
   },
@@ -36,8 +36,8 @@
           "id": "img-0.jpeg",
           "top_left_x": 125,
           "top_left_y": 571,
-          "bottom_right_x": 624,
-          "bottom_right_y": 845,
+          "bottom_right_x": 621,
+          "bottom_right_y": 841,
           "image_base64": null,
           "image_annotation": null
         }
@@ -51,8 +51,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 1. COURSE INTRODUCTION",
-      "markdown": "# Agenda\n\n- Introduce general information about this course\n- Introduce Helpful Materials\n- Introduce the main projects in this class\n\n",
+      "footer": null,
+      "markdown": "# Agenda\n\n- Introduce general information about this course\n- Introduce Helpful Materials\n- Introduce the main projects in this class\n\nECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 1. COURSE INTRODUCTION",
       "tables": [],
       "hyperlinks": [],
       "images": []
@@ -65,15 +65,15 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 1. COURSE INTRODUCTION",
-      "markdown": "# Course Expectations\n\n## Helpful practices\n- Attending the class\n- Attending Office Hours (ES 267, WR 1:00-2:30PM)\n- Doing projects independently and promptly\n- Reading supplementary materials\n\n![img-1.jpeg](img-1.jpeg)\n\n",
+      "footer": null,
+      "markdown": "# Course Expectations\n\n## Helpful practices\n- Attending the class\n- Attending Office Hours (ES 267, WR 1:00-2:30PM)\n- Doing projects independently and promptly\n- Reading supplementary materials\n\n![img-1.jpeg](img-1.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 1. COURSE INTRODUCTION",
       "tables": [],
       "hyperlinks": [],
       "images": [
         {
           "id": "img-1.jpeg",
           "top_left_x": 1826,
-          "top_left_y": 768,
+          "top_left_y": 766,
           "bottom_right_x": 2578,
           "bottom_right_y": 1366,
           "image_base64": null,
@@ -89,8 +89,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 1. COURSE INTRODUCTION",
-      "markdown": "# Zoom Access\n\nIn-person class attendance is **strongly encouraged**.\n\n- Online attendance via ZOOM (937 4098 0202, Passcode: Image)\n- Offline video watching will also be available\n\nAll classes will be recorded, and lecture videos will be made available online in Canvas for review.\n\n![img-2.jpeg](img-2.jpeg)\n\n",
+      "footer": null,
+      "markdown": "# Zoom Access\n\nIn-person class attendance is **strongly encouraged**.\n\n- Online attendance via ZOOM (937 4098 0202, Passcode: Image)\n- Offline video watching will also be available\n\nAll classes will be recorded, and lecture videos will be made available online in Canvas for review.\n\n![img-2.jpeg](img-2.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 1. COURSE INTRODUCTION",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -113,8 +113,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 1. COURSE INTRODUCTION",
-      "markdown": "# Grading Policy\n\nThe final grade is based on\n- All six computer projects (85%)\n- One student presentation (15%)\n\nThe letter grade is based on\n- &gt;=90: A\n- 80-89: B\n- 70-79: C\n- 60-69: D\n- &lt;60: F\n\n",
+      "footer": null,
+      "markdown": "# Grading Policy\n\nThe final grade is based on\n- All six computer projects (85%)\n- One student presentation (15%)\n\nThe letter grade is based on\n- &gt;=90: A\n- 80-89: B\n- 70-79: C\n- 60-69: D\n- &lt;60: F\n\nECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 1. COURSE INTRODUCTION",
       "tables": [],
       "hyperlinks": [],
       "images": []
@@ -127,8 +127,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 1. COURSE INTRODUCTION",
-      "markdown": "# Suggested Reading and Prerequisites\n\n## Main Reference\n\nDigital Image Processing 4e\n\nPearson\n\nGonzales and Woods\n\nISBN: 978-0-13-335672-4\n\n![img-3.jpeg](img-3.jpeg)\n\n![img-4.jpeg](img-4.jpeg)\n\n![img-5.jpeg](img-5.jpeg)\n\n## Prerequisites\n\n- ECEN 4763/5763 Digital Signal Processing\n- Python background is plus\n\n",
+      "footer": null,
+      "markdown": "# Suggested Reading and Prerequisites\n\n## Main Reference\n\nDigital Image Processing 4e\n\nPearson\n\nGonzales and Woods\n\nISBN: 978-0-13-335672-4\n\n![img-3.jpeg](img-3.jpeg)\n\n![img-4.jpeg](img-4.jpeg)\n\n![img-5.jpeg](img-5.jpeg)\n\n## Prerequisites\n\n- ECEN 4763/5763 Digital Signal Processing\n- Python background is plus\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 1. COURSE INTRODUCTION",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -169,8 +169,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 1. COURSE INTRODUCTION",
-      "markdown": "# Suggested Reading and Prerequisites\n\nSupplementary References\n\nDeep Learning for Vision Systems\n\nManning\n\nMohamed Elgendy\n\nISBN: 978-1-61-729619-2\n\nLearning OpenCV 4 Computer Vision with Python 3 3e\n\nPackt\n\nJoseph Howse and Joe Minichino\n\nISBN: 978-1-78-953161-9\n\n",
+      "footer": null,
+      "markdown": "# Suggested Reading and Prerequisites\n\nSupplementary References\n\nDeep Learning for Vision Systems\n\nManning\n\nMohamed Elgendy\n\nISBN: 978-1-61-729619-2\n\nLearning OpenCV 4 Computer Vision with Python 3 3e\n\nPackt\n\nJoseph Howse and Joe Minichino\n\nISBN: 978-1-78-953161-9\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 1. COURSE INTRODUCTION",
       "tables": [],
       "hyperlinks": [],
       "images": []
@@ -183,8 +183,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 1. COURSE INTRODUCTION",
-      "markdown": "# Suggested Reading and Prerequisites\n\nSupplementary References\n\nhttps://github.com/kjw0612/awesome-deep-vision#books\n\n",
+      "footer": null,
+      "markdown": "# Suggested Reading and Prerequisites\n\nSupplementary References\n\nhttps://github.com/kjw0612/awesome-deep-vision#books\n\nECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 1. COURSE INTRODUCTION",
       "tables": [],
       "hyperlinks": [
         "https://github.com/kjw0612/awesome-deep-vision#books",
@@ -203,8 +203,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 1. COURSE INTRODUCTION",
-      "markdown": "# Why do we need images?\n\nOne picture is worth more than ten thousand words.\n\nFive senses\n- Sight\n- Hearing\n- Touch\n- Taste\n- Smell\n\nOften imaging is the interface to computer systems for data that is beyond our sensory perception\n\n![img-6.jpeg](img-6.jpeg)\n\n",
+      "footer": null,
+      "markdown": "# Why do we need images?\n\nOne picture is worth more than ten thousand words.\n\nFive senses\n- Sight\n- Hearing\n- Touch\n- Taste\n- Smell\n\nOften imaging is the interface to computer systems for data that is beyond our sensory perception\n\n![img-6.jpeg](img-6.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 1. COURSE INTRODUCTION",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -227,8 +227,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 1. COURSE INTRODUCTION",
-      "markdown": "# Digital Image Processing (DIP)\n\nAn **image** is defined a two-dimensional function $f(x, y)$\n\n- $x$ and $y$ are spatial (plane) coordinates\n- the amplitude $f(x, y)$ of coordinate $(x, y)$ is called intensity or gray level.\n\nA **digital image** is an image when $x, y$, and the amplitude values of $f(x, y)$ are all finite, discrete quantities.\n\n- DIP refers to processing digital images by means of a digital computer.\n- **Pixels** are referred to basic image elements which consist an image.\n\nHow about a color image?  How about a color video?\n\n$$\nf(x, y, c) \\text{ where } c = 1,2,3\n$$\n\n$$\nf(x, y, c, t)\n$$\n\n![img-7.jpeg](img-7.jpeg)\n2-bit\n\n![img-8.jpeg](img-8.jpeg)\n10-bit\n\n![img-9.jpeg](img-9.jpeg)\n\n",
+      "footer": null,
+      "markdown": "# Digital Image Processing (DIP)\n\nAn **image** is defined a two-dimensional function $f(x, y)$\n\n- $x$ and $y$ are spatial (plane) coordinates\n- the amplitude $f(x, y)$ of coordinate $(x, y)$ is called intensity or gray level.\n\nA **digital image** is an image when $x, y$, and the amplitude values of $f(x, y)$ are all finite, discrete quantities.\n\n- **DIP** refers to processing digital images by means of a digital computer.\n- **Pixels** are referred to basic image elements which consist an image.\n\nHow about a color image?  How about a color video?\n\n$$\nf(x, y, c) \\text{ where } c = 1, 2, 3\n$$\n\n$$\nf(x, y, c, t)\n$$\n\n![img-7.jpeg](img-7.jpeg)\n2-bit\n\n![img-8.jpeg](img-8.jpeg)\n10-bit\n\n![img-9.jpeg](img-9.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 1. COURSE INTRODUCTION",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -269,8 +269,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 1. COURSE INTRODUCTION",
-      "markdown": "![img-10.jpeg](img-10.jpeg)\nOutputs of these processes generally are images\nClass Outline\n\n",
+      "footer": null,
+      "markdown": "![img-10.jpeg](img-10.jpeg)\nOutputs of these processes generally are images\nClass Outline\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 1. COURSE INTRODUCTION",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -293,8 +293,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 1. COURSE INTRODUCTION",
-      "markdown": "# Image Acquisition\n\n![img-11.jpeg](img-11.jpeg)\n\nFIGURE 2.15 An example of the digital image acquisition process. (a) Energy (\"illumination\") source. (b) An element of a scene. (c) Imaging system. (d) Projection of the scene onto the image plane. (e) Digitized image.\n\n",
+      "footer": null,
+      "markdown": "# Image Acquisition\n\n![img-11.jpeg](img-11.jpeg)\n\nFIGURE 2.15 An example of the digital image acquisition process. (a) Energy (\"illumination\") source. (b) An element of a scene. (c) Imaging system. (d) Projection of the scene onto the image plane. (e) Digitized image.\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 1. COURSE INTRODUCTION",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -317,8 +317,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 1. COURSE INTRODUCTION",
-      "markdown": "# Image Enhancement\n\n![img-12.jpeg](img-12.jpeg)\n\n![img-13.jpeg](img-13.jpeg)\n\n![img-14.jpeg](img-14.jpeg)\n\n![img-15.jpeg](img-15.jpeg)\n\na b c d\n\n## FIGURE 4.30\n\n(a) A chest X-ray image. (b) Result of Butterworth highpass filtering.\n(c) Result of high-frequency emphasis filtering.\n(d) Result of performing histogram equalization on (c). (Original image courtesy Dr. Thomas R. Gest, Division of Anatomical Sciences, University of Michigan Medical School.)\n\n",
+      "footer": null,
+      "markdown": "# Image Enhancement\n\n![img-12.jpeg](img-12.jpeg)\n\n![img-13.jpeg](img-13.jpeg)\n\n![img-14.jpeg](img-14.jpeg)\n\n![img-15.jpeg](img-15.jpeg)\n\na b c d\n\n## FIGURE 4.30\n\n(a) A chest X-ray image. (b) Result of Butterworth highpass filtering.\n(c) Result of high-frequency emphasis filtering.\n(d) Result of performing histogram equalization on (c). (Original image courtesy Dr. Thomas R. Gest, Division of Anatomical Sciences, University of Michigan Medical School.)\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 1. COURSE INTRODUCTION",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -368,8 +368,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 1. COURSE INTRODUCTION",
-      "markdown": "# Image Restoration\n\n![img-16.jpeg](img-16.jpeg)\n\n![img-17.jpeg](img-17.jpeg)\n\n![img-18.jpeg](img-18.jpeg)\n\na b c\nd e f\ng h i\n\nFIGURE 5.29 (a) Image corrupted by motion blur and additive noise. (b) Result of inverse filtering. (c) Result of Wiener filtering. (d)-(f) Same sequence, but with noise variance one order of magnitude less. (g)-(i) Same sequence, but noise variance reduced by five orders of magnitude from (a). Note in (h) how the deblurred image is quite visible through a \"curtain\" of noise.\n\n",
+      "footer": null,
+      "markdown": "# Image Restoration\n\n![img-16.jpeg](img-16.jpeg)\n\na b c\nd e f\ng h i\n\nFIGURE 5.29 (a) Image corrupted by motion blur and additive noise. (b) Result of inverse filtering. (c) Result of Wiener filtering. (d)-(f) Same sequence, but with noise variance one order of magnitude less. (g)-(i) Same sequence, but noise variance reduced by five orders of magnitude from (a). Note in (h) how the deblurred image is quite visible through a \"curtain\" of noise.\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 1. COURSE INTRODUCTION",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -378,25 +378,7 @@
           "top_left_x": 1266,
           "top_left_y": 6,
           "bottom_right_x": 2650,
-          "bottom_right_y": 460,
-          "image_base64": null,
-          "image_annotation": null
-        },
-        {
-          "id": "img-17.jpeg",
-          "top_left_x": 1266,
-          "top_left_y": 468,
-          "bottom_right_x": 2650,
-          "bottom_right_y": 924,
-          "image_base64": null,
-          "image_annotation": null
-        },
-        {
-          "id": "img-18.jpeg",
-          "top_left_x": 1266,
-          "top_left_y": 928,
-          "bottom_right_x": 2650,
-          "bottom_right_y": 1384,
+          "bottom_right_y": 1386,
           "image_base64": null,
           "image_annotation": null
         }
@@ -410,13 +392,13 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 1. COURSE INTRODUCTION",
-      "markdown": "# Color Image Processing\n\n![img-19.jpeg](img-19.jpeg)\n\n![img-20.jpeg](img-20.jpeg)\n\n![img-21.jpeg](img-21.jpeg)\n\n![img-22.jpeg](img-22.jpeg)\n\n![img-23.jpeg](img-23.jpeg)\n\n![img-24.jpeg](img-24.jpeg)\n\n",
+      "footer": null,
+      "markdown": "# Color Image Processing\n\n![img-17.jpeg](img-17.jpeg)\n\n![img-18.jpeg](img-18.jpeg)\n\n![img-19.jpeg](img-19.jpeg)\n\n![img-20.jpeg](img-20.jpeg)\n\n![img-21.jpeg](img-21.jpeg)\n\n![img-22.jpeg](img-22.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 1. COURSE INTRODUCTION",
       "tables": [],
       "hyperlinks": [],
       "images": [
         {
-          "id": "img-19.jpeg",
+          "id": "img-17.jpeg",
           "top_left_x": 370,
           "top_left_y": 487,
           "bottom_right_x": 784,
@@ -425,7 +407,7 @@
           "image_annotation": null
         },
         {
-          "id": "img-20.jpeg",
+          "id": "img-18.jpeg",
           "top_left_x": 952,
           "top_left_y": 427,
           "bottom_right_x": 1706,
@@ -434,7 +416,7 @@
           "image_annotation": null
         },
         {
-          "id": "img-21.jpeg",
+          "id": "img-19.jpeg",
           "top_left_x": 1768,
           "top_left_y": 483,
           "bottom_right_x": 2208,
@@ -443,7 +425,7 @@
           "image_annotation": null
         },
         {
-          "id": "img-22.jpeg",
+          "id": "img-20.jpeg",
           "top_left_x": 290,
           "top_left_y": 940,
           "bottom_right_x": 941,
@@ -452,7 +434,7 @@
           "image_annotation": null
         },
         {
-          "id": "img-23.jpeg",
+          "id": "img-21.jpeg",
           "top_left_x": 952,
           "top_left_y": 940,
           "bottom_right_x": 1602,
@@ -461,7 +443,7 @@
           "image_annotation": null
         },
         {
-          "id": "img-24.jpeg",
+          "id": "img-22.jpeg",
           "top_left_x": 1610,
           "top_left_y": 943,
           "bottom_right_x": 2264,
@@ -479,13 +461,13 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 1. COURSE INTRODUCTION",
-      "markdown": "# Morphological Processing\n\n![img-25.jpeg](img-25.jpeg)\n\n![img-26.jpeg](img-26.jpeg)\n\n![img-27.jpeg](img-27.jpeg)\n\n![img-28.jpeg](img-28.jpeg)\n\n![img-29.jpeg](img-29.jpeg)\n\n![img-30.jpeg](img-30.jpeg)\n\na b c f\n\nFIGURE 9.11\n\n(a) Noisy image.\n(c) Eroded image.\n(d) Opening of  $A$\n(d) Dilation of the opening.\n(e) Closing of the opening. (Original image for this example courtesy of the National Institute of Standards and Technology.)\n\n",
+      "footer": null,
+      "markdown": "# Morphological Processing\n\n![img-23.jpeg](img-23.jpeg)\n\n![img-24.jpeg](img-24.jpeg)\n\n![img-25.jpeg](img-25.jpeg)\n\n![img-26.jpeg](img-26.jpeg)\n\n![img-27.jpeg](img-27.jpeg)\n\n![img-28.jpeg](img-28.jpeg)\n\na b c f\n\nFIGURE 9.11\n\n(a) Noisy image.\n(c) Eroded image.\n(d) Opening of  $A$\n(d) Dilation of the opening.\n(e) Closing of the opening. (Original image for this example courtesy of the National Institute of Standards and Technology.)\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 1. COURSE INTRODUCTION",
       "tables": [],
       "hyperlinks": [],
       "images": [
         {
-          "id": "img-25.jpeg",
+          "id": "img-23.jpeg",
           "top_left_x": 309,
           "top_left_y": 437,
           "bottom_right_x": 717,
@@ -494,7 +476,7 @@
           "image_annotation": null
         },
         {
-          "id": "img-26.jpeg",
+          "id": "img-24.jpeg",
           "top_left_x": 722,
           "top_left_y": 437,
           "bottom_right_x": 1128,
@@ -503,7 +485,7 @@
           "image_annotation": null
         },
         {
-          "id": "img-27.jpeg",
+          "id": "img-25.jpeg",
           "top_left_x": 309,
           "top_left_y": 760,
           "bottom_right_x": 717,
@@ -512,7 +494,7 @@
           "image_annotation": null
         },
         {
-          "id": "img-28.jpeg",
+          "id": "img-26.jpeg",
           "top_left_x": 722,
           "top_left_y": 874,
           "bottom_right_x": 1128,
@@ -521,7 +503,7 @@
           "image_annotation": null
         },
         {
-          "id": "img-29.jpeg",
+          "id": "img-27.jpeg",
           "top_left_x": 520,
           "top_left_y": 1077,
           "bottom_right_x": 925,
@@ -530,8 +512,8 @@
           "image_annotation": null
         },
         {
-          "id": "img-30.jpeg",
-          "top_left_x": 930,
+          "id": "img-28.jpeg",
+          "top_left_x": 933,
           "top_left_y": 1077,
           "bottom_right_x": 1338,
           "bottom_right_y": 1386,
@@ -548,13 +530,13 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 1. COURSE INTRODUCTION",
-      "markdown": "# Shape Analysis of Objects\n\n![img-31.jpeg](img-31.jpeg)\n\n![img-32.jpeg](img-32.jpeg)\n\n![img-33.jpeg](img-33.jpeg)\n\n![img-34.jpeg](img-34.jpeg)\n\n![img-35.jpeg](img-35.jpeg)\n\n![img-36.jpeg](img-36.jpeg)\n\n![img-37.jpeg](img-37.jpeg)\n\n![img-38.jpeg](img-38.jpeg)\n\n",
+      "footer": null,
+      "markdown": "# Shape Analysis of Objects\n\n![img-29.jpeg](img-29.jpeg)\n\n![img-30.jpeg](img-30.jpeg)\n\n![img-31.jpeg](img-31.jpeg)\n\n![img-32.jpeg](img-32.jpeg)\n\n![img-33.jpeg](img-33.jpeg)\n\n![img-34.jpeg](img-34.jpeg)\n\n![img-35.jpeg](img-35.jpeg)\n\n![img-36.jpeg](img-36.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 1. COURSE INTRODUCTION",
       "tables": [],
       "hyperlinks": [],
       "images": [
         {
-          "id": "img-31.jpeg",
+          "id": "img-29.jpeg",
           "top_left_x": 469,
           "top_left_y": 422,
           "bottom_right_x": 848,
@@ -563,7 +545,7 @@
           "image_annotation": null
         },
         {
-          "id": "img-32.jpeg",
+          "id": "img-30.jpeg",
           "top_left_x": 856,
           "top_left_y": 422,
           "bottom_right_x": 1234,
@@ -572,7 +554,7 @@
           "image_annotation": null
         },
         {
-          "id": "img-33.jpeg",
+          "id": "img-31.jpeg",
           "top_left_x": 1242,
           "top_left_y": 422,
           "bottom_right_x": 1618,
@@ -581,7 +563,7 @@
           "image_annotation": null
         },
         {
-          "id": "img-34.jpeg",
+          "id": "img-32.jpeg",
           "top_left_x": 1626,
           "top_left_y": 422,
           "bottom_right_x": 2005,
@@ -590,7 +572,7 @@
           "image_annotation": null
         },
         {
-          "id": "img-35.jpeg",
+          "id": "img-33.jpeg",
           "top_left_x": 469,
           "top_left_y": 907,
           "bottom_right_x": 848,
@@ -599,7 +581,7 @@
           "image_annotation": null
         },
         {
-          "id": "img-36.jpeg",
+          "id": "img-34.jpeg",
           "top_left_x": 856,
           "top_left_y": 907,
           "bottom_right_x": 1234,
@@ -608,7 +590,7 @@
           "image_annotation": null
         },
         {
-          "id": "img-37.jpeg",
+          "id": "img-35.jpeg",
           "top_left_x": 1242,
           "top_left_y": 907,
           "bottom_right_x": 1618,
@@ -617,7 +599,7 @@
           "image_annotation": null
         },
         {
-          "id": "img-38.jpeg",
+          "id": "img-36.jpeg",
           "top_left_x": 1626,
           "top_left_y": 907,
           "bottom_right_x": 2005,
@@ -635,13 +617,13 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 1. COURSE INTRODUCTION\n18",
-      "markdown": "# Shape Representation of Objects\n\n![img-39.jpeg](img-39.jpeg)\n\n![img-40.jpeg](img-40.jpeg)\n\n![img-41.jpeg](img-41.jpeg)\n\n",
+      "footer": null,
+      "markdown": "# Shape Representation of Objects\n\n![img-37.jpeg](img-37.jpeg)\n\n![img-38.jpeg](img-38.jpeg)\n\n![img-39.jpeg](img-39.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 1. COURSE INTRODUCTION\n18",
       "tables": [],
       "hyperlinks": [],
       "images": [
         {
-          "id": "img-39.jpeg",
+          "id": "img-37.jpeg",
           "top_left_x": 322,
           "top_left_y": 422,
           "bottom_right_x": 1264,
@@ -650,7 +632,7 @@
           "image_annotation": null
         },
         {
-          "id": "img-40.jpeg",
+          "id": "img-38.jpeg",
           "top_left_x": 322,
           "top_left_y": 882,
           "bottom_right_x": 1264,
@@ -659,7 +641,7 @@
           "image_annotation": null
         },
         {
-          "id": "img-41.jpeg",
+          "id": "img-39.jpeg",
           "top_left_x": 1466,
           "top_left_y": 422,
           "bottom_right_x": 2408,

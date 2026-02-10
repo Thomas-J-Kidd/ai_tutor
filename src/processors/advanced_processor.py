@@ -7,7 +7,6 @@ import os
 import time
 import json
 import asyncio
-import requests
 import logging
 from pathlib import Path
 from typing import Dict, Any, List, Optional
@@ -34,11 +33,7 @@ class AdvancedProcessor(BaseProcessor):
     
     def setup_api_client(self):
         """Setup API client for advanced processor"""
-        self.base_url = "https://api.mistral.ai/v1"
-        self.headers = {
-            "Authorization": f"Bearer {self.api_key}",
-            "Content-Type": "application/json"
-        }
+        super().setup_api_client()
     
     async def process_file(self, file_path: Path) -> ProcessingResult:
         """
@@ -127,7 +122,7 @@ class AdvancedProcessor(BaseProcessor):
                 )
             
             # Parse OCR response
-            ocr_response_dict = ocr_response.json()
+            ocr_response_dict = ocr_response
             processing_time = time.time() - start_time
             
             # Create ProcessingResult from OCR response
@@ -168,7 +163,7 @@ class AdvancedProcessor(BaseProcessor):
             )
     
     async def _make_api_request_with_retry(self, endpoint: str, payload: Dict[str, Any], 
-                                          file_path: Path, operation: str) -> Optional[requests.Response]:
+                                          file_path: Path, operation: str) -> Optional[Dict[str, Any]]:
         """
         Make API request with retry logic
         
@@ -179,7 +174,7 @@ class AdvancedProcessor(BaseProcessor):
             operation: Operation name for logging
             
         Returns:
-            Response object or None if all retries failed
+            Response dict or None if all retries failed
         """
         last_error = None
         
@@ -187,17 +182,29 @@ class AdvancedProcessor(BaseProcessor):
             try:
                 logger.debug(f"{operation} for {file_path.name} (attempt {attempt + 1}/{self.config.ocr_config.max_retries})")
                 
-                response = requests.post(
-                    f"{self.base_url}{endpoint}",
-                    headers=self.headers,
-                    json=payload,
-                    timeout=self.config.ocr_config.timeout
-                )
-                
-                if response.status_code == 200:
-                    return response
+                if endpoint == "/ocr":
+                    response = self.client.ocr.process(**payload)
+                    # Convert OCRResponse to dict
+                    if hasattr(response, 'model_dump'):
+                        response_dict = response.model_dump()
+                    else:
+                        response_dict = response.dict()
+                    # Ensure usage_info has total_tokens field (default to 0)
+                    if response_dict.get("usage_info"):
+                        response_dict["usage_info"]["total_tokens"] = response_dict["usage_info"].get("total_tokens", 0)
+                    else:
+                        response_dict["usage_info"] = {"total_tokens": 0, "pages_processed": len(response_dict.get("pages", [])), "doc_size_bytes": None}
+                    return response_dict
+                elif endpoint == "/chat/completions":
+                    response = self.client.chat.complete(**payload)
+                    # Convert ChatCompletionResponse to dict
+                    if hasattr(response, 'model_dump'):
+                        response_dict = response.model_dump()
+                    else:
+                        response_dict = response.dict()
+                    return response_dict
                 else:
-                    last_error = f"API error {response.status_code}: {response.text}"
+                    last_error = f"Unsupported endpoint: {endpoint}"
                     logger.warning(f"Attempt {attempt + 1} failed: {last_error}")
                     
             except Exception as e:
@@ -307,7 +314,7 @@ class AdvancedProcessor(BaseProcessor):
                 "error": "Q&A API request failed"
             }
         
-        response_dict = response.json()
+        response_dict = response
         
         # Extract answer
         answer = ""

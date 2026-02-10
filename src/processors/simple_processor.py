@@ -7,7 +7,6 @@ import os
 import time
 import base64
 import asyncio
-import requests
 import logging
 from pathlib import Path
 from typing import Dict, Any
@@ -31,11 +30,7 @@ class SimpleProcessor(BaseProcessor):
     
     def setup_api_client(self):
         """Setup API client for simple processor"""
-        self.base_url = "https://api.mistral.ai/v1"
-        self.headers = {
-            "Authorization": f"Bearer {self.api_key}",
-            "Content-Type": "application/json"
-        }
+        super().setup_api_client()
     
     async def process_file(self, file_path: Path) -> ProcessingResult:
         """
@@ -82,23 +77,16 @@ class SimpleProcessor(BaseProcessor):
             response = None
             last_error = None
             
+            ocr_response = None
+            last_error = None
+            
             for attempt in range(self.config.ocr_config.max_retries):
                 try:
                     logger.debug(f"Processing {file_path.name} (attempt {attempt + 1}/{self.config.ocr_config.max_retries})")
                     
-                    response = requests.post(
-                        f"{self.base_url}/ocr",
-                        headers=self.headers,
-                        json=payload,
-                        timeout=self.config.ocr_config.timeout
-                    )
+                    ocr_response = self.client.ocr.process(**payload)
+                    break
                     
-                    if response.status_code == 200:
-                        break
-                    else:
-                        last_error = f"API error {response.status_code}: {response.text}"
-                        logger.warning(f"Attempt {attempt + 1} failed: {last_error}")
-                        
                 except Exception as e:
                     last_error = str(e)
                     logger.warning(f"Attempt {attempt + 1} failed: {last_error}")
@@ -107,7 +95,7 @@ class SimpleProcessor(BaseProcessor):
                     await asyncio.sleep(self.config.ocr_config.retry_delay)
             
             # Check if all attempts failed
-            if response is None or response.status_code != 200:
+            if ocr_response is None:
                 processing_time = time.time() - start_time
                 return ProcessingResult.from_api_response(
                     filename=file_path.name,
@@ -118,8 +106,17 @@ class SimpleProcessor(BaseProcessor):
                     error=last_error or "Unknown error",
                 )
             
-            # Parse successful response
-            response_dict = response.json()
+            # Convert OCRResponse to dict for ProcessingResult
+            if hasattr(ocr_response, 'model_dump'):
+                response_dict = ocr_response.model_dump()
+            else:
+                response_dict = ocr_response.dict()
+            # Ensure usage_info has total_tokens field (default to 0)
+            if response_dict.get("usage_info"):
+                response_dict["usage_info"]["total_tokens"] = response_dict["usage_info"].get("total_tokens", 0)
+            else:
+                response_dict["usage_info"] = {"total_tokens": 0, "pages_processed": len(response_dict.get("pages", [])), "doc_size_bytes": None}
+            
             processing_time = time.time() - start_time
             
             # Create ProcessingResult

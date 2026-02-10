@@ -2,7 +2,7 @@
 
 ## Metadata
 - **Document Type**: pdf
-- **Processing Time**: 3.79 seconds
+- **Processing Time**: 3.24 seconds
 - **Status**: Success
 - **Error**: None
 - **Pages**: 18
@@ -36,9 +36,6 @@ Nate Lannan
 - Introduce Helpful Materials
 - Introduce the main projects in this class
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 1. COURSE INTRODUCTION
 
@@ -58,9 +55,6 @@ LECTURE 1. COURSE INTRODUCTION
 - Reading supplementary materials
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 1. COURSE INTRODUCTION
 
@@ -81,9 +75,6 @@ In-person class attendance is **strongly encouraged**.
 All classes will be recorded, and lecture videos will be made available online in Canvas for review.
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 1. COURSE INTRODUCTION
@@ -108,9 +99,6 @@ The letter grade is based on
 - 60-69: D
 - &lt;60: F
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 1. COURSE INTRODUCTION
 
@@ -141,9 +129,6 @@ ISBN: 978-0-13-335672-4
 - ECEN 4763/5763 Digital Signal Processing
 - Python background is plus
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 1. COURSE INTRODUCTION
@@ -175,9 +160,6 @@ Joseph Howse and Joe Minichino
 
 ISBN: 978-1-78-953161-9
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 1. COURSE INTRODUCTION
@@ -195,9 +177,6 @@ Supplementary References
 
 https://github.com/kjw0612/awesome-deep-vision#books
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 1. COURSE INTRODUCTION
 
@@ -229,9 +208,6 @@ Five senses
 Often imaging is the interface to computer systems for data that is beyond our sensory perception
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 1. COURSE INTRODUCTION
 
@@ -251,13 +227,13 @@ An **image** is defined a two-dimensional function $f(x, y)$
 
 A **digital image** is an image when $x, y$, and the amplitude values of $f(x, y)$ are all finite, discrete quantities.
 
-- DIP refers to processing digital images by means of a digital computer.
+- **DIP** refers to processing digital images by means of a digital computer.
 - **Pixels** are referred to basic image elements which consist an image.
 
 How about a color image?  How about a color video?
 
 $$
-f(x, y, c) \text{ where } c = 1,2,3
+f(x, y, c) \text{ where } c = 1, 2, 3
 $$
 
 $$
@@ -269,9 +245,6 @@ $$
 10-bit
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 1. COURSE INTRODUCTION
@@ -286,9 +259,6 @@ LECTURE 1. COURSE INTRODUCTION
 Outputs of these processes generally are images
 Class Outline
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 1. COURSE INTRODUCTION
@@ -305,9 +275,6 @@ LECTURE 1. COURSE INTRODUCTION
 
 FIGURE 2.15 An example of the digital image acquisition process. (a) Energy ("illumination") source. (b) An element of a scene. (c) Imaging system. (d) Projection of the scene onto the image plane. (e) Digitized image.
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 1. COURSE INTRODUCTION
@@ -333,9 +300,6 @@ a b c d
 (c) Result of high-frequency emphasis filtering.
 (d) Result of performing histogram equalization on (c). (Original image courtesy Dr. Thomas R. Gest, Division of Anatomical Sciences, University of Michigan Medical School.)
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 1. COURSE INTRODUCTION
@@ -350,17 +314,12 @@ LECTURE 1. COURSE INTRODUCTION
 # Image Restoration
 
 
-
-
 a b c
 d e f
 g h i
 
 FIGURE 5.29 (a) Image corrupted by motion blur and additive noise. (b) Result of inverse filtering. (c) Result of Wiener filtering. (d)-(f) Same sequence, but with noise variance one order of magnitude less. (g)-(i) Same sequence, but noise variance reduced by five orders of magnitude from (a). Note in (h) how the deblurred image is quite visible through a "curtain" of noise.
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 1. COURSE INTRODUCTION
@@ -380,9 +339,6 @@ LECTURE 1. COURSE INTRODUCTION
 
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 1. COURSE INTRODUCTION
@@ -412,9 +368,6 @@ FIGURE 9.11
 (d) Dilation of the opening.
 (e) Closing of the opening. (Original image for this example courtesy of the National Institute of Standards and Technology.)
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 1. COURSE INTRODUCTION
@@ -436,9 +389,6 @@ LECTURE 1. COURSE INTRODUCTION
 
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 1. COURSE INTRODUCTION
@@ -455,9 +405,6 @@ LECTURE 1. COURSE INTRODUCTION
 
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 1. COURSE INTRODUCTION
 18

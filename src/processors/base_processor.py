@@ -12,6 +12,8 @@ from pathlib import Path
 from typing import List, Dict, Any, Optional
 from tqdm import tqdm
 
+from mistralai import Mistral
+
 from src.models.config import ProcessorConfig
 from src.models.results import ProcessingResult
 from src.utils.file_utils import (
@@ -43,15 +45,60 @@ class BaseProcessor(ABC):
         # Load API key from environment
         self.api_key = os.getenv("MISTRAL_API_KEY")
         if not self.api_key:
-            raise ValueError("MISTRAL_API_KEY not found in .env file")
+            raise ValueError(
+                "MISTRAL_API_KEY not found in .env file\n"
+                "Please add your API key to the .env file:\n"
+                "1. Get an API key from https://console.mistral.ai/api-keys/\n"
+                "2. Add 'MISTRAL_API_KEY=your_key_here' to .env file"
+            )
+        
+        # Validate API key format (basic check)
+        if len(self.api_key) != 32:
+            logger.warning(
+                f"API key length is {len(self.api_key)} characters (expected 32). "
+                "This may not be a valid Mistral API key."
+            )
         
         # Setup API client
         self.setup_api_client()
     
-    @abstractmethod
     def setup_api_client(self):
         """Setup API client for the processor"""
-        pass
+        # Get optional server configuration from environment
+        # Valid server values: 'eu' (default) or '' (global)
+        # server_url: custom URL override
+        server = os.getenv("MISTRAL_SERVER")
+        server_url = os.getenv("MISTRAL_SERVER_URL")
+        
+        # Build kwargs with explicit typing to avoid type errors
+        kwargs: Dict[str, Any] = {"api_key": self.api_key}
+        
+        # Add server if provided (can be empty string for global)
+        if server is not None:
+            kwargs["server"] = server
+            
+        # Add server_url if provided
+        if server_url is not None:
+            kwargs["server_url"] = server_url
+            
+        self.client = Mistral(**kwargs)
+        
+        # Log configuration
+        config_info = []
+        if server is not None:
+            config_info.append(f"server={server}")
+        if server_url is not None:
+            config_info.append(f"server_url={server_url}")
+        if not config_info:
+            config_info.append("server=eu (default)")
+            
+        logger.debug(f"Mistral client configured with: {', '.join(config_info)}")
+        logger.info(
+            "If authentication fails (401), please check:\n"
+            "1. Your API key is valid and active at https://console.mistral.ai/api-keys/\n"
+            "2. You have sufficient credits/billing setup\n"
+            "3. The API key has proper permissions for OCR endpoints"
+        )
     
     @abstractmethod
     async def process_file(self, file_path: Path) -> ProcessingResult:

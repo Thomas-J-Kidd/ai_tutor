@@ -4,7 +4,7 @@
     "file_path": "slides/ECEN5793/ECEN5793_1_2_imagesPerception.pdf",
     "document_type": "pdf",
     "page_count": 34,
-    "processing_time": 249.49625444412231,
+    "processing_time": 3.807708978652954,
     "tokens_used": 0,
     "model": "mistral-ocr-latest",
     "attempts": 3,
@@ -13,8 +13,8 @@
       "api_response_keys": [
         "pages",
         "model",
-        "document_annotation",
-        "usage_info"
+        "usage_info",
+        "document_annotation"
       ]
     }
   },
@@ -37,7 +37,7 @@
           "top_left_x": 125,
           "top_left_y": 571,
           "bottom_right_x": 621,
-          "bottom_right_y": 841,
+          "bottom_right_y": 843,
           "image_base64": null,
           "image_annotation": null
         }
@@ -51,8 +51,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 2: IMAGING AND PERCEPTION",
-      "markdown": "# Agenda\n\n- Introduce sources of images\n- Introduce the human visual system\n- Discuss human perception\n\n",
+      "footer": null,
+      "markdown": "# Agenda\n\n- Introduce sources of images\n- Introduce the human visual system\n- Discuss human perception\n\nECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 2: IMAGING AND PERCEPTION",
       "tables": [],
       "hyperlinks": [],
       "images": []
@@ -65,8 +65,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION\n\n3",
-      "markdown": "# How are images captured from different sources?\n\n![img-1.jpeg](img-1.jpeg)\n\n![img-2.jpeg](img-2.jpeg)\n\n![img-3.jpeg](img-3.jpeg)\n\n",
+      "footer": null,
+      "markdown": "# How are images captured from different sources?\n\n![img-1.jpeg](img-1.jpeg)\n\n![img-2.jpeg](img-2.jpeg)\n\n![img-3.jpeg](img-3.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION\n\n3",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -106,16 +106,16 @@
         "height": 1500,
         "width": 2667
       },
-      "header": "ECEN5793 DIGITAL IMAGE PROCESSING",
-      "footer": "LECTURE 2: IMAGING AND PERCEPTION\n\n4",
-      "markdown": "# Imaging Sources: Electromagnetic Radiation\n\n![img-4.jpeg](img-4.jpeg)\n\n",
+      "header": null,
+      "footer": null,
+      "markdown": "# Imaging Sources: Electromagnetic Radiation\n\n![img-4.jpeg](img-4.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION\n\n4",
       "tables": [],
       "hyperlinks": [],
       "images": [
         {
           "id": "img-4.jpeg",
-          "top_left_x": 101,
-          "top_left_y": 540,
+          "top_left_x": 104,
+          "top_left_y": 541,
           "bottom_right_x": 2448,
           "bottom_right_y": 1390,
           "image_base64": null,
@@ -130,9 +130,9 @@
         "height": 1500,
         "width": 2667
       },
-      "header": "ELEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 2: IMAGING AND PERCEPTION",
+      "header": null,
       "footer": null,
-      "markdown": "# Gamma-Ray Imaging\n\n![img-5.jpeg](img-5.jpeg)\nEnergy of one photon (electron volts)\nFIGURE 1.5 The electromagnetic spectrum arranged according to energy per photon.\n\nMajor uses of imaging based on Gamma ray include nuclear medicine and astronomical observations.\n\n- Inject a patient with a radioactive isotope that emits gamma-ray as it decays.\n- Images are produced from the emissions collected by gamma ray detectors\n- Gamma-ray imaging is widely used to diagnose various conditions and examine the structure and function of many different parts of the body, including the heart, brain, lungs, and kidneys\n\n![img-6.jpeg](img-6.jpeg)\n\n![img-7.jpeg](img-7.jpeg)",
+      "markdown": "ELEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 2: IMAGING AND PERCEPTION\n\n# Gamma-Ray Imaging\n\n![img-5.jpeg](img-5.jpeg)\nEnergy of one photon (electron volts)\nFIGURE 1.5 The electromagnetic spectrum arranged according to energy per photon.\n\nMajor uses of imaging based on Gamma ray include nuclear medicine and astronomical observations.\n\n- Inject a patient with a radioactive isotope that emits gamma-ray as it decays.\n- Images are produced from the emissions collected by gamma ray detectors\n- Gamma-ray imaging is widely used to diagnose various conditions and examine the structure and function of many different parts of the body, including the heart, brain, lungs, and kidneys\n\n![img-6.jpeg](img-6.jpeg)\n\n![img-7.jpeg](img-7.jpeg)",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -140,7 +140,7 @@
           "id": "img-5.jpeg",
           "top_left_x": 1160,
           "top_left_y": 70,
-          "bottom_right_x": 2656,
+          "bottom_right_x": 2653,
           "bottom_right_y": 240,
           "image_base64": null,
           "image_annotation": null
@@ -172,9 +172,9 @@
         "height": 1500,
         "width": 2667
       },
-      "header": "X-Ray Imaging\n\nEnergy of one photon (electron volts)\n\n10^6  10^5  10^4  10^3  10^2  10^1  10^{-1}  10^{-1}  10^{-2}  10^{-3}  10^{-4}  10^{-5}  10^{-6}  10^{-7}  10^{-8}  10^{-9}  Gamma rays  X-rays  Ultraviolet Visible Infrared  Microwaves  Radio waves\n\nFIGURE 1.5 The electromagnetic spectrum arranged according to energy per photon.",
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION",
-      "markdown": "X-ray are among the oldest source of EM radiation used for imaging.\n\n- Medical diagnosis\n- Industry inspection\n- Airport baggage inspection\n\n![img-8.jpeg](img-8.jpeg)\n\n",
+      "header": null,
+      "footer": null,
+      "markdown": "X-Ray Imaging\n\nEnergy of one photon (electron volts)\n\n10^6  10^5  10^4  10^3  10^2  10^1  10^{-1}  10^{-1}  10^{-2}  10^{-3}  10^{-4}  10^{-5}  10^{-6}  10^{-7}  10^{-8}  10^{-9}  Gamma rays  X-rays  Ultraviolet Visible Infrared  Microwaves  Radio waves\n\nFIGURE 1.5 The electromagnetic spectrum arranged according to energy per photon.\n\nX-ray are among the oldest source of EM radiation used for imaging.\n\n- Medical diagnosis\n- Industry inspection\n- Airport baggage inspection\n\n![img-8.jpeg](img-8.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -197,8 +197,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION",
-      "markdown": "![img-9.jpeg](img-9.jpeg)\n\n![img-10.jpeg](img-10.jpeg)\n\n![img-11.jpeg](img-11.jpeg)\n\n![img-12.jpeg](img-12.jpeg)\n\n![img-13.jpeg](img-13.jpeg)\n\n![img-14.jpeg](img-14.jpeg)\nFIGURE 1.7 Examples of X-ray imaging. (a) Chest X-ray. (b) Aortic angiogram. (c) Head CT. (d) Circuit boards. (e) Cygnus Loop. (Images courtesy of (a) and (c) Dr. David R. Pickens, Dept. of Radiology &amp; Radiological Sciences, Vanderbilt University Medical Center; (b) Dr. Thomas R. Gest, Division of Anatomical Sciences, University of Michigan Medical School; (d) Mr. Joseph E. Pascente, Lixi, Inc.; and (e) NASA.)\n\n![img-15.jpeg](img-15.jpeg)\n\n",
+      "footer": null,
+      "markdown": "![img-9.jpeg](img-9.jpeg)\n\n![img-10.jpeg](img-10.jpeg)\n\n![img-11.jpeg](img-11.jpeg)\n\n![img-12.jpeg](img-12.jpeg)\n\n![img-13.jpeg](img-13.jpeg)\n\n![img-14.jpeg](img-14.jpeg)\nFIGURE 1.7 Examples of X-ray imaging. (a) Chest X-ray. (b) Aortic angiogram. (c) Head CT. (d) Circuit boards. (e) Cygnus Loop. (Images courtesy of (a) and (c) Dr. David R. Pickens, Dept. of Radiology &amp; Radiological Sciences, Vanderbilt University Medical Center; (b) Dr. Thomas R. Gest, Division of Anatomical Sciences, University of Michigan Medical School; (d) Mr. Joseph E. Pascente, Lixi, Inc.; and (e) NASA.)\n\n![img-15.jpeg](img-15.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -274,9 +274,9 @@
         "height": 1500,
         "width": 2667
       },
-      "header": "EICEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 2: IMAGING AND PERCEPTION\n8",
+      "header": null,
       "footer": null,
-      "markdown": "# Ultraviolet Imaging\n\n![img-16.jpeg](img-16.jpeg)\nEnergy of one photon (electron volts)\nFIGURE 1.5 The electromagnetic spectrum arranged according to energy per photon.\n\nApplications of ultraviolet \"light\" can be found in microscopy, lasers, biological imaging and astronomical observation.\n\n- Ultraviolet light can be used in microscopy to study fluorescent materials that absorb invisible light but emit visible light with a longer wavelength and a lower energy.\n- The extreme ultraviolet imaging telescope (EIT) is an instrument on the space craft used to obtain high-resolution images of the solar corona.\n\nhttp://en.wikipedia.org/wiki/Image:Flare_EIT195_256px.gif\nhttp://www.microscopyu.com/articles/fluorescence/filtercubes/ultraviolet/uv2a/uv2acyrtomiumlarge.html\n\n![img-17.jpeg](img-17.jpeg)\nFern sporangium\n\n![img-18.jpeg](img-18.jpeg)",
+      "markdown": "EICEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 2: IMAGING AND PERCEPTION\n8\n\n# Ultraviolet Imaging\n\n![img-16.jpeg](img-16.jpeg)\nEnergy of one photon (electron volts)\nFIGURE 1.5 The electromagnetic spectrum arranged according to energy per photon.\n\nApplications of ultraviolet \"light\" can be found in microscopy, lasers, biological imaging and astronomical observation.\n\n- Ultraviolet light can be used in microscopy to study fluorescent materials that absorb invisible light but emit visible light with a longer wavelength and a lower energy.\n- The extreme ultraviolet imaging telescope (EIT) is an instrument on the space craft used to obtain high-resolution images of the solar corona.\n\nhttp://en.wikipedia.org/wiki/Image:Flare_EIT195_256px.gif\nhttp://www.microscopyu.com/articles/fluorescence/filtercubes/ultraviolet/uv2a/uv2acyrtomiumlarge.html\n\n![img-17.jpeg](img-17.jpeg)\nFern sporangium\n\n![img-18.jpeg](img-18.jpeg)",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -284,7 +284,7 @@
           "id": "img-16.jpeg",
           "top_left_x": 1160,
           "top_left_y": 70,
-          "bottom_right_x": 2653,
+          "bottom_right_x": 2656,
           "bottom_right_y": 240,
           "image_base64": null,
           "image_annotation": null
@@ -302,7 +302,7 @@
           "id": "img-18.jpeg",
           "top_left_x": 1896,
           "top_left_y": 868,
-          "bottom_right_x": 2389,
+          "bottom_right_x": 2392,
           "bottom_right_y": 1359,
           "image_base64": null,
           "image_annotation": null
@@ -316,9 +316,9 @@
         "height": 1500,
         "width": 2667
       },
-      "header": "Energy of one photon (electron volts)\n\n10^{6}\n10^{5}\n10^{4}\n10^{3}\n10^{2}\n10^{1}\n10^{-1}\n10^{-1}\n10^{-2}\n10^{-3}\n10^{-4}\n10^{-5}\n10^{-6}\n10^{-7}\n10^{-8}\n10^{-9}",
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION",
-      "markdown": "# Visible Band Imaging\n\n![img-19.jpeg](img-19.jpeg)\nFIGURE 1.5 The electromagnetic spectrum arranged according to energy per photon.\n\nConsidering that the visual band of the EM spectrum is the most familiar in all our activities, imaging in this band out-weights all other imaging applications by far.\n\n![img-20.jpeg](img-20.jpeg)\n\n![img-21.jpeg](img-21.jpeg)\n\n![img-22.jpeg](img-22.jpeg)\n\n![img-23.jpeg](img-23.jpeg)\n\n",
+      "header": null,
+      "footer": null,
+      "markdown": "Energy of one photon (electron volts)\n\n10^{6}\n10^{5}\n10^{4}\n10^{3}\n10^{2}\n10^{1}\n10^{-1}\n10^{-1}\n10^{-2}\n10^{-3}\n10^{-4}\n10^{-5}\n10^{-6}\n10^{-7}\n10^{-8}\n10^{-9}\n\n# Visible Band Imaging\n\n![img-19.jpeg](img-19.jpeg)\nFIGURE 1.5 The electromagnetic spectrum arranged according to energy per photon.\n\nConsidering that the visual band of the EM spectrum is the most familiar in all our activities, imaging in this band out-weights all other imaging applications by far.\n\n![img-20.jpeg](img-20.jpeg)\n\n![img-21.jpeg](img-21.jpeg)\n\n![img-22.jpeg](img-22.jpeg)\n\n![img-23.jpeg](img-23.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -336,7 +336,7 @@
           "top_left_x": 66,
           "top_left_y": 872,
           "bottom_right_x": 949,
-          "bottom_right_y": 1348,
+          "bottom_right_y": 1347,
           "image_base64": null,
           "image_annotation": null
         },
@@ -376,14 +376,14 @@
         "height": 1500,
         "width": 2667
       },
-      "header": "Energy of one photon (electron volts)\n\nEnergy of one photon (electron volts)",
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION",
-      "markdown": "# Infrared Imaging Remote Sensing\n\n![img-24.jpeg](img-24.jpeg)\nFIGURE 1.5 The electromagnetic spectrum arranged according to energy per photon.\n\nTABLE 1.1 Thematic bands of NASA's LANDSAT satellite.\n\n![img-25.jpeg](img-25.jpeg)\nNASA LANDSAT satellite\n\n[tbl-0.md](tbl-0.md)\n\n",
+      "header": null,
+      "footer": null,
+      "markdown": "Energy of one photon (electron volts)\n\nEnergy of one photon (electron volts)\n\n# Infrared Imaging Remote Sensing\n\n![img-24.jpeg](img-24.jpeg)\nFIGURE 1.5 The electromagnetic spectrum arranged according to energy per photon.\n\nTABLE 1.1 Thematic bands of NASA's LANDSAT satellite.\n\n![img-25.jpeg](img-25.jpeg)\nNASA LANDSAT satellite\n\n[tbl-0.md](tbl-0.md)\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION",
       "tables": [
         {
           "id": "tbl-0.md",
           "content": "|  Band No. | Name | Wavelength (\u03bcm) | Characteristics and Uses  |\n| --- | --- | --- | --- |\n|  1 | Visible blue | 0.45\u20130.52 | Maximum water penetration  |\n|  2 | Visible green | 0.53\u20130.61 | Measures plant vigor  |\n|  3 | Visible red | 0.63\u20130.69 | Vegetation discrimination  |\n|  4 | Near infrared | 0.78\u20130.90 | Biomass and shoreline mapping  |\n|  5 | Middle infrared | 1.55\u20131.75 | Moisture content: soil/vegetation  |\n|  6 | Thermal infrared | 10.4\u201312.5 | Soil moisture; thermal mapping  |\n|  7 | Short-wave infrared | 2.09\u20132.35 | Mineral mapping  |",
-          "format": "markdown"
+          "format_": "markdown"
         }
       ],
       "hyperlinks": [],
@@ -400,7 +400,7 @@
         {
           "id": "img-25.jpeg",
           "top_left_x": 88,
-          "top_left_y": 946,
+          "top_left_y": 945,
           "bottom_right_x": 669,
           "bottom_right_y": 1275,
           "image_base64": null,
@@ -416,8 +416,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION",
-      "markdown": "![img-26.jpeg](img-26.jpeg)\n1\n\n![img-27.jpeg](img-27.jpeg)\n2\n\n![img-28.jpeg](img-28.jpeg)\n3\n\n![img-29.jpeg](img-29.jpeg)\n4\n\n![img-30.jpeg](img-30.jpeg)\n5\n\n![img-31.jpeg](img-31.jpeg)\n6\nFIGURE 1.10 LANDSAT satellite images of the Washington, D.C. area. The numbers refer to the thematic bands in Table 1.1. (Images courtesy of NASA.)\n\n![img-32.jpeg](img-32.jpeg)\n7\n\n",
+      "footer": null,
+      "markdown": "![img-26.jpeg](img-26.jpeg)\n1\n\n![img-27.jpeg](img-27.jpeg)\n2\n\n![img-28.jpeg](img-28.jpeg)\n3\n\n![img-29.jpeg](img-29.jpeg)\n4\n\n![img-30.jpeg](img-30.jpeg)\n5\n\n![img-31.jpeg](img-31.jpeg)\n6\nFIGURE 1.10 LANDSAT satellite images of the Washington, D.C. area. The numbers refer to the thematic bands in Table 1.1. (Images courtesy of NASA.)\n\n![img-32.jpeg](img-32.jpeg)\n7\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -494,8 +494,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION\n\n12",
-      "markdown": "# Infrared for Night Vision\n\n![img-33.jpeg](img-33.jpeg)\n\n![img-34.jpeg](img-34.jpeg)\n\n![img-35.jpeg](img-35.jpeg)\n\n![img-36.jpeg](img-36.jpeg)\n\n",
+      "footer": null,
+      "markdown": "# Infrared for Night Vision\n\n![img-33.jpeg](img-33.jpeg)\n\n![img-34.jpeg](img-34.jpeg)\n\n![img-35.jpeg](img-35.jpeg)\n\n![img-36.jpeg](img-36.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION\n\n12",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -544,9 +544,9 @@
         "height": 1500,
         "width": 2667
       },
-      "header": "ECEN5793 DIGITAL IMAGE PROCESSING",
-      "footer": "LECTURE 2: IMAGING AND PERCEPTION\n\n13",
-      "markdown": "# Infrared for Thermal Imaging\n\n![img-37.jpeg](img-37.jpeg)\n\n![img-38.jpeg](img-38.jpeg)\n\n",
+      "header": null,
+      "footer": null,
+      "markdown": "# Infrared for Thermal Imaging\n\n![img-37.jpeg](img-37.jpeg)\n\n![img-38.jpeg](img-38.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION\n\n13",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -562,7 +562,7 @@
         {
           "id": "img-38.jpeg",
           "top_left_x": 1277,
-          "top_left_y": 445,
+          "top_left_y": 443,
           "bottom_right_x": 2629,
           "bottom_right_y": 1366,
           "image_base64": null,
@@ -578,8 +578,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION",
-      "markdown": "# Microwave Imaging\n\n![img-39.jpeg](img-39.jpeg)\nEnergy of one photon (electron volts)\nFIGURE 1.5 The electromagnetic spectrum arranged according to energy per photon.\n\nThe dominant application of imaging in the microwave band is radar that can explore inaccessible regions.\n\n- The unique feature of imaging radar is its ability to collect data over virtually any region at any time, regardless of weather or ambient lighting conditions.\n- An imaging radar works like a flash camera in that it provides its own illumination (microwave pulses) to illuminate an area on the ground or an object and take a snapshot.\n- A radar uses an antenna and computer to record its image by collecting reflected microwave energy.\n\n![img-40.jpeg](img-40.jpeg)\nERS-2 Greenland\n\nhttps://www.cgg.com/geoscience/satellite-mapping/radar-satellite-imagery\n\n",
+      "footer": null,
+      "markdown": "# Microwave Imaging\n\n![img-39.jpeg](img-39.jpeg)\nEnergy of one photon (electron volts)\nFIGURE 1.5 The electromagnetic spectrum arranged according to energy per photon.\n\nThe dominant application of imaging in the microwave band is radar that can explore inaccessible regions.\n\n- The unique feature of imaging radar is its ability to collect data over virtually any region at any time, regardless of weather or ambient lighting conditions.\n- An imaging radar works like a flash camera in that it provides its own illumination (microwave pulses) to illuminate an area on the ground or an object and take a snapshot.\n- A radar uses an antenna and computer to record its image by collecting reflected microwave energy.\n\n![img-40.jpeg](img-40.jpeg)\nERS-2 Greenland\n\nhttps://www.cgg.com/geoscience/satellite-mapping/radar-satellite-imagery\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -610,16 +610,16 @@
         "height": 1500,
         "width": 2667
       },
-      "header": "ECEN5793 DIGITAL IMAGE PROCESSING",
-      "footer": "LECTURE 2: IMAGING AND PERCEPTION\n15",
-      "markdown": "# Airport Full-Body Scan\n\n![img-41.jpeg](img-41.jpeg)\n\n![img-42.jpeg](img-42.jpeg)\n\n",
+      "header": null,
+      "footer": null,
+      "markdown": "# Airport Full-Body Scan\n\n![img-41.jpeg](img-41.jpeg)\n\n![img-42.jpeg](img-42.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 2: IMAGING AND PERCEPTION\n15",
       "tables": [],
       "hyperlinks": [],
       "images": [
         {
           "id": "img-41.jpeg",
           "top_left_x": 293,
-          "top_left_y": 428,
+          "top_left_y": 430,
           "bottom_right_x": 1402,
           "bottom_right_y": 1375,
           "image_base64": null,
@@ -627,7 +627,7 @@
         },
         {
           "id": "img-42.jpeg",
-          "top_left_x": 1720,
+          "top_left_x": 1722,
           "top_left_y": 36,
           "bottom_right_x": 2560,
           "bottom_right_y": 1324,
@@ -644,8 +644,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION",
-      "markdown": "# Radio Band Imaging\n\n![img-43.jpeg](img-43.jpeg)\nEnergy of one photon (electron volts)\nFIGURE 1.5 The electromagnetic spectrum arranged according to energy per photon.\n\nIn medicine, radio waves are used in Magnetic resonance imaging (MRI).\n\n- MRI technique places a patient in a powerful magnet and passes radio waves through his or her body in short pulses.\nEach pulse causes a responding pulse of radio waves to be emitted by the patient's tissues.\n- Different tissue types with different water densities and thermodynamics are reflected by different energy emitted by the tissue.\n- The location from which these signals originate and their strength and determined by a computer.\n\n![img-44.jpeg](img-44.jpeg)\n\n",
+      "footer": null,
+      "markdown": "# Radio Band Imaging\n\n![img-43.jpeg](img-43.jpeg)\nEnergy of one photon (electron volts)\nFIGURE 1.5 The electromagnetic spectrum arranged according to energy per photon.\n\nIn medicine, radio waves are used in Magnetic resonance imaging (MRI).\n\n- MRI technique places a patient in a powerful magnet and passes radio waves through his or her body in short pulses.\nEach pulse causes a responding pulse of radio waves to be emitted by the patient's tissues.\n- Different tissue types with different water densities and thermodynamics are reflected by different energy emitted by the tissue.\n- The location from which these signals originate and their strength and determined by a computer.\n\n![img-44.jpeg](img-44.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -677,8 +677,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION",
-      "markdown": "![img-45.jpeg](img-45.jpeg)\na b\n\n![img-46.jpeg](img-46.jpeg)\nFIGURE 1.17 MRI images of a human (a) knee, and (b) spine. (Image (a) courtesy of Dr. Thomas R. Gest, Division of Anatomical Sciences, University of Michigan Medical School, and (b) Dr. David R. Pickens, Department of Radiology and Radiological Sciences, Vanderbilt University Medical Center.)\n\n",
+      "footer": null,
+      "markdown": "![img-45.jpeg](img-45.jpeg)\na b\n\n![img-46.jpeg](img-46.jpeg)\nFIGURE 1.17 MRI images of a human (a) knee, and (b) spine. (Image (a) courtesy of Dr. Thomas R. Gest, Division of Anatomical Sciences, University of Michigan Medical School, and (b) Dr. David R. Pickens, Department of Radiology and Radiological Sciences, Vanderbilt University Medical Center.)\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -687,7 +687,7 @@
           "top_left_x": 346,
           "top_left_y": 31,
           "bottom_right_x": 1469,
-          "bottom_right_y": 976,
+          "bottom_right_y": 975,
           "image_base64": null,
           "image_annotation": null
         },
@@ -696,7 +696,7 @@
           "top_left_x": 1485,
           "top_left_y": 31,
           "bottom_right_x": 2386,
-          "bottom_right_y": 976,
+          "bottom_right_y": 975,
           "image_base64": null,
           "image_annotation": null
         }
@@ -710,8 +710,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2. IMAGING AND PERCEPTION\n\n18",
-      "markdown": "# Other Modalities: Ultrasound\n\n![img-47.jpeg](img-47.jpeg)\n\n![img-48.jpeg](img-48.jpeg)\n\n![img-49.jpeg](img-49.jpeg)\n\n![img-50.jpeg](img-50.jpeg)\n\na b c d\n\nFIGURE 1.20 Examples of ultrasound imaging. (a) Baby. (2) Another view of baby. (c) Thyroids. (d) Muscle layers showing lesion. (Courtesy of Siemens Medical Systems, Inc., Ultrasound Group.)\n\n![img-51.jpeg](img-51.jpeg)\n\n",
+      "footer": null,
+      "markdown": "# Other Modalities: Ultrasound\n\n![img-47.jpeg](img-47.jpeg)\n\n![img-48.jpeg](img-48.jpeg)\n\n![img-49.jpeg](img-49.jpeg)\n\n![img-50.jpeg](img-50.jpeg)\n\na b c d\n\nFIGURE 1.20 Examples of ultrasound imaging. (a) Baby. (2) Another view of baby. (c) Thyroids. (d) Muscle layers showing lesion. (Courtesy of Siemens Medical Systems, Inc., Ultrasound Group.)\n\n![img-51.jpeg](img-51.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2. IMAGING AND PERCEPTION\n\n18",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -720,7 +720,7 @@
           "top_left_x": 261,
           "top_left_y": 427,
           "bottom_right_x": 805,
-          "bottom_right_y": 838,
+          "bottom_right_y": 837,
           "image_base64": null,
           "image_annotation": null
         },
@@ -729,7 +729,7 @@
           "top_left_x": 810,
           "top_left_y": 427,
           "bottom_right_x": 1357,
-          "bottom_right_y": 838,
+          "bottom_right_y": 837,
           "image_base64": null,
           "image_annotation": null
         },
@@ -770,8 +770,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION",
-      "markdown": "# Other Modalities:\nAcoustic Imaging and Computer Graphics (CG)\n\n![img-52.jpeg](img-52.jpeg)\nSeafloor Sonar Mapping\n\n![img-53.jpeg](img-53.jpeg)\n\n![img-54.jpeg](img-54.jpeg)\n\n![img-55.jpeg](img-55.jpeg)\n\n![img-56.jpeg](img-56.jpeg)\n\na b c d\n\nFIGURE 1.22\n(a) and (b) Fractal images. (c) and (d) Images generated from 3-D computer models of the objects shown. (Figures (a) and (b) courtesy of Ms. Melissa D. Binde, Swarthmore College, (c) and (d) courtesy of NASA.)\n\n",
+      "footer": null,
+      "markdown": "# Other Modalities:\nAcoustic Imaging and Computer Graphics (CG)\n\n![img-52.jpeg](img-52.jpeg)\nSeafloor Sonar Mapping\n\n![img-53.jpeg](img-53.jpeg)\n\n![img-54.jpeg](img-54.jpeg)\n\n![img-55.jpeg](img-55.jpeg)\n\n![img-56.jpeg](img-56.jpeg)\n\na b c d\n\nFIGURE 1.22\n(a) and (b) Fractal images. (c) and (d) Images generated from 3-D computer models of the objects shown. (Figures (a) and (b) courtesy of Ms. Melissa D. Binde, Swarthmore College, (c) and (d) courtesy of NASA.)\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -830,8 +830,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 2: IMAGING AND PERCEPTION\n20",
-      "markdown": "# Other Modalities:\n## Generative AI\n\n![img-57.jpeg](img-57.jpeg)\n\n![img-58.jpeg](img-58.jpeg)\n\n",
+      "footer": null,
+      "markdown": "# Other Modalities:\n## Generative AI\n\n![img-57.jpeg](img-57.jpeg)\n\n![img-58.jpeg](img-58.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 2: IMAGING AND PERCEPTION\n20",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -846,7 +846,7 @@
         },
         {
           "id": "img-58.jpeg",
-          "top_left_x": 1429,
+          "top_left_x": 1432,
           "top_left_y": 373,
           "bottom_right_x": 2466,
           "bottom_right_y": 1407,
@@ -863,8 +863,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION\n\n21",
-      "markdown": "# Questions\n\nHow does the human eyes perceive from real-world?\n\nWhat kind of properties of human visual perception can help us optimize the imaging system?\n\n![img-59.jpeg](img-59.jpeg)\n\n![img-60.jpeg](img-60.jpeg)\n\n",
+      "footer": null,
+      "markdown": "# Questions\n\nHow does the human eyes perceive from real-world?\n\nWhat kind of properties of human visual perception can help us optimize the imaging system?\n\n![img-59.jpeg](img-59.jpeg)\n\n![img-60.jpeg](img-60.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION\n\n21",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -896,8 +896,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 2: IMAGING AND PERCEPTION\n22",
-      "markdown": "# What is this image?\n\n![img-61.jpeg](img-61.jpeg)\n\nThe human vision system (HVS) is a very complex and intelligent system composed of both the eye and brain.\n\n",
+      "footer": null,
+      "markdown": "# What is this image?\n\n![img-61.jpeg](img-61.jpeg)\n\nThe human vision system (HVS) is a very complex and intelligent system composed of both the eye and brain.\n\nECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 2: IMAGING AND PERCEPTION\n22",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -920,15 +920,15 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION\n\n23",
-      "markdown": "# Eye Structure\n\n![img-62.jpeg](img-62.jpeg)\n\n![img-63.jpeg](img-63.jpeg)\n\n![img-64.jpeg](img-64.jpeg)\n\nhttp://www.pambaumann.com/blog/2014/8/26/aperture-and-its-role-in-the-exposure-triangle\n\n",
+      "footer": null,
+      "markdown": "# Eye Structure\n\n![img-62.jpeg](img-62.jpeg)\n\n![img-63.jpeg](img-63.jpeg)\n\n![img-64.jpeg](img-64.jpeg)\n\nhttp://www.pambaumann.com/blog/2014/8/26/aperture-and-its-role-in-the-exposure-triangle\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION\n\n23",
       "tables": [],
       "hyperlinks": [],
       "images": [
         {
           "id": "img-62.jpeg",
           "top_left_x": 261,
-          "top_left_y": 433,
+          "top_left_y": 435,
           "bottom_right_x": 1301,
           "bottom_right_y": 975,
           "image_base64": null,
@@ -962,8 +962,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION\n\n24",
-      "markdown": "# Blind Spot\n\n![img-65.jpeg](img-65.jpeg)\n\n1 2 3 4 5 6\n\nBlind Spot (Optic Disk)\n\nClose your right eye and look directly at the number 3. Can you see the yellow spot in your peripheral vision? Now slowly move towards or away from the screen. At some point, the yellow spot will disappear.\n\n",
+      "footer": null,
+      "markdown": "# Blind Spot\n\n![img-65.jpeg](img-65.jpeg)\n\n1 2 3 4 5 6\n\nBlind Spot (Optic Disk)\n\nClose your right eye and look directly at the number 3. Can you see the yellow spot in your peripheral vision? Now slowly move towards or away from the screen. At some point, the yellow spot will disappear.\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION\n\n24",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -971,8 +971,8 @@
           "id": "img-65.jpeg",
           "top_left_x": 621,
           "top_left_y": 372,
-          "bottom_right_x": 1088,
-          "bottom_right_y": 810,
+          "bottom_right_x": 1085,
+          "bottom_right_y": 808,
           "image_base64": null,
           "image_annotation": null
         }
@@ -986,8 +986,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION\n\n25",
-      "markdown": "# Human Eyes: Retina\n\nThe retina is analogous to the digital camera containing discrete sensing elements known as rods and cones.\n\n- Rods (100M): long and thin, low light vision.\n- Cones (6.5M): short and thick, photopic vision, color vision, around fovea.\n\n![img-66.jpeg](img-66.jpeg)\n\n![img-67.jpeg](img-67.jpeg)\n\n",
+      "footer": null,
+      "markdown": "# Human Eyes: Retina\n\nThe retina is analogous to the digital camera containing discrete sensing elements known as rods and cones.\n\n- Rods (100M): long and thin, low light vision.\n- Cones (6.5M): short and thick, photopic vision, color vision, around fovea.\n\n![img-66.jpeg](img-66.jpeg)\n\n![img-67.jpeg](img-67.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION\n\n25",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -1019,8 +1019,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION",
-      "markdown": "# Human Eyes: Rods and Cones\n\n![img-68.jpeg](img-68.jpeg)\n(A)\n\n![img-69.jpeg](img-69.jpeg)\n(B)\n\n![img-70.jpeg](img-70.jpeg)\n(C)\n\n3.4 THE SPATIAL MOSAIC OF THE HUMAN CONES. Cross sections of the human retina at the level of the inner segments showing (A) cones in the fovea, and (B) cones in the periphery. Note the size difference (scale bar = 10 \u03bcm), and that, as the separation between cones grows, the rod receptors fill in the spaces. (C) Cone density plotted as a function of distance from the center of the fovea for seven human retinas; cone density decreases with distance from the fovea. Source: Curcio et al., 1990.\n\n",
+      "footer": null,
+      "markdown": "# Human Eyes: Rods and Cones\n\n![img-68.jpeg](img-68.jpeg)\n(A)\n\n![img-69.jpeg](img-69.jpeg)\n(B)\n\n![img-70.jpeg](img-70.jpeg)\n(C)\n\n3.4 THE SPATIAL MOSAIC OF THE HUMAN CONES. Cross sections of the human retina at the level of the inner segments showing (A) cones in the fovea, and (B) cones in the periphery. Note the size difference (scale bar = 10 \u03bcm), and that, as the separation between cones grows, the rod receptors fill in the spaces. (C) Cone density plotted as a function of distance from the center of the fovea for seven human retinas; cone density decreases with distance from the fovea. Source: Curcio et al., 1990.\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -1061,8 +1061,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION\n\n27",
-      "markdown": "# Human Eyes: Lens\n\nThe principal difference between the lens of the eye and ordinary optical lens is that the former is flexible.\n\nThe shape of the lens is controlled by tension in the fibers of the ciliary body.\n\n- When lens are controlled to be flattened, we can focus on distant objects.\n- When lens are controlled to become thicker, we can focus on object near the eye.\n\n![img-71.jpeg](img-71.jpeg)\n\n![img-72.jpeg](img-72.jpeg)\n\n",
+      "footer": null,
+      "markdown": "# Human Eyes: Lens\n\nThe principal difference between the lens of the eye and ordinary optical lens is that the former is flexible.\n\nThe shape of the lens is controlled by tension in the fibers of the ciliary body.\n\n- When lens are controlled to be flattened, we can focus on distant objects.\n- When lens are controlled to become thicker, we can focus on object near the eye.\n\n![img-71.jpeg](img-71.jpeg)\n\n![img-72.jpeg](img-72.jpeg)\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION\n\n27",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -1078,7 +1078,7 @@
         {
           "id": "img-72.jpeg",
           "top_left_x": 1661,
-          "top_left_y": 927,
+          "top_left_y": 925,
           "bottom_right_x": 2600,
           "bottom_right_y": 1387,
           "image_base64": null,
@@ -1094,8 +1094,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 2: IMAGING AND PERCEPTION\n28",
-      "markdown": "# Elements of Visual Perception\n\n## Light\n- Received from an object in the real-word\n\n## Luminance and Intensity\n- Collected by the human eye, luminance is weighted by eye\u2019s sensitivity to wavelength\n\n## Brightness and Contrast (subjective)\n- Perceived by the human vision system\n\nPractical implication: It helps us know how many gray levels are needed for image representation under different environments\n\n",
+      "footer": null,
+      "markdown": "# Elements of Visual Perception\n\n## Light\n- Received from an object in the real-word\n\n## Luminance and Intensity\n- Collected by the human eye, luminance is weighted by eye's sensitivity to wavelength\n\n## Brightness and Contrast (subjective)\n- Perceived by the human vision system\n\nPractical implication: It helps us know how many gray levels are needed for image representation under different environments\n\nECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 2: IMAGING AND PERCEPTION\n28",
       "tables": [],
       "hyperlinks": [],
       "images": []
@@ -1108,8 +1108,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 2: IMAGING AND PERCEPTION\n29",
-      "markdown": "# Brightness and Contrast\n\nBrightness (subjective brightness): Perceived luminance depending on the luminance of surround.\n\n- One object with different surroundings could have different brightness.\n- Two objects with different surroundings could have identical brightness but different luminance.\n\n![img-73.jpeg](img-73.jpeg)\n\n- The HVS is sensitive to luminance contrast rather than the absolute luminance values themselves.\n\n",
+      "footer": null,
+      "markdown": "# Brightness and Contrast\n\nBrightness (subjective brightness): Perceived luminance depending on the luminance of surround.\n\n- One object with different surroundings could have different brightness.\n- Two objects with different surroundings could have identical brightness but different luminance.\n\n![img-73.jpeg](img-73.jpeg)\n\n- The HVS is sensitive to luminance contrast rather than the absolute luminance values themselves.\n\nECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 2: IMAGING AND PERCEPTION\n29",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -1132,8 +1132,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION",
-      "markdown": "# Weber's Law\n\nWeber's law: a just noticeable difference in light intensity is a constant proportion of the background intensity.\n\n$$\n\\frac {| f _ {s} - f _ {0} |}{f _ {s}} = \\text{constant} \\quad f _ {0} \\text{ (luminance of an object)}\n$$\n\n$$\n\\frac {\\Delta f}{f} \\cong \\Delta c \\approx 0.02 \\quad f _ {s} \\text{ (luminance of its surrounding)}\n$$\n\n$$\n\\Delta f \\text{ is small for just noticeably different luminance.}\n$$\n\nWe can determine the different gray levels as follows:\n\n$$\n\\frac {f _ {k + 1} - f _ {k}}{f _ {k}} = \\Delta c \\quad \\rightarrow f _ {k + 1} = f _ {k} (1 + \\Delta c)\n$$\n\n- The number of gray levels $N$ is determined by the Contrast Ratio (CR) $\\frac{f_N}{f_0}$ (where $f_N$ and $f_0$ are the brightest/darkest gray levels) and the sensitivity ratio $\\Delta C$.\n\n",
+      "footer": null,
+      "markdown": "# Weber's Law\n\nWeber's law: a just noticeable difference in light intensity is a constant proportion of the background intensity.\n\n$$\n\\frac {| f _ {s} - f _ {0} |}{f _ {s}} = \\text{constant} \\quad f _ {0} \\text{ (luminance of an object)}\n$$\n\n$$\n\\frac {\\Delta f}{f} \\cong \\Delta c \\approx 0.02 \\quad f _ {s} \\text{ (luminance of its surrounding)}\n$$\n\n$$\n\\Delta f \\text{ is small for just noticeably different luminance.}\n$$\n\nWe can determine the different gray levels as follows:\n\n$$\n\\frac {f _ {k + 1} - f _ {k}}{f _ {k}} = \\Delta c \\quad \\rightarrow f _ {k + 1} = f _ {k} (1 + \\Delta c)\n$$\n\n- The number of gray levels $N$ is determined by the Contrast Ratio (CR) $\\frac{f_N}{f_0}$ (where $f_N$ and $f_0$ are the brightest/darkest gray levels) and the sensitivity ratio $\\Delta C$.\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION",
       "tables": [],
       "hyperlinks": [],
       "images": []
@@ -1146,13 +1146,13 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION",
-      "markdown": "# Number of Gray Levels\n\nContrast ratio (CR) refers to the ratio of intensities between the most intense (brightest, $f_{N} = 1$) and least intense (darkest, $f_{0} = \\frac{1}{CR}$) elements of a scene, an image, or a display.\n\n[tbl-1.md](tbl-1.md)\n\n$$\n\\begin{array}{l}\n\\begin{array}{l}\n\\boxed{f_{N} = 1} = \\frac{(1 + \\Delta c)^{N}}{CR} \\rightarrow CR = (1 + \\Delta c)^{N} \\\\\n\\vdots \\\\\n\\boxed{f_{k+1} = f_{k}(1 + \\Delta c)} \\\\\n\\vdots \\\\\nf_{2} = \\frac{(1 + \\Delta c)^{2}}{CR} \\\\\nf_{1} = \\frac{1 + \\Delta c}{CR} \\\\\nf_{0} = \\frac{1}{CR}\n\\end{array}\n\\quad\n\\begin{array}{l}\n\\text{Number of gray levels:} \\\\\nN = \\frac{\\log(CR)}{\\log(1 + \\Delta c)}\n\\end{array}\n$$\n\n",
+      "footer": null,
+      "markdown": "# Number of Gray Levels\n\nContrast ratio (CR) refers to the ratio of intensities between the most intense (brightest, $f_{N} = 1$) and least intense (darkest, $f_{0} = \\frac{1}{CR}$) elements of a scene, an image, or a display.\n\n[tbl-1.md](tbl-1.md)\n\n$$\n\\begin{array}{l}\n\\begin{array}{l}\n\\square f_{N} = 1 = \\frac{(1 + \\Delta c)^{N}}{CR} \\rightarrow CR = (1 + \\Delta c)^{N} \\\\\n\\vdots \\\\\nf_{k+1} = f_{k}(1 + \\Delta c) \\\\\n\\vdots \\\\\nf_{2} = \\frac{(1 + \\Delta c)^{2}}{CR} \\\\\nf_{1} = \\frac{1 + \\Delta c}{CR} \\\\\nf_{0} = \\frac{1}{CR} \\\\\n\\end{array}\n\\quad\n\\text{Number of gray levels:} \\\\\nN = \\frac{\\log(CR)}{\\log(1 + \\Delta c)}\n$$\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION",
       "tables": [
         {
           "id": "tbl-1.md",
           "content": "|   | Contrast sensitivity  |   |   |\n| --- | --- | --- | --- |\n|   |  2% | 1% | 0.5%  |\n|  Contrast ratio |   |   |   |\n|  10\n(office environment) | 116\n(~7 bits) | 231\n(~8 bits) | 462\n(~9 bits)  |\n|  30\n(living room, television) | 172 | 342 | 682  |\n|  100\n(cinema theater) | 232\n(~8 bits) | 463\n(~9 bits) | 923\n(~10 bits)  |",
-          "format": "markdown"
+          "format_": "markdown"
         }
       ],
       "hyperlinks": [],
@@ -1166,8 +1166,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION",
-      "markdown": "![img-74.jpeg](img-74.jpeg)\n\n![img-75.jpeg](img-75.jpeg)\na b c d\n\n![img-76.jpeg](img-76.jpeg)\n\n![img-77.jpeg](img-77.jpeg)\nFIGURE 2.21\n(a)  $452 \\times 374$ , 256-level image.\n(b)-(d) Image displayed in 128, 64, and 32 gray levels, while keeping the spatial resolution constant.\n\n",
+      "footer": null,
+      "markdown": "![img-74.jpeg](img-74.jpeg)\n\n![img-75.jpeg](img-75.jpeg)\na b c d\n\n![img-76.jpeg](img-76.jpeg)\n\n![img-77.jpeg](img-77.jpeg)\nFIGURE 2.21\n(a)  $452 \\times 374$ , 256-level image.\n(b)-(d) Image displayed in 128, 64, and 32 gray levels, while keeping the spatial resolution constant.\n\nECEN5793 DIGITAL IMAGE PROCESSING\n\nLECTURE 2: IMAGING AND PERCEPTION",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -1217,8 +1217,8 @@
         "width": 2667
       },
       "header": null,
-      "footer": "ECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 2: IMAGING AND PERCEPTION",
-      "markdown": "# Mach Bands\n\nThe HVS tends to undershoot or overshoot around the boundary of regions of different intensities.\n\na\nb\nc\n\nFIGURE 2.7\n![img-78.jpeg](img-78.jpeg)\nIllustration of the Mach band effect. Perceived intensity is not a simple function of actual intensity.\n\n",
+      "footer": null,
+      "markdown": "# Mach Bands\n\nThe HVS tends to undershoot or overshoot around the boundary of regions of different intensities.\n\na\nb\nc\n\nFIGURE 2.7\n![img-78.jpeg](img-78.jpeg)\nIllustration of the Mach band effect. Perceived intensity is not a simple function of actual intensity.\n\nECEN5793 DIGITAL IMAGE PROCESSING\nLECTURE 2: IMAGING AND PERCEPTION",
       "tables": [],
       "hyperlinks": [],
       "images": [
@@ -1240,16 +1240,16 @@
         "height": 1500,
         "width": 2667
       },
-      "header": "E C E N 5 7 9 3 D I G I T A L I M A G E P R O C E S S I N G",
-      "footer": "E C E N 5 7 9 3 D I G I T A L I M A G E P R O C E S S I N G\n\nLECTURE 2, IMAGING AND PERCEPTION",
-      "markdown": "# Visual Illusion\n\na b c d\n\nFIGURE 2.9 Some well-known optical illusions.\n\n![img-79.jpeg](img-79.jpeg)\n\n![img-80.jpeg](img-80.jpeg)\n\n![img-81.jpeg](img-81.jpeg)\n\n![img-82.jpeg](img-82.jpeg)\n\n",
+      "header": null,
+      "footer": null,
+      "markdown": "E C E N 5 7 9 3 D I G I T A L I M A G E P R O C E S S I N G\n\n# Visual Illusion\n\na b c d\n\nFIGURE 2.9 Some well-known optical illusions.\n\n![img-79.jpeg](img-79.jpeg)\n\n![img-80.jpeg](img-80.jpeg)\n\n![img-81.jpeg](img-81.jpeg)\n\n![img-82.jpeg](img-82.jpeg)\n\nE C E N 5 7 9 3 D I G I T A L I M A G E P R O C E S S I N G\n\nLECTURE 2, IMAGING AND PERCEPTION",
       "tables": [],
       "hyperlinks": [],
       "images": [
         {
           "id": "img-79.jpeg",
           "top_left_x": 1266,
-          "top_left_y": 3,
+          "top_left_y": 4,
           "bottom_right_x": 1957,
           "bottom_right_y": 694,
           "image_base64": null,
@@ -1258,7 +1258,7 @@
         {
           "id": "img-80.jpeg",
           "top_left_x": 1962,
-          "top_left_y": 3,
+          "top_left_y": 4,
           "bottom_right_x": 2656,
           "bottom_right_y": 694,
           "image_base64": null,

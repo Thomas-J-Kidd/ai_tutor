@@ -2,7 +2,7 @@
 
 ## Metadata
 - **Document Type**: pdf
-- **Processing Time**: 40.86 seconds
+- **Processing Time**: 5.42 seconds
 - **Status**: Success
 - **Error**: None
 - **Pages**: 38
@@ -29,18 +29,13 @@ Nate Lannan
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-ECEN5793 DIGITAL IMAGE PROCESSING
-
 #### Content
 # Agenda
 
 - Coding Examples
 - Image Registration
 
-
-
-#### Footer
+ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 2
 
@@ -55,9 +50,6 @@ LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
 How to take advantage of array operations for efficient image processing operations?
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
@@ -82,9 +74,6 @@ Pixel Interpolation is the process of using known data to estimate values at unk
 
 Zooming and shrinking can be done in a similar manner.
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
@@ -102,9 +91,6 @@ In the zooming case, when the image size ratio $p$ is not integer, usually new p
 
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
@@ -124,9 +110,6 @@ v = y ^ {\prime} - \text{floor} \left(y ^ {\prime}\right)
 $$
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
@@ -154,9 +137,6 @@ $$
 v(x', y') = \sum_{m=1}^{4} \sum_{n=1}^{4} h(x_m - x') h(y_n - y') f(x_m, y_n)
 $$
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
@@ -167,16 +147,12 @@ LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-ECEN5793 DIGITAL IMAGE PROCESSING
-
 #### Content
 
 
 
+ECEN5793 DIGITAL IMAGE PROCESSING
 
-
-#### Footer
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
 8
@@ -207,9 +183,6 @@ Columns 16 through 30
 Columns 31 through 45
 7.6667  7.8889  8.1111  8.3333  8.5556  8.7778  9.0000  9.2222  9.4444  9.6667  9.8889  10.1111  10.3333  10.5556  10.7778
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
@@ -241,9 +214,6 @@ array([0. , 0.22222222, 0.44444444, 0.66666667, 0.88888889,
 8.88888889, 9.11111111, 9.33333333, 9.55555556, 9.77777778])
 ```
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4.CODE EXAMPLES AND REGISTRATION
@@ -272,9 +242,6 @@ figure(2);imshow(A);
 ```
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
@@ -321,9 +288,6 @@ plt.title('Upsampled (nearest neighbor)')
 plt.show()
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
@@ -368,9 +332,6 @@ array([[1, 3],
 [9, 11]])
 ```
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
@@ -400,9 +361,6 @@ C:\Users\amerigo\Documents\ECEN5793\ECEN5793\Projects\Project1&gt;python testRic
 C:\Users\amerigo\Documents\ECEN5793\ECEN5793\Projects\Project1&gt;
 ```
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
@@ -471,9 +429,6 @@ array([0, , 0.25, 0.5, 0.75, 1, , 1.25, 1.5, 1.75, 2, , 2.25, 2.5, 2.75, 3, , 3.
 (Pdb) ]
 ```
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4.CODE EXAMPLES AND REGISTRATION</module></module></module>
@@ -495,7 +450,9 @@ Function [X1,X2,X3,...] = NDGRID(x1,x2,x3,...) transforms the domain specified b
 
 $$
 x1 = \begin{bmatrix} 1 &amp; 3 &amp; 5 &amp; 7 \end{bmatrix}
-\quad
+$$
+
+$$
 x2 = \begin{bmatrix} 2 &amp; 4 &amp; 6 \end{bmatrix}
 $$
 
@@ -503,16 +460,14 @@ $$
 
 $$
 X1 = \begin{bmatrix} 1 &amp; 1 &amp; 1 \\ 3 &amp; 3 &amp; 3 \\ 5 &amp; 5 &amp; 5 \\ 7 &amp; 7 &amp; 7 \end{bmatrix}_{4 \times 3}
-\quad
+$$
+
+$$
 X2 = \begin{bmatrix} 2 &amp; 4 &amp; 6 \\ 2 &amp; 4 &amp; 6 \\ 2 &amp; 4 &amp; 6 \\ 2 &amp; 4 &amp; 6 \end{bmatrix}_{4 \times 3}
 $$
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
-16
 
 ---
 
@@ -543,36 +498,33 @@ X2 =
 [tbl-4.md](tbl-4.md)
 [tbl-5.md](tbl-5.md)
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
 #### Tables
 **Table 1**:
 
-{'id': 'tbl-0.md', 'content': '|  1.0000 | 1.0000 | 1.0000  |\n| --- | --- | --- |\n|  1.3000 | 1.3000 | 1.3000  |\n|  1.6000 | 1.6000 | 1.6000  |\n|  1.9000 | 1.9000 | 1.9000  |\n|  2.2000 | 2.2000 | 2.2000  |\n|  2.5000 | 2.5000 | 2.5000  |\n|  2.8000 | 2.8000 | 2.8000  |', 'format': 'markdown'}
+{'id': 'tbl-0.md', 'content': '|  1.0000 | 1.0000 | 1.0000  |\n| --- | --- | --- |\n|  1.3000 | 1.3000 | 1.3000  |\n|  1.6000 | 1.6000 | 1.6000  |\n|  1.9000 | 1.9000 | 1.9000  |\n|  2.2000 | 2.2000 | 2.2000  |\n|  2.5000 | 2.5000 | 2.5000  |\n|  2.8000 | 2.8000 | 2.8000  |', 'format_': 'markdown'}
 
 **Table 2**:
 
-{'id': 'tbl-1.md', 'content': '|  1.0000 | 1.7000 | 2.4000  |\n| --- | --- | --- |\n|  1.0000 | 1.7000 | 2.4000  |\n|  1.0000 | 1.7000 | 2.4000  |\n|  1.0000 | 1.7000 | 2.4000  |\n|  1.0000 | 1.7000 | 2.4000  |\n|  1.0000 | 1.7000 | 2.4000  |', 'format': 'markdown'}
+{'id': 'tbl-1.md', 'content': '|  1.0000 | 1.7000 | 2.4000  |\n| --- | --- | --- |\n|  1.0000 | 1.7000 | 2.4000  |\n|  1.0000 | 1.7000 | 2.4000  |\n|  1.0000 | 1.7000 | 2.4000  |\n|  1.0000 | 1.7000 | 2.4000  |\n|  1.0000 | 1.7000 | 2.4000  |', 'format_': 'markdown'}
 
 **Table 3**:
 
-{'id': 'tbl-2.md', 'content': '|  1.0000 | 1.3000 | 1.6000 | 1.9000 | 2.2000 | 2.5000 | 2.8000  |\n| --- | --- | --- | --- | --- | --- | --- |', 'format': 'markdown'}
+{'id': 'tbl-2.md', 'content': '|  1.0000 | 1.3000 | 1.6000 | 1.9000 | 2.2000 | 2.5000 | 2.8000  |\n| --- | --- | --- | --- | --- | --- | --- |', 'format_': 'markdown'}
 
 **Table 4**:
 
-{'id': 'tbl-3.md', 'content': '|  1.0000 | 1.0000 | 1.0000  |\n| --- | --- | --- |\n|  1.3000 | 1.3000 | 1.3000  |\n|  1.6000 | 1.6000 | 1.6000  |\n|  1.9000 | 1.9000 | 1.9000  |\n|  2.2000 | 2.2000 | 2.2000  |\n|  2.5000 | 2.5000 | 2.5000  |\n|  2.8000 | 2.8000 | 2.8000  |', 'format': 'markdown'}
+{'id': 'tbl-3.md', 'content': '|  1.0000 | 1.0000 | 1.0000  |\n| --- | --- | --- |\n|  1.3000 | 1.3000 | 1.3000  |\n|  1.6000 | 1.6000 | 1.6000  |\n|  1.9000 | 1.9000 | 1.9000  |\n|  2.2000 | 2.2000 | 2.2000  |\n|  2.5000 | 2.5000 | 2.5000  |\n|  2.8000 | 2.8000 | 2.8000  |', 'format_': 'markdown'}
 
 **Table 5**:
 
-{'id': 'tbl-4.md', 'content': '|  1.0000 | 1.7000 | 2.4000 | 3.1000 | 3.8000 | 4.5000  |\n| --- | --- | --- | --- | --- | --- |', 'format': 'markdown'}
+{'id': 'tbl-4.md', 'content': '|  1.0000 | 1.7000 | 2.4000 | 3.1000 | 3.8000 | 4.5000  |\n| --- | --- | --- | --- | --- | --- |', 'format_': 'markdown'}
 
 **Table 6**:
 
-{'id': 'tbl-5.md', 'content': '|  3.1000 | 3.8000 | 4.5000  |\n| --- | --- | --- |\n|  3.1000 | 3.8000 | 4.5000  |\n|  3.1000 | 3.8000 | 4.5000  |\n|  3.1000 | 3.8000 | 4.5000  |\n|  3.1000 | 3.8000 | 4.5000  |', 'format': 'markdown'}
+{'id': 'tbl-5.md', 'content': '|  3.1000 | 3.8000 | 4.5000  |\n| --- | --- | --- |\n|  3.1000 | 3.8000 | 4.5000  |\n|  3.1000 | 3.8000 | 4.5000  |\n|  3.1000 | 3.8000 | 4.5000  |\n|  3.1000 | 3.8000 | 4.5000  |', 'format_': 'markdown'}
 
 ---
 
@@ -602,9 +554,6 @@ array([[2, 4, 6],
 [2, 4, 6]])
 ```
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
@@ -630,7 +579,6 @@ X3 =
 [tbl-6.md](tbl-6.md)
 
 &gt;&gt; [X1,X2]=ndgrid(x1,x2);
-
 &gt;&gt; X1
 
 X1 =
@@ -643,25 +591,21 @@ X2 =
 
 [tbl-8.md](tbl-8.md)
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
-
 LECTURE 4.CODE EXAMPLES AND REGISTRATION
 
 #### Tables
 **Table 1**:
 
-{'id': 'tbl-6.md', 'content': '|  1.0000 | 1.7000 | 2.4000 | 3.1000 | 3.8000 | 4.5000  |\n| --- | --- | --- | --- | --- | --- |\n|  1.3000 | 2.2100 | 3.1200 | 4.0300 | 4.9400 | 5.8500  |\n|  1.6000 | 2.7200 | 3.8400 | 4.9600 | 6.0800 | 7.2000  |\n|  1.9000 | 3.2300 | 4.5600 | 5.8900 | 7.2200 | 8.5500  |\n|  2.2000 | 3.7400 | 5.2800 | 6.8200 | 8.3600 | 9.9000  |\n|  2.5000 | 4.2500 | 6.0000 | 7.7500 | 9.5000 | 11.2500  |\n|  2.8000 | 4.7600 | 6.7200 | 8.6800 | 10.6400 | 12.6000  |', 'format': 'markdown'}
+{'id': 'tbl-6.md', 'content': '|  1.0000 | 1.7000 | 2.4000 | 3.1000 | 3.8000 | 4.5000  |\n| --- | --- | --- | --- | --- | --- |\n|  1.3000 | 2.2100 | 3.1200 | 4.0300 | 4.9400 | 5.8500  |\n|  1.6000 | 2.7200 | 3.8400 | 4.9600 | 6.0800 | 7.2000  |\n|  1.9000 | 3.2300 | 4.5600 | 5.8900 | 7.2200 | 8.5500  |\n|  2.2000 | 3.7400 | 5.2800 | 6.8200 | 8.3600 | 9.9000  |\n|  2.5000 | 4.2500 | 6.0000 | 7.7500 | 9.5000 | 11.2500  |\n|  2.8000 | 4.7600 | 6.7200 | 8.6800 | 10.6400 | 12.6000  |', 'format_': 'markdown'}
 
 **Table 2**:
 
-{'id': 'tbl-7.md', 'content': '|  1.0000 | 1.0000 | 1.0000 | 1.0000 | 1.0000 | 1.0000  |\n| --- | --- | --- | --- | --- | --- |\n|  1.3000 | 1.3000 | 1.3000 | 1.3000 | 1.3000 | 1.3000  |\n|  1.6000 | 1.6000 | 1.6000 | 1.6000 | 1.6000 | 1.6000  |\n|  1.9000 | 1.9000 | 1.9000 | 1.9000 | 1.9000 | 1.9000  |\n|  2.2000 | 2.2000 | 2.2000 | 2.2000 | 2.2000 | 2.2000  |\n|  2.5000 | 2.5000 | 2.5000 | 2.5000 | 2.5000 | 2.5000  |\n|  2.8000 | 2.8000 | 2.8000 | 2.8000 | 2.8000 | 2.8000  |', 'format': 'markdown'}
+{'id': 'tbl-7.md', 'content': '|  1.0000 | 1.0000 | 1.0000 | 1.0000 | 1.0000 | 1.0000  |\n| --- | --- | --- | --- | --- | --- |\n|  1.3000 | 1.3000 | 1.3000 | 1.3000 | 1.3000 | 1.3000  |\n|  1.6000 | 1.6000 | 1.6000 | 1.6000 | 1.6000 | 1.6000  |\n|  1.9000 | 1.9000 | 1.9000 | 1.9000 | 1.9000 | 1.9000  |\n|  2.2000 | 2.2000 | 2.2000 | 2.2000 | 2.2000 | 2.2000  |\n|  2.5000 | 2.5000 | 2.5000 | 2.5000 | 2.5000 | 2.5000  |\n|  2.8000 | 2.8000 | 2.8000 | 2.8000 | 2.8000 | 2.8000  |', 'format_': 'markdown'}
 
 **Table 3**:
 
-{'id': 'tbl-8.md', 'content': '|  1.0000 | 1.7000 | 2.4000 | 3.1000 | 3.8000 | 4.5000  |\n| --- | --- | --- | --- | --- | --- |\n|  1.0000 | 1.7000 | 2.4000 | 3.1000 | 3.8000 | 4.5000  |\n|  1.0000 | 1.7000 | 2.4000 | 3.1000 | 3.8000 | 4.5000  |\n|  1.0000 | 1.7000 | 2.4000 | 3.1000 | 3.8000 | 4.5000  |\n|  1.0000 | 1.7000 | 2.4000 | 3.1000 | 3.8000 | 4.5000  |', 'format': 'markdown'}
+{'id': 'tbl-8.md', 'content': '|  1.0000 | 1.7000 | 2.4000 | 3.1000 | 3.8000 | 4.5000  |\n| --- | --- | --- | --- | --- | --- |\n|  1.0000 | 1.7000 | 2.4000 | 3.1000 | 3.8000 | 4.5000  |\n|  1.0000 | 1.7000 | 2.4000 | 3.1000 | 3.8000 | 4.5000  |\n|  1.0000 | 1.7000 | 2.4000 | 3.1000 | 3.8000 | 4.5000  |\n|  1.0000 | 1.7000 | 2.4000 | 3.1000 | 3.8000 | 4.5000  |', 'format_': 'markdown'}
 
 ---
 
@@ -700,9 +644,6 @@ array([[1., 1.7, 2.4, 3.1, 3.8, 4.5],
 [1.,
 ```
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
@@ -731,9 +672,6 @@ B=c1.*I1+c2.*I2+c3.*I3+c4.*I4;
 imshow(B);
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
@@ -807,9 +745,6 @@ plt.show()
 ```
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 4.CODE EXAMPLES AND REGISTRATION
 
@@ -819,16 +754,12 @@ LECTURE 4.CODE EXAMPLES AND REGISTRATION
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
-ECEN5793 DIGITAL IMAGE PROCESSING
-
 #### Content
 
 
 
+ECEN5793 DIGITAL IMAGE PROCESSING
 
-
-#### Footer
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
 23
@@ -850,9 +781,6 @@ Reference image from Camera #2
 
 http://www.mathworks.com/discovery/image-registration.html
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
@@ -862,11 +790,10 @@ LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
 **Dimensions**: {'dpi': 200, 'height': 1500, 'width': 2667}
 
-#### Header
+#### Content
 ECEEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
-#### Content
 # Retinal Image Registration
 
 
@@ -902,9 +829,6 @@ $$
 - Bicubic interpolation
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
@@ -929,9 +853,6 @@ $$
 \text{where } \mathbf{T} = \begin{bmatrix} t_{11} &amp; t_{12} &amp; 0 \\ t_{21} &amp; t_{22} &amp; 0 \\ t_{31} &amp; t_{32} &amp; 1 \end{bmatrix}
 $$
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
@@ -952,9 +873,6 @@ $$
 \begin{array}{l} [ x \quad y \quad 1 ] = [ v \quad w \quad 1 ] \mathbf {T} \\ \text {w h e r e} \mathbf {T} = \left[ \begin{array}{l l l} t _ {1 1} &amp; t _ {1 2} &amp; 0 \\ t _ {2 1} &amp; t _ {2 2} &amp; 0 \\ t _ {3 1} &amp; t _ {3 2} &amp; 1 \end{array} \right] \\ \end{array}
 $$
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
@@ -962,7 +880,7 @@ LECTURE 4 CODE EXAMPLES AND REGISTRATION
 #### Tables
 **Table 1**:
 
-{'id': 'tbl-9.md', 'content': '|  Transformation Name | Affine Matrix, T |   | Coordinate Equations | Example  |\n| --- | --- | --- | --- | --- |\n|  Identity | [1 0 0]0 1 00 0 1] |   | x = vy = w | y  |\n|  Scaling | [cx 0 0]0 cy 00 0 1] |   | x = cxvy = cyw |   |\n|  Rotation | [cos θ sin θ 0-sin θ cos θ 00 0 1] |   | x = v cos θ - w sin θy = v cos θ + w sin θ |   |\n|  Translation | [1 0 00 1 0t5 ty 1] |   | x = v + t5y = w + ty |   |\n|  Shear (vertical) | [1 0 0s v 1 00 0 1] |   | x = v + svw y = w |   |\n|  Shear (horizontal) | [1 sh 00 1 00 0 1] |   | x = vy = shv + w |   |', 'format': 'markdown'}
+{'id': 'tbl-9.md', 'content': '|  Transformation Name | Affine Matrix, T |   | Coordinate Equations | Example  |\n| --- | --- | --- | --- | --- |\n|  Identity | [1 0 0]0 1 00 0 1] |   | x = vy = w | y  |\n|  Scaling | [cx 0 0]0 cy 00 0 1] |   | x = cxvy = cyw |   |\n|  Rotation | [cos θ sin θ 0-sin θ cos θ 00 0 1] |   | x = v cos θ - w sin θy = v cos θ + w sin θ |   |\n|  Translation | [1 0 00 1 01s ty 1] |   | x = v + tsy = w + ty |   |\n|  Shear (vertical) | [1 0 0s v 1 00 0 1] |   | x = v + svw y = w |   |\n|  Shear (horizontal) | [1 sh 00 1 00 0 1] |   | x = vy = shv + w |   |', 'format_': 'markdown'}
 
 ---
 
@@ -991,9 +909,6 @@ $$
 - Inverse mappings are more efficient in practical applications.
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
@@ -1011,9 +926,6 @@ FIGURE 2.36 (a) A 300 dpi image of the letter T. (b) Image rotated  $21^{\circ}$
 
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4.CODE EXAMPLES AND REGISTRATION
@@ -1037,9 +949,6 @@ $$
 
 Each control point pair will provide two equations.
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
@@ -1133,9 +1042,6 @@ $$
 t = \text{np.linalg.solve}(A, B)
 $$
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
@@ -1171,9 +1077,6 @@ Reference image $I(x,y)$
 
 Input image $J(v, w)$
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
@@ -1201,9 +1104,6 @@ Image registration.
 
 (d) Difference between (a) and (c), showing more registration errors.
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
@@ -1225,9 +1125,6 @@ The Matlab function of the interpolation kernel (Ricker.m) is provided that can 
 - plot(X,Y); grid on;
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
@@ -1261,9 +1158,6 @@ The function of the interpolation kernel (ricker.m, ricker.py) is provided that 
 ```
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4.CODE EXAMPLES AND REGISTRATION
@@ -1292,9 +1186,6 @@ The Matlab function of the interpolation kernel (ricker.m) is provided that can 
 
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4 CODE EXAMPLES AND REGISTRATION
@@ -1339,9 +1230,6 @@ LECTURE 4 CODE EXAMPLES AND REGISTRATION
 
 
 
-
-
-#### Footer
 ECEN5793 DIGITAL IMAGE PROCESSING
 
 LECTURE 4 CODE EXAMPLES AND REGISTRATION

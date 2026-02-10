@@ -47,10 +47,10 @@ def load_config(config_path: Optional[Path] = None) -> Dict[str, Any]:
         "ocr": {
             "model": "mistral-ocr-latest",
             "table_format": "markdown",
-            "extract_header": True,
-            "extract_footer": True,
+            "extract_header": False,
+            "extract_footer": False,
             "include_image_base64": False,
-            "timeout": 120,
+            "timeout": 300,
         },
         "qna": {
             "enabled": False,
