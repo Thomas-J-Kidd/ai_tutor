@@ -64,7 +64,7 @@ def load_config(config_path: Optional[Path] = None) -> Dict[str, Any]:
             ]
         },
         "annotations": {
-            "enabled": False,
+            "enabled": True,
             "bbox_annotation_format": None,
             "document_annotation_format": None,
             "document_annotation_prompt": None,
@@ -72,7 +72,11 @@ def load_config(config_path: Optional[Path] = None) -> Dict[str, Any]:
         }
     }
     
-    if config_path and config_path.exists():
+    # If no config path provided, try to load config.yaml from current directory
+    if config_path is None:
+        config_path = Path("config.yaml")
+    
+    if config_path.exists():
         try:
             with open(config_path, 'r') as f:
                 file_config = yaml.safe_load(f)
